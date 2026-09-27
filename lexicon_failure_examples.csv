@@ -1,0 +1,18 @@
+Bangla,Label,gpt_oss_pred,true_id,pred_id,idiom_aware_pred,lexicon_trigger,corrected_id,idiom_aware_pred_v2,lexicon_trigger_v2,corrected_id_v2
+চিকেনটা কি রান্না করার ছিল নাকি,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+বলছি ভাই আপনারা যে এই যে দামটা বলে দিছেন তয,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+শুরুতে ভাবছিলাম ভারত পরে বুঝলাম বাংলাদেশ,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+ভুলে গেছি,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+আমি মূলত টেক্সট নাও একাউন্টের কাজ করছিলাম আমার এক আত্মীয় এই কাজটি দিয়েছিল সেই একটা ভায়ার সাথে কাজ করতো আমি অ্যাকাউন্ট খুলে তাকে পাসওয়ার্ড এবং মোবাইল নাম্বার দিতাম এর মাধ্যমে মূলত আমাকে প্রতি পিস একাউন্টে পাঁচ টাকা থেকে সাড়ে পাঁচ টাকা এরকম টাকা দিত এখন সে বলছে কাজ অফ রাখতে একাউন্ট সেল হচ্ছেনা আপনার কি জানা আছে কোথায় কিভাবে বিক্রি করে আর বায়ার পাব কোথায় আমাকে একটু এ বিষয়ে সম্পূর্ণ জানাবেন দয়া করে অনুরোধ রইলো,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+এইতো আপু আমি তো আছিলাম একজন কারিগর লাগলে জানাইয়েন,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+প্রাইস ২৫ হাজার হলে ঠিক ছিল,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+লম্বা মিটা আগে খাইছি অনেক,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0
+যারা জীবনে কেক খায় নাই তারাই যায় চাপাবাজের কেক খাইতে,Neutral,Neutral,1,1,Negative,চাপাবাজ,0,Negative,চাপাবাজ,0
+প্যাকেট খুলেই ভালো গন্ধ পেয়েছি,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
+আমি গিয়েছি কয়েক বার খুব অল্প টাকার মধ্যে অসাধারণ আর মজার সব খাবার পাওয়া যায়,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
+টেকনাফ থেকে বলছি কোয়ালিটি ভালো সামনে ভালো করার জন্য,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
+এগুলো পাইকারি মার্কেটডিলার পয়েন্ট তাই দাম কম চোর বাজার না,Positive,Positive,2,2,Positive,,2,Negative,চোর,0
+আলহামদুলিল্লাহ জীবনে প্রথম বার করছি প্রমেই অনেক সুন্দর হইছে,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
+আমি আগে বিভিন্ন রেস্টুরেন্টে কিছেনে কাজ করেছি আমি করতে পারি চট্টগ্রাম হলে,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
+আমি হাতিয়া চেয়ারম্যানঘাটে খাইছিলাম আসলেই অনেক অনেক মজা,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
+প্যাকেজিং সুন্দর ছিল,Positive,Positive,2,2,Positive,,2,Negative,ছি,0
