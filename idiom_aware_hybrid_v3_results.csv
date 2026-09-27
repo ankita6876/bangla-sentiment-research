@@ -1,0 +1,498 @@
+Bangla,Label,gpt_oss_pred,true_id,pred_id,idiom_aware_pred,lexicon_trigger,corrected_id,idiom_aware_pred_v2,lexicon_trigger_v2,corrected_id_v2,idiom_aware_pred_v3,corrected_id_v3
+একবার ফুড ব্লগারের রিভিউ দেখে মিরপুর খেতে গিয়ে ফালতু খাবার খেয়েছি,Negative,Negative,0,0,Negative,ফালতু,0,Negative,ফালতু,0,Negative,0
+ভালো রিভিউ খুব একটা পাইলাম না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+চুরাই মার্কেট,Negative,Neutral,0,1,Negative,চুরাই,0,Negative,চুরাই,0,Negative,0
+শালা টাচ কাজ করে না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এই করিমউল্লাহ মার্কেট পুরাডাই যামেলা,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+এগুলা মানুষ খাবার খায় এগুলা খাবার খাইয়া তো মানুষ একদিনে মরে যাওয়ার,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+অন্যদের পিছে লাথি মারা ভাইরাল টপিক দিয়ে ভিউ কামানো যায় সম্মান না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+একেবারে খারাপ খাবার,Negative,Negative,0,0,Negative,,0,Negative,খারাপ,0,Negative,0
+কত নাটক,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+হাতের মধ্যে কোন গ্লাভস পড়ে নাই কিচ্ছু নাই হাতের যত ময়লা মুড়ির সাথে মাখিয়ে খাইয়ে দিল,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+কেমন করে হাত দিয়ে তুলে তুলে দিচ্ছে এসব দেখে কি মানুষ এর রুচি হবেচামুচ ব্যাবহার করুন,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ওর মুখের থুতু আসতেছে সবাই থুতু খাচ্ছে ওরে কথা বলতে মানা করেন এমনি বানাইতে বলেন,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এত নোংরা খাবার খেয়ো না,Negative,Negative,0,0,Negative,,0,Negative,নোংরা,0,Negative,0
+একদম নোংরা,Negative,Negative,0,0,Negative,,0,Negative,নোংরা,0,Negative,0
+এদের কে আইনের আওতায় আনা হক,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+দোকানে গেলে দাম বেশি চাই সাবধান,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+চাই না এই খাবার,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ভয়ংকর ফাঁদ,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এই দোকান থেকে আমি মালামাল নিয়ে বাশ খাইছি,Negative,Positive,0,2,Negative,বাশ খাই,0,Negative,বাশ খাই,0,Negative,0
+বগুড়া যে রাষ্ট্র আজকে প্রথম জানলাম এই চাপাবাজ চাচার থেকে,Negative,Negative,0,0,Negative,চাপাবাজ,0,Negative,চাপাবাজ,0,Negative,0
+সাইটে তো কোন প্রডাক্টই পেলাম না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আমার ফোন পকেট থেকে চুরি করেছে,Negative,Negative,0,0,Negative,,0,Negative,চুরি,0,Negative,0
+সব ভূয়াঅফিসে গিয়েও কল রিসিভ করে না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ভাই হাতে জোস না হাতে জীবানু আছে বাটপার,Negative,Negative,0,0,Negative,বাটপার,0,Negative,বাটপার,0,Negative,0
+এ চালা এখানে সব ভিউ ব্যবসার খেলা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+রাস্তা দখল করে আইন লঙ্ঘন,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এতক্ষণ চাল ভিজিয়ে রাখলে নরম হয়ে যাবেনা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+মানুষ নাকি পশুর খাবার,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+মানুষ আরব দেশে থেকেও পছন্দ করে না তেমন খায় না আর আমাদের দেশের মানুষ নাম শুনলেই পাগোল হয়ে যায়,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+বাটপার দোকানদার সব দুই নাম্বার মাল আমি একবার এনেছিলাম,Negative,Negative,0,0,Negative,বাটপার,0,Negative,বাটপার,0,Negative,0
+তোর ভিডিও পুলিশরে দেখাইতাছি দাড়া তুই নিজেও এই দলে আছিস,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+আমার এসব দেখলে বমি আসে খাওয়া তো দূরের কথা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এই একজোড়া মাছের দাম ১৮৫০ টাকা চাইছে আমি হলে ৩০০ টাকা বলতাম এই মেয়েটা ৪০০ টাকা বেশি বলেছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+শরীরের ঘাম মাখানোর দাম কত,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+এগুলো শুধু ভিডিও প্রচারের জন্য,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি কখনো এসব খাই নাই দেখেই কেমন লাগে,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+খাওয়ার মান খুবই খারাপ,Negative,Negative,0,0,Negative,,0,Negative,খারাপ,0,Negative,0
+টাকা পেয়ে ভিডিও করে,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+কোন লাভ নাই টাক হওয়া শুরু হইলে পৃথিবীর কোন চিকিৎসা কাজ করে না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+পরিমাণ কম ছিল,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+ঢাকা সিটি ডাইনিং টেবিল,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+অনলাইন তেল কিছুই কাজ করছে না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এত গুলা মাংস দিয়া ৩০ টাকা জিন্দা মুরগী দ্বারাই সম্ভব,Negative,Positive,0,2,Positive,,2,Positive,,2,Positive,2
+খুব খারাপ খাবার,Negative,Negative,0,0,Negative,,0,Negative,খারাপ,0,Negative,0
+আমাদের দেশের মানুষের রুচি ছি,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+শুধু শুধু নাম্বার দেই ওদেরকে নক করলে ওনারা কিছু বলে না,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+খুবই অস্বাস্থ্যকর খুব হতাশাজনক,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+বিয়ে বাড়ির মানুষের খাওয়া উচ্ছিষ্ট অংশ এগুলা গুলশান বনানীর মানুষ বিএমডব্লিউ থুক্কু ডিএমডব্লিউ মার্সিডিজ গাড়ি থামিয়ে এই বাল থু,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+তোর এই জায়গায় কোনো ভালো মানুষ হইয়া মাল লয় আজ পর্যন্ত আমার চোখে পড়ে নাই,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এগুলো তো মাস্টার কপি আর গুলিস্তানে এর দাম ৩ হাজার,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+ফোন দিলে উল্টো পাল্টা কথা বলে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+টোটকা ডাক্তারি করা লাগে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ফালতু ভিডিও,Negative,Negative,0,0,Negative,ফালতু,0,Negative,ফালতু,0,Negative,0
+বালের বিরানি একদম বাজে,Negative,Negative,0,0,Negative,,0,Negative,বাজে,0,Negative,0
+এই মাল দিয়া ব্যাবসা করলে ব্যাবসায় লাল বাতি১০০,Negative,Positive,0,2,Negative,লাল বাতি,0,Negative,লাল বাতি,0,Negative,0
+সব বাটপার,Negative,Negative,0,0,Negative,বাটপার,0,Negative,বাটপার,0,Negative,0
+চাপা আছে কইরে খাইতে পারবো,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+বিয়ের বাড়ির খাবার চুরি,Negative,Negative,0,0,Negative,,0,Negative,চুরি,0,Negative,0
+পারফিউম বেশিক্ষণ টেকে না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ছবি ঝাপসা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এই দোকানের মালিক তো ডাকাত,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এটা আসল জামদানী শাড়ি না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আপনি টেস্টি বোঝেন না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এইসব ১লাখে ১জন১লাখ আয় কে ১০লাখ লিখে চটকদার নিউজ করে ইয়ং জেনারেশন টাকে পড়াশোনা বিমুখ করছে এইসব হাম্বাদিক রা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+বাহ ১ পিছ ৮০০৷টাকা হায়রে পাব্লিক,Negative,Positive,0,2,Positive,,2,Positive,,2,Positive,2
+মাদারচোদ এই ভিডিও দেখে সাভার থেকে গিয়েছিলাম থেকে হাড্ডি কিনতে আসে তোর কাছে কুত্তার বাচ্চা ৬০০ টাকার হাড্ডি ধরাই দিছে না এ,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+মরা মুরগীর চাইনিজ খাবার নাতো,Negative,Negative,0,0,Negative,,0,Negative,মরা,0,Negative,0
+দিন দিন মানুষের রুচি নিচে নামছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+নিজে গিয়ে ঠকেছি এক জিনিস দেখায় আরেকটা দেয়,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+ইমুতে নক করলে রিপ্লাই দেয় না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+করিমুল্লা মার্কেট দেখি চুরিরদের জন্মদেয়,Negative,Negative,0,0,Negative,,0,Negative,চুরি,0,Negative,0
+আমি খেতে পারি না কেন জানি আফসোস,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+রমজান সংজমের মাস ইফতার আর সাহেরি করতে হবে পাখিত মতো আর আমরা খাচ্ছি পশুর মতো,Negative,Negative,0,0,Negative,,0,Negative,মরা,0,Negative,0
+হালারা বাটপারি করে,Negative,Neutral,0,1,Negative,বাটপার,0,Negative,বাটপার,0,Negative,0
+দেখলেই কেমন লাগে খাওয়া তো দুরের কথা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আপনারা তো ফ্রি খেতে চলে যান,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+বাংলাদেশের সাংবাদিক এত খারাপ জানা ছিল না,Negative,Negative,0,0,Negative,,0,Negative,খারাপ,0,Negative,0
+গরম করার দরকার পড়েছে,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+দামটা একটু বেশি মনে হচ্ছে কম হলে ভালো হতো,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+টাকা দিয়া মার্কিটি নিউজ দেখি সময় টিভি করে আমরাও ব্যবসা করে এত আহামরি কিছু না ভাই,Negative,Negative,0,0,Negative,,0,Negative,মরা,0,Negative,0
+দোস হলো সাধারণ মানুষ এর তারা এসব খায় কেনো,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+তাদের তো ফোন দিলে ধরে না আবার গিয়ে কথা বললে বলে বুকিং ১৮ তারিখ পর্যন্ত,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+মাল্টি পালগটার কথাই বুঝেন ৪৫ টাকার মাল্টি দিয়ে কি চালাবেন ৫ বছর গ্যারান্টি,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+তুমি হাতে ক্লাপস লাগিয়ে খাওয়ার মাংস বিক্রি কর,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ভাই মনে হচ্ছে কুকুর কে রুটি দিচ্ছে,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+মিছা কথা কইলেন ভাই নাইকি বিএম ডাব্লিউ লোগো সহ যেই গেঞ্জি দেখাইলেন ১১০ টাকায় আমাদের দেশীদের কাছেই রাখেনা,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+৭৫ টাকা পিস কিনছিলাম,Negative,Neutral,0,1,Neutral,,1,Negative,ছি,0,Neutral,1
+পায়খানা পরিষ্কার করার খাবার,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+কথা আর কাজে একটুও মিল নেই দুই নাম্বারি,Negative,Negative,0,0,Negative,দুই নাম্বারি,0,Negative,দুই নাম্বারি,0,Negative,0
+ভুলেও কেউ আবেগে পড়ে নিবেন না,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+মানুষ কবে সচেতন হবে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+খাবার নষ্ট করা হচ্ছে এবং অস্বাস্থ্যকরভাবে পরিবেশন করা হচ্ছে,Negative,Negative,0,0,Negative,,0,Negative,নষ্ট,0,Negative,0
+খাবারে তেল বেশি,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আমি ফুসকা খাই না খেলে পেট খারাপ করে,Negative,Negative,0,0,Negative,,0,Negative,খারাপ,0,Negative,0
+এই ফোন যে কিনবে ও একটা মদন,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ভয়ানক প্রতারনা মূলক কথা এসব সব পুরান ব্যবহৃত এমন কি মৃত মানুষের ব্যবহারের মাল,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ছি ছি,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+এই খাবার খেয়ে দুটা শিশু মারা গিয়েছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আমি আপনার কাজে ইন্সপেয়ার হই কিন্তু আমরা ঘৃণা করি কিন্তু এটা ঠিক না আমার ৃমনমানসিকতস ঠিক নেই তার জন্য ঘৃণা করি,Negative,Negative,0,0,Negative,,0,Negative,মরা,0,Negative,0
+আরেকজনকে প্রমোট করলো হুদাই ফাউল ভিডিও,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+কি যে অবস্থা চলছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+১২০০ ই বেশি ছিলো ভাই দামদরে এক্সপার্ট না,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+ভাই এরে বলে হাতদ গ্লোভস পরতে নাইলে চামচ ইউজ করতে এসব ভিডিও পৃথিবীর মানুষ দেখে খুব বিশ্রি ভাবে সে খাবার হাতায়,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ওরা তিন হাজার টাকা বলে এনে তারপর হাইজ্যাক করেন সব লুটে নেয় এবং বাড়ি থেকে টাকা আনতে বলবে তাদের এটা প্ল্যান সাজানো,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+দেইখেন মামা আবার যেনো কুকুরের মাংসো না খাইয়ে দেয়,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ফোনতে এখনি চলে না তারমধ্যে আবার নকল ফোন,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+৩০ টাকায় তোমারে মরা মুরগি ছাড়াতাজা মুরগি জবো করে খাওয়াবে মানুষ সস্তা পাইলে মাথায় আর হুশ থাকে না তুই খাচ্ছিস তুই খা ক্যানভাসারি করিস না,Negative,Negative,0,0,Negative,,0,Negative,মরা,0,Negative,0
+এটা ঝালমুড়ি না ঘামমুড়িএই দেশে চলবে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+গতবারের কট মামা বাহিরের ধুলাবালি মাখা ইফতারী কীল্লিগা মাইন্সে কিনে বুঝিইনাহ,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+অনেকে এই ব্যক্তির শরীরের ঘাম কাশি ধুলাবালি কত কিছু নিয়ে কথা বলতেছেন আপনাদেরকে উদ্দেশ্য করে বলি আপনারা যে মেয়েরা লেপটিন থেকে বের হয়ে রান্না করেন তখন হাতে কি লেগে থাকে সেটা আগে ভাবছেন আপনারা যে এই বিষয়টা এত গুরুত্ব সহকারে বলতেছেন আপনাদের মাথায় কিছু নাই আশা করি বুঝতে পারছেন,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+দাম বেশি নিচ্ছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+দেখে মনে হচ্ছে বেবি অক্টোপাস গুলো পরিষ্কার করা না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ছিছিছি আহারে জীবন,Negative,Negative,0,0,Negative,,0,Negative,ছি,0,Negative,0
+হাঁস টা ভালো ভাবে পরিষ্কার হয়নি,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+সবই ঠিক আছে কিন্তু এভাবে হাতায় কেন তাও আবার গ্লাপ্স ছাড়া,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+মানুষের না খেয়ে মরে আর এখানে খাবারের অপচয় করছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+অসাস্থকর খাবার একে জরিমানা করা উচিত,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+খাবার খুব অস্বাস্থ্যকর ভাবে হচ্ছে বিশেষ করে ভারতের আর পাকিস্তান এন্ড বাংলাদেশে সরকার এদের এগেইনস্ট এ কোনো ব্যবস্থা নেই না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ভাই আমার মোবাইল চুরি হয়ে গিয়েছিল এক বছর আগে জিডি করেছিলাম কিন্তু এখনও কোনো খবর নেই মোবাইলটি ইবনে সিনার সামনে থেকে চুরি হয়েছে,Negative,Negative,0,0,Negative,,0,Negative,চুরি,0,Negative,0
+কি দুনিয়া আসলো খাবার জিনিস নিয়ে কি ফিকা ফিকি করতেছে আজব,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+পচা মাল দেয় ভালো ব্র্যান্ডের দাম দেখায় না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ঝাল মুড়ি তো নাই যেনো হাত দিয়ে গু ভর্তা বানাচ্ছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এই মুড়ি খায় কোন পাগলে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ঘৃণা লাগে মানসিক সমস্যা আছে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এটা কোনো কথা,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+নিচে একটা সো আছে,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+এটা তো ব্যবসা না ঢাকাতি চেয়ে অনেক বড়,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+গরম খুব বেশি হয়,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+এরা কি বলছে এসব নতুন কাপড়,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+আপনার ভিডিও ব্যবহার করে আমরা ঠকছি এটা বন্ধের উপায়,Negative,Negative,0,0,Negative,,0,Negative,মরা,0,Negative,0
+আপনানার তো এত ডিটেইলস ইউটিউবে কেউ বুজিয়ে বলতে পারে নাই,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+তাই তোমাদের শূকর বলে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আবার সবাই বলে দেশে অভাব অভাবী মানুষ তো দেখি না ৫৫০০ টাকা কেজি উটের গোশত কিনে অভাবি লোক কি আর আছে এদেশে,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+ব্যবসা কর হোয়াটসঅ্যাপ বিল্লাল হওয়ার চেষ্টা করো না,Negative,Negative,0,0,Negative,,0,Negative,,0,Negative,0
+আমার রে ভাই একটা নভা ৭ মোবাইল ইবনে সিনা থেকে নিছে,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+শরীর দেখায় ভিউ ব্যবসা,Negative,Neutral,0,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাই দোকান টা কোথায় ঠিকানাটা একটু বলবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+খুবি ভালো উদ্যোগ দোয়া রইলো আপনার জন্য আপু,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+এগুলো ১৮০০ টাকারই শাড়ি ৭০০০ গুলো পিউর সপুরা মসলিনের,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+পণ্য কি কিভাবে করতে হবে সেই সমন্ধে বিস্তারিত ভিডিও দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+লোকেশন না দিলে আমরা যাবো কেমনে,Neutral,Negative,1,0,Negative,,0,Negative,মরা,0,Negative,0
+ভাই কত,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাই নেক্সট পার্ট নিয়ে আসেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+চিকেনটা কি রান্না করার ছিল নাকি,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+৪০ জন লোককে কত টাকা করে স্যালারি দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+এরাবিয়ান খেপসা র রেসিপি দইয়েন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+নম্বর কমেন্ট,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+সৌদি আরবে ৯৫ রিয়াল কেজি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ওনারে নিয়া কেন পড়ছেন ভাই কলার দোকানে যাইতে পারেন না যেখানে মিনিটেই কাঁচা কলা পাকা করা হয় নিজের চোখে দেখেন তারপর ও তো ঐ কলা নামক বিষ কিনে খান,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+এমন সার্ভিস দেওয়া অনেক প্রতিষ্ঠান ফেসবুকে আছে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+নতুন ইউজারদের জন্য রইল অনেক ভালোবাসা চেষ্টা করলে সকল নতুনদের একদিন সফলতা আসবেই,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+ভাই আমি আই ফোন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+তিসি কি বলবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বাদামের তেল ব্যবহার করা যাবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+যে হোটেলে দেখে কামাই করে তার গাড়ি বাড়ি এটা কোন ব্যাপার হলো,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+ভাই আপনার দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাইয়া আমি আইফোন বা ২০২৫ হাজারের মধ্যে পাবো,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+এটা কি চিটাগাং এ পড়ছে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আপু দোকান কোথায় খেতে আসবো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আসো দেখি আসি চাপাবাজরা মিথ্যেই বলছে নাকি সত্য,Neutral,Negative,1,0,Negative,চাপাবাজ,0,Negative,চাপাবাজ,0,Negative,0
+ভান্ডারে হলে এমন মজা দেয়,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+ঠিকানাটা ভালো করে দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভিডিওটা বুঝলাম না,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+অগনি অসতরো পাওয়া জাবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আরও বেশি করে খাবে,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+এখানে পিঠে খেতে হলে নিজেকেও বানাতে হবে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+দাদা আপনার কথার দাম আছে কিন্তু আমি কিনতে চাই আপনার সাথে কিছু পার্সোনালি কথা বলতে পারি কি আপনাকে আমি জোর করছি না আমার মেসেজটি কে দেখলে একটু রিপ্লাই দেবেন ধন্যবাদ,Neutral,Positive,1,2,Positive,,2,Negative,ছি,0,Positive,2
+ভাইয়া আমি নিতে চাই কিভাবে নিবো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমার ছেলে বয়স অনুযায়ী লম্বা হচ্ছে না,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+যেদিন সুখন এর মতো ইন্ডাস্ট্রি ধ্বংসকারী লোকের সাথে দেখছি উনারে ওইদিনই মনে হইছে যে কিছু একটা ঘাপলা আছে,Neutral,Negative,1,0,Negative,,0,Negative,ছি,0,Negative,0
+সেলারি কত দিবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+মুরব্বী মুরব্বী,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আসসালামু আলাইকুম ভাই এই চিকনি গুড়া মাছের তরকারির দোকান কোথায় ঠিকানা দিন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+দাদা তোমার ফোন নাম্বার দাও,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+সার্ভিস ঠিকঠাক ছিল,Neutral,Positive,1,2,Positive,,2,Negative,ছি,0,Positive,2
+আমি কাজ করতে চাই বেতন কত দিবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি মনে করি ৪০৫০ বানালো সেটা বড়ো কথা নয় বড়ো কথা হলো খাবারের মান কেমন সেদিকে খেয়াল করা উচিত,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+সকলে না বিকাকালে পান করবো আর খালি পেটে না বড়া পেটে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কোন কাজই ছোট না,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+ভাইয়া আপনার বাড়ি কি চট্টগ্রামে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি ১ম শুনলাম লম্বা মিঠা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাই মাংস আাগে রান্না করা লাগবে নাকি কিছু বললেন নাতো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আসসালামু আলাইকুম ভাইয়া আমি আপনার ভিডিও সব সময় দেখি আমাকে একটু সাপোর্ট করেন না ভাইয়া,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+এরকম ভিডিওতে লাইক দেয় কে মানুষের উন্নতি দেখলে এদের গা জ্বলে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+বাহ খুব সুন্দর রেসিপি খুবই ভালো লাগলো ভিডিওটা আর খেতে কেমন লাগে তা তো জানিনা,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+ঠিক আছে ধন্যবাদ,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+সমস্যা কোথায় আছে বিদায় সবাই জানে না থাকলে তো কুত্তা ও জানে না উনি কে উনি কে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+একটি টেবিলের ছবি পাটাও,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+মদনপুর থেকে কিভাবে সহজে যাওয়া যাই ওখানে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কাজ করতে আগ্রহী বিনা ছুটিতে,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+সবজি গড়পড়তা,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+পৃথিবীর কোন খাবার এর পাশে নেই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+গ্রাফিকস কার্ড সারা কি তে খেলতে পারবো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কি করে নিব,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কবে বসে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+পারফিউমটা খুব হালকা,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+বাজানো জিনিস ছাঁকে কেমনে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+রেডি থাকো চাদা নিতে আইতাছে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+এখানে কোথায় ভাই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি যদি একটা ক্যামেরা কিনি এখান থেকে ক্যামেরাটা কি ভালো হবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+যেখানে একজন আরেকজনকে টেনে নামায়,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আপনার লোকেশন কোথায়,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বলছি ভাই আপনারা যে এই যে দামটা বলে দিছেন তয,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+এটা কি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+যেখানেই যায় কোনো বিষয় এত রঞ্জিত করে ফেলে সব শেষ হয়,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আচ্ছা আমাকে কোন ভাবে দত্তক নেওয়া যায় না সম্পত্তি দেওয়া লাগবে না শুধু আপনি যা রান্না করবেন আমাকে খাইতে দিলেই হবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+শুরুতে ভাবছিলাম ভারত পরে বুঝলাম বাংলাদেশ,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+ভুলে গেছি,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+আমি থাকতে ইচ্ছুক,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+সারাদেশ চুরি ডাকাতিতে ভরা শুধু ফুটপাতে বসে কেক বিক্রি করতে হলে যুধিষ্ঠির হতে হবে,Neutral,Negative,1,0,Negative,,0,Negative,চুরি,0,Negative,0
+আবেহ হালায় লাভ কত হইছে সেটা জিগেশ কর,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+সার আমার ঠোঁটের উপর নিচে অনেক লোম পুরুষের মতো আমি কি করতে পারি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+মানিকগঞ্জে নিতে চাই কিভাবে নেব,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+দোকান কোথায় আপনার,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+খুব আলাদা লাগেনি,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+মানুষের তামশা দেখে এই নিউজগুলা এরিয়েযাই,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আপনি কি দয়া করে বলবেন অনেক দেরিতে কেন চাল ফোটে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ফেইক নিউজ,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+ঔঔঔঔঔ নন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+এতো বাংলা খাওয়ায় ছাঁট,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+এ কে না,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ইনবক্স থেকে নেওয়া আমি ফাহমিদা আল নাইমের ওয়ার্কশপ মেম্বার আপনার সাথে কিছু কথা শেয়ার করি তাদের বিরুদ্ধে নেগেটিভ কিছু পাবেন না যখনই নেগেটিভ কিছু দেখবে তাড়া তা রিমুভ করে দেয়,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আপুকাজটা করতে চাই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+না আমি দেখবো না দেখলেই খাইতে মন চাই,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+ভিডিও করবেন তো ঠিক আছে আবার আরেকজনের বদনামির কী আছে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+একটা আমি নিমু,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বাড়িতে করা যাবে এই ব্যবসা কত টাকা ইনভেস্ট লাগবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ঠিকানা টা তো কেউ দিবেন প্লিজ,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+মুখ ঢাকার দরকার কি বোরকা পড়লেই তো পারেন,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আমারে চান্দা দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি দিনাজপুর কি জন্য থাকি এখনো একটাও খাওয়া হয়নি,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+গরিবের ফুড ব্লগার,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+অনলাইনে বিক্রি করে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+পরে হাসতে হাসতে হাগা পেয়ে গেলো,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+আলাদা এক পিজ বিক্রি করেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কি আপনার পার্সোনাল পেইজ বিশ্বাস করা যাবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বাহ খালা যেই ছক্কা মারে আমি তো ক্যাচে দুর্বল ক্যাচ ধরতে না পারলে কি হবে জানাবেন আর ঠিকানাটা কোথায় কাইন্ডলি জানাবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+হোপচাপা কম মারেন মীঞা,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আমি যা কমেন্ট করমু সবাই আগেই কইরা ফেলছে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+লোকেশন টা দিবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+দর্জির কাছে প্যান্টশার্ট চাপানোর ভিডিও দিন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+নাম কি জানা নেই বলে দিবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কি মধুর সুর লা ইলাহা ইল্লাল্লাহু মুহাম্মাদুর রাসুলুল্লাহ,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+বাঁকুড়া জেলা থেকে কিভাবে কিনবো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাইয়া ঠিকানা টা দেন ওনার,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আপনার জাতীয় ফোন কয়টা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আপু আমার ছোট্ট পরিবারের পাশে থাকেন আর সাপোর্ট করেন,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+আপনি আমাকে চাকরি দেন,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+লোকেশন টা কোথায় ভাই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আপনার জন্য সবসময় দোয়া অন্তর থেকে,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+অডার করার সুযোগ আছে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বাংলাদেশে কিছু ফকিন্নির পোলাপান আছে শুধু কিছু একটা শুনলাম মাত্র সে দোকানে যাই কারণ তারা জিন্দেগীতে খায় না তো সেজন্য একটু তারাও টেলিভিশন উঠবে স্যার এগুলো দেখবে সে জন্য যার কোন কিছু না,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+তিসি দানা টা আবার কি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+সেসে এটা কি বল্লো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ও ভালো বলছে ওরে একটা বিস্কুটু,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+এ জায়গাটা কোথায়,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কত কি করবেন আর বাকি কি আছে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+দৌড় দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি কোরিয়ারের নিতে চাই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কে কিভাবে কেক বানাইতেছে সেটা বড় কথা নয় আসলে কেক মান সম্মত কিনা বা এতে কোনো ভেজাল আছে কিনা সেটা মুক্ষ্য বিষয় আসলে আমরা বাংগালী তো কেউ উপরে উঠতে চাইলে তাকে কিভাবে নিচে নামানো যায় সবাই সেই চিন্তা করে,Neutral,Negative,1,0,Negative,,0,Negative,মরা,0,Negative,0
+হাজার টাকার মধ্যে হলে ভালো হতো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বিরিয়ানির জন্য মাংসটা কখন রান্না করল দেখতেই পেলাম না,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+ভাইরাল হওয়ার জন্য যারা দুই নাম্বারি করে তাদের এমনি হওয়া উচিৎ,Neutral,Negative,1,0,Negative,দুই নাম্বারি,0,Negative,দুই নাম্বারি,0,Negative,0
+ভাইয়া এই স্ট্রিং এর নাম কি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+যারা বেকার বেকার করে তাদের জন্য এই ভিডিও,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+চুল বেঁধে রাখলে ভালো,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+এই সেই জাইগা খারুুল কাকার রেস্টুরেন্ট,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+সবাই এসব করে না,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ঠিকানাটা কোথায় বে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আরব দেশগুলোতে উঠের মাংস গরুর মাংসের চাইতো সস্তা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+বিনা মেসো সেলার অ্যাকাউন্টে কি কি প্রোডাক্ট সেল করতে পারবো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+তাহলে দোকানদার ভাই আপনি কয় তলা বাড়ি করছেন এই ব্যবসা করে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+তিষি দানা কি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+৫০ হাজার টাকার মধ্যে ভিডিও এডিটিং এর একটা পিসি সাজেস্ট করুন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আরেকজনের টিন সার্টিফিকেট দিয়ে ফেসবুক মনিটাইজেশন করলে হবে কি না বলবেন প্লিজ ভাই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ঠিকানা দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+দোকানের নাম রাখছে ইন্ডিয়ার আর খাবার বানাইছে পাকিস্তানেরআর দোকান হলো বাংলাদেশের,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+প্যাকেট খাবারও ক্ষতিকর এটাকে একা দোষ দেওয়া ঠিক না,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি মূলত টেক্সট নাও একাউন্টের কাজ করছিলাম আমার এক আত্মীয় এই কাজটি দিয়েছিল সেই একটা ভায়ার সাথে কাজ করতো আমি অ্যাকাউন্ট খুলে তাকে পাসওয়ার্ড এবং মোবাইল নাম্বার দিতাম এর মাধ্যমে মূলত আমাকে প্রতি পিস একাউন্টে পাঁচ টাকা থেকে সাড়ে পাঁচ টাকা এরকম টাকা দিত এখন সে বলছে কাজ অফ রাখতে একাউন্ট সেল হচ্ছেনা আপনার কি জানা আছে কোথায় কিভাবে বিক্রি করে আর বায়ার পাব কোথায় আমাকে একটু এ বিষয়ে সম্পূর্ণ জানাবেন দয়া করে অনুরোধ রইলো,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+লোকেসন কোথায় ভাই,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাইরে আমাদের ভারতে টাকা কেজি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+দোকান বন্ধ ছিল,Neutral,Negative,1,0,Negative,,0,Negative,ছি,0,Negative,0
+আপনার জন্য ভালোবাসা রইলো,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+সবার জন্য ভালোবাসা,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+জনপ্রতি কত টাকা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+মানুষের খাই আর কাম নাই হাস বাচার আর কাটার কাজ করবো তুর হাস বাচতে আর কাটতে পারলে সে নিজে এ তো দোকান দিতে পারে তুমার কাজ করতো কা,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+বিসমিল্লাহ বলে দাঁড়িয়ে খাচ্ছেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমাকে রাখবেন আমার খুব একটা কাজের দরকার অনেক সমস্যায় আচি,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+পাকিস্তানী কত কাজ করে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+ইউটিউবারব্লগাররা অতিমাত্রায় তোষামোদি সন্দেহ জেলাসি একটু থামুন আল্লাহর উপর ছেড়ে দিন,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+যেমন দাম চাওয়ার সাইজ সেই তুলনায় প্রথমে বেশিই বলছে আপুটা ২০০দুইশ বলা লাগতো যাই হোক রাগের মাথায় যাই বলি ৪০০ সঠিক বলেছে উনি,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আপনার দোকান কোন জায়গা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আস্তে ধীরে লুফে নিতেন এত জোড়ে গেলে হবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+একনি সাবান কত টাকা পিস,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ক্লিয়ার হলাম না ডেলিভারি চার্জ কতো ওনাদের অগ্রীম টাকা কি ডেলিভারি চার্জ এ মাইনাস করবে,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+ধন্যবাদ দাদা খুব ভালো লাগলোআমি এর ব্যবসা করতে চাই কোথা থেকে পাইকারি রেটে মাল কিনবো,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+বাই পেছের গরুটা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+এইতো আপু আমি তো আছিলাম একজন কারিগর লাগলে জানাইয়েন,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+এটা কথায়,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি একটি ডিজিটাল বিজনেস এর ইনকাম এর বিষয়ে কাজের ব্যাপারে ভিডিও করি তাহলে কোন ক্যাটাগরি দিতে হবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+প্রাইস ২৫ হাজার হলে ঠিক ছিল,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+গেবাডিন পেন্ট কী এর আছে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আরেকটু বাড়িয়ে দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমাদের দেশে যেটা বেশী ভাইরাল হয় সেটাই আবার দ্রুত ভাইরাস হয়ে যায়,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+মামুন ভাই রাইন্দা ভাইরাস আপনার একলা একলা খাবেন এটা ঠিক আমাদেরকে দাওয়াত টা দিয়েন,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+লাল শাড়িটির দাম কত,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+নদীর টাটকা ফ্রেশ ছোট বড় সকল প্রকারের মাছ দেশি মুরগী রাঁজহাঁস চীনা হাঁস পাতিহাঁস রেডি টু কুক করে ঘরে বসে পেতে আমাদের পেজট,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+লম্বা মিটা আগে খাইছি অনেক,Neutral,Neutral,1,1,Neutral,,1,Negative,ছি,0,Neutral,1
+যারা জীবনে কেক খায় নাই তারাই যায় চাপাবাজের কেক খাইতে,Neutral,Neutral,1,1,Negative,চাপাবাজ,0,Negative,চাপাবাজ,0,Negative,0
+ঢাকা নাখি,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+চিনিগুড়া চাল দিয়ে করলে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কত বেতন দিবে আপনার আপু,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+খুব মনে রাখার মতো না,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+আমাদের এখানেতো ৭৫০টাকা কেজি কাচা মাংস,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+পাইকারি রেটে পণ্য পাওয়া যাবে,Neutral,Positive,1,2,Positive,,2,Positive,,2,Positive,2
+মূল ব্যবসা রুপ সুন্দর দেখিয়ে বিউ পাওয়া,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কয়দিন ব্যবহার করতে হবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+কতো দিন খাতে হবে একটু জানাবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাই আমি যদি ইলেকট্রিক বাইক এবং ব্যাটারী অর্ডার করি তবে কি পাবো জানাবেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ঠিকানা কোথায় আপনার,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+জি উনিও নিজের কোর্স চালু করেছেন সাংবাদিক সাহেব যে ২০ হাজার পেয়েছেন ওটা দিয়ে কক্সবাজার বেড়িয়ে আসুন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+জায়গাটা কোথায়,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+এ নেওয়া যাবে,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি চিনিনা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাইরাল হলেই তো ব্যবসা শেষ,Neutral,Negative,1,0,Negative,,0,Negative,,0,Negative,0
+খুসকির জন্য কি করবো,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+অনলাইনে কেউ ডেলিভারি দিতে পারবেন এটা,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+প্রজেক্টর লাইট আছে দাম কত,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+এই দোকান কোন জেলায়,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+স্যাম ভাই হাজারের মধ্যে ভালো ফোন কোনটি হবে রিয়ালমি নারজো নাথিং ফোন সিএম এফ ফোন টু প্রো কোনটা ভালো হবে একটা রিভিউ দেন,Neutral,Neutral,1,1,Neutral,,1,Neutral,,1,Neutral,1
+৩০০ টাকা দিয়ে এই কাচ্চি না খেয়ে কাচ্চি ভাই থেকে কাচ্চি খাওয়া অনেক ভালো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+কাকড়া গুলো কিন্তু রান্না অনেক লবণেও দেখা যাইতেছে সত্যি পড়াশোনা পাশাপাশি যদি এরকম বিজনেস করে তাহলে অনেক ভালো আমি দোয়া করি আপু আপনার জন্য,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দারুন ব্যবসা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক সুন্দর হয়েছে আপু,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এইজন্য কষ্ট হলেও ঘরে বানিয়ে খাই,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+পণ্য দেখে সন্তুষ্ট,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমার তো লোভ লেগে গেলো,Positive,Negative,2,0,Negative,,0,Negative,,0,Negative,0
+খুব সুন্দর আপুএগিয়ে যান,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খুব সুন্দর হয়েছে আপু,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমার অনেক পছন্দ এই পাতিল কই থেকে নিলে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এতো গুলো কেক তৈরি সম্ভব নয় কারণ সম্ভবত এগুলো কারখানায় তৈরি করে এনে এভাবে বিক্রি করছে কি সন্দেহ আপু দেখতে আলহামদুলিল্লাহ ভালো কিন্তু এতো গুলো কেকের ঠেলায় এই চেহারা ধরে রাখা সম্ভব নয়,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+আপু অনেক সুন্দর রান্না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমার পছন্দের আমাকে একটু দিও,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+প্যাকেট খুলেই ভালো গন্ধ পেয়েছি,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+খুব ভাল লাগল দিদিভাই,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+হাঁসের দোকানে পাশের দোকান দুধ চা পাওয়া যায় ঈদের চা খেতে খেতে আপনার দিকে তাকিয়ে থাকে,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+রান্নাটা অসাধারণ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ইশশ কিজে সুন্দর গুরা চিংড়ি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভাই আমার দেখে তো খাওয়ার রুচি চলে আসছে এখন কি করব বলেন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+স্যুপ খেতে হলে ভাই ভাবির দোকানে আই,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+আমি গিয়েছি কয়েক বার খুব অল্প টাকার মধ্যে অসাধারণ আর মজার সব খাবার পাওয়া যায়,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+অনলাইন জগতের সেরা ক্রিকেটার হিমেল ভাই,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+টেকনাফ থেকে বলছি কোয়ালিটি ভালো সামনে ভালো করার জন্য,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+ওর চেহারায় হাসির পেছনে হয়তো প্রতারণা থাকতে পারে যাচাই করা দরকার বিষয়টি এরা কোন বেকারি থেকে এসব নিতে পারে সেটা প্রকাশ করুক এবং ভালো সেল করুক কিন্তু প্রতারণার আশ্রয় নিয়ে বিক্রি নয়,Positive,Negative,2,0,Negative,,0,Negative,,0,Negative,0
+পরিশ্রম করলে কখনো বিফল হয় না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+লোভনীয় লাগছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ব্যবহার করে সন্তুষ্ট,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+উনি ব্যাবসা করে আয় রোজগার করছেন সংসারে দুটো সন্তান আছে তাদের ভবিষ্যত আছে পড়ালেখা করে প্রতিস্ঠিত হতে টাকার প্রয়োজন উনার বিরু,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+সব রান্না অনেক সুন্দর হয়েছে আপু,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+মাসাআল্লাহ আলহামদুলিল্লাহ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+কিসের গরুল কালা ভুনা আর কিসের চুইজাল বালগালির এই খাবার হলে আর কি লাগে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আল্লাহ ওকে সুন্দর চরিত্র করে দিবেন জীবনে সকল কিছুতে বারকা দান করবেন ইনশাআল্লাহ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এগুলো খেলে তার অসুখের অভাব হবেনা,Positive,Negative,2,0,Negative,,0,Negative,,0,Negative,0
+দামে সস্তা আর গুণে ভরপুর,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দেখে মনে হচ্ছে খাবারগুলো খুব মজাদার,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ধারুন দেখতে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক সুন্দর কথা বলেছেন আপু,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভাই আমার এই ছোট চিংড়ি অনেক প্রিয়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ওয়াও চমৎকার একটা খাবারের তালি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক মজা করে খাচ্চো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভাইয়া আপনার রেসিপি আমি সব সময় দেখি আমার অনেক বেশি ভালো লাগে অনেক পছন্দ হয় আপনার ভিডিওগুলো আর আপনার ভয়েসটা অনেক সুন্দর মাশাল্লাহ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+মাশাআল্লাহ ভাই হুব সুন্দর লাগছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+গুড ডিসিশন মহিলার বুদ্ধি আছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ধন্যবাদ কেমন আছেন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+তাও খাব আমি,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+কি সুন্দর পরিবেশ আর ভাইর শরীর থেকে স্পেশাল বিট লবণ পরতেছে সেই স্বাদ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমি এক বাটি নিব গরু,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+ধন্যবাদ সবাইকে ভালো লাগলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অসাধারণ হয়েছে রান্না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভালো হইছে দেখতেই মনে হয়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দাদা এখানে মোবাইল ফোন গুলি ওরিজনাল জিনিস,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খুবই ফ্রেশ এবং স্বাস্থ্যকর খাবার,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+সেই স্বাদ হবে,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+অনেক সুন্দর রেসিপি দেখলেই মন ভরে যায়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দিবেন দিবেন আপু,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আল্লাহ এই মোয়াজ্জিনকে আরো বরকত বাড়িয়ে দাও,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আল্লাহ ওনার ব্যবসায় বরকত দেক,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+কালকে কিনতে যাবো,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+সঠিক কথা বলছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+মুয়াজ্জিন সাহেবকে আল্লাহতালা নেক হায়াত দান করুক আমিন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+শব্দের মান পরিষ্কার,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+নতুন স্বাদ কিন্তু অসাধারণ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+উনি প্রকৃত শেফ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দারুণ হয়েছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমি ভারত কোলকাতা থেকেআমি নতুন ইসলাম ধর্ম গ্রোহন করতে চলেছি,Positive,Neutral,2,1,Neutral,,1,Negative,ছি,0,Neutral,1
+মাশাল্লাহ মাশাল্লাহ অনেক সুন্দর হয়েছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অসাদারন চিংরি ভুনা ছিলো,Positive,Neutral,2,1,Neutral,,1,Negative,ছি,0,Neutral,1
+ভিডিও গুলো দেখলেই মন ভরে যায়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+মা ছেলে রান্নাঘর দারুণ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এই পারফিউম দৈনন্দিন ব্যবহারের জন্য ভালো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+লোভনীয় অনেক,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খাওয়ার পর মেজাজ ভালো হয়ে গেলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক সুন্দর চায়ের দোকান খেতে বেশ ভালোই মজা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খুব মজাদার ভর্তা দেখে অনেক লোভ লেগে যাচ্ছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এইভাবে বানাইলে সাত বাড়ে,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+অসাধারণ প্রতিভা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খুব বাস্তব ভিডিও,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আপনার কথা গুলো আমাদের মন এ সাহস বাড়িয়ে দিলো আপনাকে অসখ্যা ধন্যবাদ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভাই খাবার জিনিসের সামনে যদি দোকান হয় তাহলে অত্যন্ত জরুরী একটা মাক্স পড়তে হবে,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+আমার ছেলে খুব পছন্দ করে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমরা ব্রাহ্মণবাড়িয়া ছেলে রা কিন্তুু বাজারে মেয়ে পছন্দ করি না,Positive,Negative,2,0,Negative,,0,Negative,মরা,0,Negative,0
+এগুলো পাইকারি মার্কেটডিলার পয়েন্ট তাই দাম কম চোর বাজার না,Positive,Positive,2,2,Positive,,2,Negative,চোর,0,Negative,0
+দারুন মজার তরকারি হাঁসের মাংস,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+টিক বলচো আপু,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাই যেদিন সুলায়মান সুখনের মত একজন মার্কেটিং করছে তখনই বোঝা যায়,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+আমার বিয়েতে এখান থেকে কিছু গিফট করিও কি সুন্দর সব,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+যেখানে ১ কেজি কাচা মাংস ৮০০ টাকায় পাওয়া যাচ্ছে না আর উনি রান্না করা মাংস এতো কম দামে খাওয়াচ্ছেন আল্লাহ উনার ব্যাবসায় বরকত দান করুন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খুবই খুবই অসাধারণ ভিডিও,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমার খুভ পছন্দের অনেক টেস্টি হয়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দারুণ গাড়িগুলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+সুন্দর রান্না হয়েছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+পরিমাণও যথেষ্ট বেশি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+চোপ খেতে আসবো একদিন ভাই ভাই আসবো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+চিংড়ি আমার প্রিয়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমারো ভালো লাগে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+সম্পূর্ণ হাতের স্পর্শ ছাড়া তৈরি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এই খাবার মনে থাকবে অনেকদিন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ঠিক কাজ অনেক সুন্দর ফুলের ছবি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমি নিব ভাই,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+খুব সুন্দর লাগছে শাড়ি গুলো দেখতে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+স্যালুট বস,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এরকম সুন্দরী দোকানদার থাকলে ক্রেতার অভাব পরবে না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+সেই মজার রেসিপি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+জিবে জল এসে গেলো,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+জাস্ট দারুন অসাধারণ ভিডিও দিয়েছেন ধন্যবাদ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভাই মাসা আল্লাহ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক সুন্দর উপদেশ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দামে বেশ সাশ্রয়ী,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+সঠিক অনেক মজাদার ঘরোয়া খাবার,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আলহামদুলিল্লাহ জীবনে প্রথম বার করছি প্রমেই অনেক সুন্দর হইছে,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+খাটি বাঙ্গালিয়ানা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এই খাবার প্রত্যাশার চেয়ে ভালো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+কিভাবে সম্ভব ৮০০ টাকা কেজি টাকা করে যেখানে কাচা মাংস ৭০০ টাকা কেজি সেইখানে নিজে গরু কিনে যবাই করে কেটে আবার নানা রকমের মশলা কিনে রান্না করে আবার পার্সেল বক্সে তারপর বিক্রি করে ৮০০ টাকা কেজি এটা আসলেই অসাধারণ মাশাআল্লাহ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+রেস্টুরেন্ট থেকে এনে দেওয়ার চেয়ে ঘরে বানিয়ে খেলেই ভীষণ মজা লাগে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অবশ্যই ভাইয়া ট্রাই করে দেখো এইজন্য আপনার সম্পূর্ণ ভিডিওটা দেখলাম ভালো থাকবেন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ওয়াও খুব সুন্দর জিনিস,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক লোভনীয়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমি আগে বিভিন্ন রেস্টুরেন্টে কিছেনে কাজ করেছি আমি করতে পারি চট্টগ্রাম হলে,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+দেখলেই খেতে ইচ্ছে করে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ম্যাক্সানের জন্য ম্যাক্স মুভির নায়কের সান গ্লাস,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+মজার রেসিপি ভিডিও,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+বাঙালি খাবারের মজাই আলাদা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আহা ভর্তা দেখে খুদা লেগে গেছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+রান্না টা দারুণ হয়েছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এতগুলো মসলা যোগ করলে রান্না এমনিতেই ভালো হয় এত রুলস রেগুলেশনের দরকার হয় না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+বন্ধুদের সাথে খাওয়ার জন্য একেবারে উপযুক্ত,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দারুন রান্না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেকদিন পর ভিডিও মিস করি,Positive,Negative,2,0,Negative,,0,Negative,,0,Negative,0
+আমি হাতিয়া চেয়ারম্যানঘাটে খাইছিলাম আসলেই অনেক অনেক মজা,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+বেশ লোভনীয় লাগছে আপু,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+দারুন আর আমি,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ডেলিভারি ঠিক সময়ে এসেছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভর্তা টা দেখে তোর কথা মনে হইলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খেতে এত মজা থামানো যায় না,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এসব ভিডিও না দেখে সরাসরি নিজে যাইয়া অরজিনাল মাল কিনুন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খুব সুন্দর হয়েছে আপনার জন্য দোয়া রইল,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আপনাদের ভালো লাগলে খান না লাগলে খাবেন না আর এটা কোন নিউজ করার মতন বিষয় হলো আজম মিডিয়া,Positive,Negative,2,0,Negative,,0,Negative,,0,Negative,0
+খুব মজার ভর্তা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+মা শা আল্লাহ তাবারাকাল্লাহ অনেক দোয়া রইলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+খেতে খুবই মজা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এই খাবারটা খেয়ে মেজাজ ভালো হয়ে গেলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+মাএ খেয়ে আসলাম এই এত কিছু দেখে তো আবার খিদে পেয়ে গেলো,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+ভাই খাবার আইটেমগুলো দেখে তো জিভে জল চলে আসলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আল্লাহ তুমি তাকে সুস্থতা দান করুন এবং নেক হায়াত দান করুন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ইয়াম্মি লাগছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+পা যদি ধোয়া থাকে তাহলে আমার অসুবিধা নাই,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+হেডিং ঠিক বলছেন,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আমাদের ব্রাহ্মণবাড়িয়া সেরা,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+বাঙালির রুচি আছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+একদম ভালো করছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভালো তথ্য পেলাম,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+প্যাকেজিং সুন্দর ছিল,Positive,Positive,2,2,Positive,,2,Negative,ছি,0,Positive,2
+যে কোন ব্যবসার মূলনীতি হচ্ছে পরিশ্রম এবং মার্কেটিং যত বেশি করা যাবে সেই জিনিসটি তত বেশি বিক্রি হবে এবং পণ্যের মান ভালো থাকতে হবে তাড়াতাড়ি বিয়ে করেছে অনেক ভালো হয়েছে জীবন যৌবন অর্থনীতি সবকিছু উন্নতি হবে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+এখানে তো যাওয়া ই যায়,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+কালার দেখেক্ষুধা লেগে গেছে,Positive,Negative,2,0,Negative,,0,Negative,,0,Negative,0
+লাস্ট লাইন,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+আলহামদুলিল্লাহ আপু শুভকামনা রইল আপনার জন্য,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ভাই তোমাকে অশেষ ধন্যবাদ ডাকাতদের হাত থেকে সৎ মানুষদের বাঁচানোর জন্য,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+আহা এরকম খাবার দেখলেই জিভে পানি আসবেই কি যে স্বাদ ধন্যবাদ আপু এতো সুন্দর খাবারের পোস্ট করার জন্য,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক লোভনীয় হয়েছে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ঠিক ই আছে দাম বলা,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+এই রেস্টুরেন্টের সব খাবারই ভালো লাগে,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+প্যাকেট সিল করা,Positive,Neutral,2,1,Neutral,,1,Neutral,,1,Neutral,1
+দামটা সহনীয়,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অনেক লোভনীয় লাগলো,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+ধন্যবাদ পাক্টিক্যালভাবে দেখানোর জন্য,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
+অসাধারণ অসাধারণ,Positive,Positive,2,2,Positive,,2,Positive,,2,Positive,2
