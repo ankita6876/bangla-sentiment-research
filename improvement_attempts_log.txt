@@ -1,0 +1,4 @@
+Improvement attempts tested and their results:
+1. Lexicon correction applied to BanglaBERT: acc 0.7875, F1 0.7889 (worse than baseline 0.79/0.80) - not used
+2. Class-weighted retraining, 6 epochs: best val macro F1 0.777 (worse than original 0.788) - not used
+Conclusion: original BanglaBERT (4 epochs, unweighted) and GPT-OSS zero-shot/few-shot results stand as final.
