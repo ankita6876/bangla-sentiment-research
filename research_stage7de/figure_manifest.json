@@ -124,5 +124,23 @@
     "format": "svg",
     "sha256": "1cf771b16bf2830dff15584c91380874e8d03e246813bd08289a1a5c9b7e6b05",
     "caption": "Distribution of sample-dependent expert routing weights."
+  },
+  {
+    "figure": "stage7de_08_subgroup_routing",
+    "format": "png",
+    "sha256": "ac13157305ee79e898d344d619138cb1bab89673ff9b718f4f5d85beb768d95c",
+    "caption": "Mean DGSL expert contribution across linguistic subgroups."
+  },
+  {
+    "figure": "stage7de_08_subgroup_routing",
+    "format": "pdf",
+    "sha256": "2bc98143e2cd6f35a3babe9dae3b54439df18f5de3c109adf27df694ded36b87",
+    "caption": "Mean DGSL expert contribution across linguistic subgroups."
+  },
+  {
+    "figure": "stage7de_08_subgroup_routing",
+    "format": "svg",
+    "sha256": "f5bf47c8301bbc4dfe56b3d4117285bf63b812a79b4114fc165dc83c95a51bc4",
+    "caption": "Mean DGSL expert contribution across linguistic subgroups."
   }
 ]
