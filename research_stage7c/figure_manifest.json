@@ -16,5 +16,23 @@
     "format": "svg",
     "sha256": "d37a0cf2165a5bf42fbdd132871dccde93a0f651c6bbd0877fd96a8cfc0bddfa",
     "caption": "Exploratory comparison of 15 trained models and probability ensembles."
+  },
+  {
+    "figure": "stage7c_02_pairwise_disagreement",
+    "format": "png",
+    "sha256": "ecf9dd4c70236f5ec802829646fc49bb8c7b62486db5b2513b1c2ab8ccd51529",
+    "caption": "Pairwise disagreement between hard sentiment predictions."
+  },
+  {
+    "figure": "stage7c_02_pairwise_disagreement",
+    "format": "pdf",
+    "sha256": "1017059b93a652bb372c1d50f4aba859f9a34e3eddabcdffa32fb42332a8f28f",
+    "caption": "Pairwise disagreement between hard sentiment predictions."
+  },
+  {
+    "figure": "stage7c_02_pairwise_disagreement",
+    "format": "svg",
+    "sha256": "0e5426c9577057a6afb6570f31fbe5a283ca12e1f0469c06d9344c7157d61eea",
+    "caption": "Pairwise disagreement between hard sentiment predictions."
   }
 ]
