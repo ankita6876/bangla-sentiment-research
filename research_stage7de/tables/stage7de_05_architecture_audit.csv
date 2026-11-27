@@ -1,0 +1,5 @@
+mode,parameters,extra_parameters,smoke_test
+standard,110619651,0,PASS
+matched_control,111047844,428193,PASS
+dgsl_fixed,111047637,427986,PASS
+dgsl_full,111047637,427986,PASS

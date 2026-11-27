@@ -1,0 +1,45 @@
+{
+  "stage": "7DE",
+  "architecture": "DGSL-Net",
+  "training_samples": 9204,
+  "validation_samples": 1840,
+  "oof_folds": 3,
+  "oof_complete": true,
+  "oof_metrics": {
+    "accuracy": 0.7982398956975228,
+    "macro_f1": 0.7995833593156781,
+    "nll": 0.5376126304066774
+  },
+  "standard_macro_f1": 0.8108135212916993,
+  "matched_control_macro_f1": 0.8111130597423791,
+  "dgsl_fixed_macro_f1": 0.8077317585106671,
+  "dgsl_full_macro_f1": 0.8112616737232622,
+  "previous_best_macro_f1": 0.8287035909704495,
+  "delta_vs_standard": 0.0004481524315629315,
+  "delta_vs_matched": 0.0001486139808830611,
+  "delta_vs_fixed": 0.0035299152125950473,
+  "delta_vs_previous_best": -0.017441917247187355,
+  "best_overall_model": "prototype_family",
+  "best_overall_macro_f1": 0.8287035909704495,
+  "matched_parameter_difference": 0.00048366068048954873,
+  "new_unique_figures": 14,
+  "new_tables": 16,
+  "decision": "PROMISING — CONFIRM ACROSS SEEDS BEFORE FINALIZATION",
+  "training_seeds": [
+    42
+  ],
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "novelty_verified": false,
+  "limitations": [
+    "Single-seed architecture screening.",
+    "OOF difficulty comes from a single model family.",
+    "Online competence targets are not cross-fitted expert predictions.",
+    "Validation labels used for final checkpoint selection.",
+    "Validation repeatedly reused during development.",
+    "Historical ensemble has a different inference budget.",
+    "Prototype and hard-example components require separate ablations.",
+    "No independent external evaluation.",
+    "No architectural novelty claim established."
+  ]
+}

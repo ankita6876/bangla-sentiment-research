@@ -1,0 +1,13 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+candidate & reference & delta\_macro\_f1 & ci95\_low & ci95\_high & gained\_correct & lost\_correct & mcnemar\_p & holm\_p \\
+\midrule
+dgsl\_full & standard & 0.0004 & -0.0110 & 0.0120 & 60 & 61 & 1.0000 & 1.0000 \\
+dgsl\_full & matched\_control & 0.0001 & -0.0109 & 0.0107 & 51 & 52 & 1.0000 & 1.0000 \\
+dgsl\_full & dgsl\_fixed & 0.0035 & -0.0037 & 0.0109 & 28 & 22 & 0.4799 & 1.0000 \\
+dgsl\_full & prototype\_family & -0.0174 & -0.0296 & -0.0052 & 51 & 85 & 0.0045 & 0.0314 \\
+dgsl\_fixed & standard & -0.0031 & -0.0142 & 0.0084 & 55 & 62 & 0.5793 & 1.0000 \\
+dgsl\_fixed & matched\_control & -0.0034 & -0.0137 & 0.0072 & 48 & 55 & 0.5546 & 1.0000 \\
+prototype\_plus\_dgsl & prototype\_family & -0.0041 & -0.0120 & 0.0046 & 29 & 38 & 0.3284 & 1.0000 \\
+\bottomrule
+\end{tabular}
