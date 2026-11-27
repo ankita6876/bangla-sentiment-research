@@ -70,5 +70,23 @@
     "format": "svg",
     "sha256": "67de29aaec46c7e393566ca91bbf2d64857160d630ab04dd7f4e64c1c3bee30b",
     "caption": "Individual model gains and losses relative to the previous nine-model ensemble."
+  },
+  {
+    "figure": "stage7c_05_example_difficulty",
+    "format": "png",
+    "sha256": "a705244dc06d2fb410926ad88dd63fa4e51ce09d510194bbf0490c43228ae749",
+    "caption": "Distribution of model error counts across validation samples."
+  },
+  {
+    "figure": "stage7c_05_example_difficulty",
+    "format": "pdf",
+    "sha256": "4e08719e0d3aa2143d70f5ff74c695d371d761553a70526b3e46df5d3a25302f",
+    "caption": "Distribution of model error counts across validation samples."
+  },
+  {
+    "figure": "stage7c_05_example_difficulty",
+    "format": "svg",
+    "sha256": "a262dee89b4316a6fdb5070b4a3a178340f0747a4f6727ec6a8eeb8ee6cfe3b3",
+    "caption": "Distribution of model error counts across validation samples."
   }
 ]
