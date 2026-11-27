@@ -1,0 +1,34 @@
+[
+  {
+    "model": "standard",
+    "seed": 42,
+    "release": "stage6d-amsc-refinement-v1",
+    "checkpoint_asset": "standard_seed42_model.pt",
+    "checkpoint_sha256": "4461122c4516a02c7d9564891ba691d40f93425ade50f2214a22491082486a60",
+    "prediction_sha256": "e0f87ed8b358bfe6b784bfdec3062858f916580b5e64d15bd5956f38f8126562"
+  },
+  {
+    "model": "fixed_fusion",
+    "seed": 42,
+    "release": "stage6d-amsc-refinement-v1",
+    "checkpoint_asset": "fixed_fusion_seed42_model.pt",
+    "checkpoint_sha256": "4c2936a7cb206e8e00789a7938c44c625b9092ed9951d92dad4bf27510a1e404",
+    "prediction_sha256": "043b97a7e726dce4ca38ced37d0b55148323510abcf8449aa370c5086ef58ef1"
+  },
+  {
+    "model": "standard",
+    "seed": 123,
+    "release": "stage6d-amsc-refinement-v1",
+    "checkpoint_asset": "standard_seed123_model.pt",
+    "checkpoint_sha256": "53ac32af8b4bae55ac0bd7aa47f684ef2c859a31a5b2e755d9a819563ceb5e87",
+    "prediction_sha256": "fdd184844cbee04d9e6ccee471b5284214c79e65919276507ff03a22da4cf6c6"
+  },
+  {
+    "model": "fixed_fusion",
+    "seed": 123,
+    "release": "stage6d-amsc-refinement-v1",
+    "checkpoint_asset": "fixed_fusion_seed123_model.pt",
+    "checkpoint_sha256": "8a78e7d4c50559c4398f1480be046ce15b93f55d0920607e2369fbaa409aa8ba",
+    "prediction_sha256": "ebaf5df006a3d72ef7846d26d17c613875b8e16511c64a401636d28ddb36839d"
+  }
+]

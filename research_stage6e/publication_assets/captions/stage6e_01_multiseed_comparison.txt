@@ -1,0 +1,1 @@
+Mean and sample standard deviation across three training seeds on a fixed cohort.

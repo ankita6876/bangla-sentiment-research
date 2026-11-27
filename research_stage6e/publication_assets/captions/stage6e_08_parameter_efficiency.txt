@@ -1,0 +1,1 @@
+Mean validation macro-F1 relative to total trainable parameter count.

@@ -1,0 +1,22 @@
+{
+  "candidate": "AMSC-Net V2 fixed fusion",
+  "proposed_mean_macro_f1": 0.814689460638946,
+  "standard_mean_macro_f1": 0.8121383478139652,
+  "matched_control_mean_macro_f1": 0.8155239700168874,
+  "delta_vs_standard": 0.0025511128249807724,
+  "delta_vs_matched_control": -0.0008345093779413837,
+  "wins_vs_standard": 2,
+  "wins_vs_control": 1,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "new_training_runs": 5,
+  "recovered_training_runs": 4,
+  "total_comparison_runs": 9,
+  "decision": "Architecture superiority remains unconfirmed. Review evidence before unlocking the test cohort.",
+  "test_evaluated": false,
+  "external_evaluation": false,
+  "novelty_verified": false
+}
