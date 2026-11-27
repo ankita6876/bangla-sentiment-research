@@ -1,0 +1,44 @@
+{
+  "run_hash": "5f5e46f536bc77a6df5aefc0ba1101c998d1b33a9e209fd92f91f5722299600a",
+  "config": {
+    "stage": "7de",
+    "model": "csebuetnlp/banglabert",
+    "fold": 0,
+    "seed": 42,
+    "epochs": 3,
+    "max_length": 64,
+    "batch": 32,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "warmup": 0.1,
+    "fit_ids_hash": "f33995d1e48c13416c000169323a9f9e1b93c93d5be7c78c2c6b4c781b228eef",
+    "hold_ids_hash": "facade86dc16831a96dc5027a9c1a8aab090a4e879e746ae965359724d4a207b",
+    "source_sha256": "a5e4dbd0e05fdcc3935b922a9cc02df2c6d57582d96f05101261be3db2c8841d"
+  },
+  "result": {
+    "fold": 0,
+    "n": 3074,
+    "accuracy": 0.7927781392322707,
+    "macro_f1": 0.79386827953341,
+    "nll": 0.541101730466064
+  },
+  "history": [
+    {
+      "fold": 0,
+      "epoch": 1,
+      "train_loss": 0.8027007508822406
+    },
+    {
+      "fold": 0,
+      "epoch": 2,
+      "train_loss": 0.4900893393387413
+    },
+    {
+      "fold": 0,
+      "epoch": 3,
+      "train_loss": 0.371468912135524
+    }
+  ],
+  "checkpoint_sha256": "674eec7260e48d0ec16ace0cce4bd3207bd5c6ae8da6a799e68724b590450a21",
+  "prediction_sha256": "28c9092d696806113c0850f3beb3cd4be23582497b6f0c8bcca0dbc718d33188"
+}
