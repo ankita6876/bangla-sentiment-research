@@ -1,0 +1,60 @@
+{
+  "config_hash": "f98d42d03b2da076f1edc91f057a0e480ebe5b82b422b4be2e7fce4469846c70",
+  "result": {
+    "model": "base_pasnet",
+    "backbone": "csebuetnlp/banglabert",
+    "mode": "pasnet",
+    "seed": 42,
+    "best_epoch": 4,
+    "trainable_parameters": 110266436,
+    "original_best_macro_f1": 0.8163921950625551,
+    "checkpoint_prediction_agreement": 1.0,
+    "accuracy": 0.8146739130434782,
+    "macro_f1": 0.8163921950625551,
+    "macro_precision": 0.8150490970064225,
+    "macro_recall": 0.8179632952391667
+  },
+  "history": [
+    {
+      "model": "base_pasnet",
+      "epoch": 1,
+      "train_loss": 1.1353166584546368,
+      "accuracy": 0.7722826086956521,
+      "macro_f1": 0.7714449656268497,
+      "macro_precision": 0.7772929250028678,
+      "macro_recall": 0.7899744819238238
+    },
+    {
+      "model": "base_pasnet",
+      "epoch": 2,
+      "train_loss": 0.812647980534368,
+      "accuracy": 0.8135869565217392,
+      "macro_f1": 0.8126767906478366,
+      "macro_precision": 0.8267953031239413,
+      "macro_recall": 0.8057740928671567
+    },
+    {
+      "model": "base_pasnet",
+      "epoch": 3,
+      "train_loss": 0.6354197232932266,
+      "accuracy": 0.808695652173913,
+      "macro_f1": 0.8101900380805862,
+      "macro_precision": 0.8070450147170662,
+      "macro_recall": 0.8170927123115295
+    },
+    {
+      "model": "base_pasnet",
+      "epoch": 4,
+      "train_loss": 0.49547056272988105,
+      "accuracy": 0.8146739130434782,
+      "macro_f1": 0.8163921950625551,
+      "macro_precision": 0.8150490970064225,
+      "macro_recall": 0.8179632952391667
+    }
+  ],
+  "checkpoint_sha256": "f45adb2932765eaaa07efa0eeb35af3cc49a3bc4b0b19cec5f0df309a9b3e43c",
+  "prediction_sha256": "c64fba4ee88376e61ad3971a350344e7725211f1c6701dc3f74ff813b4f58fbe",
+  "checkpoint_dtype": "float16 storage",
+  "model_name": "csebuetnlp/banglabert",
+  "mode": "pasnet"
+}
