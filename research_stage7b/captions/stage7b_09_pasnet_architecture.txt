@@ -1,0 +1,1 @@
+Provisional PAS-Net architecture; dashed arrows denote training supervision.
