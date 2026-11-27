@@ -142,5 +142,23 @@
     "format": "svg",
     "sha256": "d16e003989492ea4cfb31d04e1a53383cf5f6afb56075ebdcfd4945788d43377",
     "caption": "Oracle accuracy is a non-deployable ground-truth-assisted selection diagnostic."
+  },
+  {
+    "figure": "stage7c_09_uncertainty_detection",
+    "format": "png",
+    "sha256": "9e258891e745b0b61390d7552455f6202f50abf8a33d875e6e8e1b2c37f524ef",
+    "caption": "Diagnostic ability of label-free uncertainty signals to identify errors."
+  },
+  {
+    "figure": "stage7c_09_uncertainty_detection",
+    "format": "pdf",
+    "sha256": "38a7fd15c7cc8391ce8a57e096561716e83016038104f4b106843818b71c15f4",
+    "caption": "Diagnostic ability of label-free uncertainty signals to identify errors."
+  },
+  {
+    "figure": "stage7c_09_uncertainty_detection",
+    "format": "svg",
+    "sha256": "a16f412e5f29e9fdc0ee4f2a9d399e096194c4eafd81e9424b91bf4e433d53c4",
+    "caption": "Diagnostic ability of label-free uncertainty signals to identify errors."
   }
 ]
