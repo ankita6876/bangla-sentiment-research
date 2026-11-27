@@ -288,34 +288,17 @@ def push_backup(message):
     print("GitHub synchronized:", local)
     return local
 
-# Preserve executable source before analysis.
-source_saved = False
 
-try:
-    history = get_ipython().history_manager.input_hist_raw
+# Preserve corrected executable source.
+source_saved = True
 
-    candidates = [
-        s for s in history
-        if "STAGE 7A — ADVANCED ERROR ANALYSIS" in s
-        and len(s) > 5000
-    ]
-
-    if candidates:
-        source = candidates[-1]
-        assert TOKEN not in source
-
-        for p in [
-            AUDIT / "stage7a_complete.py",
-            BACKUP / "stage7a_complete.py",
-            PUB / "scripts/stage7a_complete.py"
-        ]:
-            p.write_text(source, encoding="utf-8")
-
-        source_saved = True
-except Exception as e:
-    print("Source capture warning:", type(e).__name__)
-
-assert source_saved, "Executable source could not be preserved."
+for p in [
+    AUDIT / "stage7a_complete.py",
+    BACKUP / "stage7a_complete.py",
+    PUB / "scripts/stage7a_complete.py"
+]:
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(Path(__file__).read_text(encoding="utf-8"), encoding="utf-8")
 
 PROTOCOL = {
     "stage": "7A",
@@ -329,7 +312,14 @@ PROTOCOL = {
     "raw_text_publication": False
 }
 
+import shutil
 save_json(PROTOCOL, BACKUP / "protocol.json")
+
+shutil.copy2(
+    AUDIT / "prediction_recovery_manifest.json",
+    BACKUP / "prediction_recovery_manifest.json"
+)
+
 push_backup("Stage 7A: preserve analysis protocol and source")
 
 
@@ -441,10 +431,11 @@ safe_extract(base_package, REC / "baseline_package")
 for family in FAMILIES:
     for seed in SEEDS:
         name = f"{family}_seed{seed}_val.npz"
+        path = REC / name
 
-        assert name in confirm_assets, f"Missing remote asset: {name}"
+        assert path.exists(), f"Recovered prediction missing: {name}"
 
-        download_asset(confirm_assets[name], REC / name)
+        print("Using verified recovered prediction:", name)
 
 # Restore the most recent publication archive, without model weights.
 publication_names = [

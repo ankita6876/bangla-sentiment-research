@@ -1,0 +1,74 @@
+[
+  {
+    "family": "fixed_fusion",
+    "seed": 42,
+    "original_path": "discovered_archives/stage6e_compact_a943be68dee4/private_predictions/fixed_fusion_seed42_val.npz",
+    "canonical_filename": "fixed_fusion_seed42_val.npz",
+    "sha256": "043b97a7e726dce4ca38ced37d0b55148323510abcf8449aa370c5086ef58ef1",
+    "samples": 1840
+  },
+  {
+    "family": "fixed_fusion",
+    "seed": 123,
+    "original_path": "discovered_archives/stage6e_compact_a943be68dee4/private_predictions/fixed_fusion_seed123_val.npz",
+    "canonical_filename": "fixed_fusion_seed123_val.npz",
+    "sha256": "ebaf5df006a3d72ef7846d26d17c613875b8e16511c64a401636d28ddb36839d",
+    "samples": 1840
+  },
+  {
+    "family": "fixed_fusion",
+    "seed": 2026,
+    "original_path": "discovered_assets/fixed_fusion_seed2026_val.npz",
+    "canonical_filename": "fixed_fusion_seed2026_val.npz",
+    "sha256": "2b271e9991ece343d343eb4496fcd5d59e1d4e2640970f3ad1f26809b5aae801",
+    "samples": 1840
+  },
+  {
+    "family": "matched_control",
+    "seed": 42,
+    "original_path": "discovered_assets/matched_control_seed42_val.npz",
+    "canonical_filename": "matched_control_seed42_val.npz",
+    "sha256": "c7c73ed62ee97cb819726c78360737946f6a0f3fe75c7ff326197925f4dc4e4f",
+    "samples": 1840
+  },
+  {
+    "family": "matched_control",
+    "seed": 123,
+    "original_path": "discovered_assets/matched_control_seed123_val.npz",
+    "canonical_filename": "matched_control_seed123_val.npz",
+    "sha256": "80ac5e2cdaf3b860ecf99f0c0ce0f25481395c52943a3f48b8184b4640d32a20",
+    "samples": 1840
+  },
+  {
+    "family": "matched_control",
+    "seed": 2026,
+    "original_path": "discovered_assets/matched_control_seed2026_val.npz",
+    "canonical_filename": "matched_control_seed2026_val.npz",
+    "sha256": "74aed753b15ec8d2fc0b39e71f5b7201ed41b48481923c67043e9bf7e0e5d871",
+    "samples": 1840
+  },
+  {
+    "family": "standard",
+    "seed": 42,
+    "original_path": "discovered_archives/stage6e_compact_a943be68dee4/private_predictions/standard_seed42_val.npz",
+    "canonical_filename": "standard_seed42_val.npz",
+    "sha256": "e0f87ed8b358bfe6b784bfdec3062858f916580b5e64d15bd5956f38f8126562",
+    "samples": 1840
+  },
+  {
+    "family": "standard",
+    "seed": 123,
+    "original_path": "discovered_archives/stage6e_compact_a943be68dee4/private_predictions/standard_seed123_val.npz",
+    "canonical_filename": "standard_seed123_val.npz",
+    "sha256": "fdd184844cbee04d9e6ccee471b5284214c79e65919276507ff03a22da4cf6c6",
+    "samples": 1840
+  },
+  {
+    "family": "standard",
+    "seed": 2026,
+    "original_path": "discovered_assets/standard_seed2026_val.npz",
+    "canonical_filename": "standard_seed2026_val.npz",
+    "sha256": "5894f7e016656723f5bc99dad4706c827f4b7cf8219c59c3b517475086b6b619",
+    "samples": 1840
+  }
+]
