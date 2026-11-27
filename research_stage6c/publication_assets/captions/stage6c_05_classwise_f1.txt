@@ -1,0 +1,1 @@
+Class-specific validation F1 across the architectural configurations.

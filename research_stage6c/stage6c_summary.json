@@ -1,0 +1,25 @@
+{
+  "stage": "6c",
+  "baseline_macro_f1": 0.8159419852657895,
+  "full_amsc_macro_f1": 0.8160101476168671,
+  "matched_control_macro_f1": 0.8105999952955787,
+  "best_configuration": "fixed_fusion",
+  "best_validation_macro_f1": 0.8214890860265811,
+  "full_delta_vs_baseline": 6.816235107753865e-05,
+  "full_delta_vs_control": 0.005410152321288386,
+  "full_vs_baseline_ci95": [
+    -0.010528374959543318,
+    0.010215324546356078
+  ],
+  "full_vs_control_ci95": [
+    -0.001752700375911953,
+    0.01290598907795434
+  ],
+  "decision": "PROMISING: advance full AMSC-Net to multi-seed confirmation",
+  "single_seed_screening": true,
+  "validation_used_for_selection": true,
+  "test_evaluated": false,
+  "external_evaluation": false,
+  "novelty_verified": false,
+  "publication_figures_added": 10
+}

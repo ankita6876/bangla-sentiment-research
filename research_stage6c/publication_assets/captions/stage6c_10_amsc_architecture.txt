@@ -1,0 +1,1 @@
+Implemented AMSC-Net architecture, including multi-scale phrase evidence, directional composition and disagreement-conditioned residual logit fusion. The original classifier contributes to the global logits.

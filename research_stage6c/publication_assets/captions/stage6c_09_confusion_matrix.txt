@@ -1,0 +1,1 @@
+Full AMSC-Net validation confusion matrix.

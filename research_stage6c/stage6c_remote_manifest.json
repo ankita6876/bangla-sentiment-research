@@ -1,0 +1,168 @@
+{
+  "repository": "ankita6876/bangla-sentiment-research-artifacts",
+  "release_tag": "stage6c-amsc-screening-v1",
+  "release_id": 460366184,
+  "assets": [
+    {
+      "mode": "global_control",
+      "name": "global_control_seed42_model.pt",
+      "asset_id": 799766457,
+      "sha256": "c1cf38cc37e90080e006ddfff68422e6a20cd1a48f9a7f980d1a1496696f9822",
+      "size_bytes": 445912799
+    },
+    {
+      "mode": "global_control",
+      "name": "global_control_seed42_val.npz",
+      "asset_id": 799767284,
+      "sha256": "970960792c3cabbbcd2ed9f4295bcf4a46d6715fe275f00491dfcd2020be7c16",
+      "size_bytes": 102472
+    },
+    {
+      "mode": "global_control",
+      "name": "global_control_seed42_completed.json",
+      "asset_id": 799767307,
+      "sha256": "1195ddebde4a90045c2f4e0d396c5ddec61ff64bebb96de208983b445c9bce6b",
+      "size_bytes": 2972
+    },
+    {
+      "mode": "phrase_only",
+      "name": "phrase_only_seed42_model.pt",
+      "asset_id": 799777757,
+      "sha256": "28234b6eb31eae77643ea3984d0d7898553f3efa0b5377ee7207fca4ce5c6661",
+      "size_bytes": 445912799
+    },
+    {
+      "mode": "phrase_only",
+      "name": "phrase_only_seed42_val.npz",
+      "asset_id": 799778921,
+      "sha256": "9d9f1d499cf618dc9028c341e48db0473c5ba0ff85dd4691d4618bfdab15f53c",
+      "size_bytes": 104905
+    },
+    {
+      "mode": "phrase_only",
+      "name": "phrase_only_seed42_completed.json",
+      "asset_id": 799778974,
+      "sha256": "22d0fe0817ff90f57027898f9f53b3a4a7426399ade909718718175c5f1ac7ee",
+      "size_bytes": 2959
+    },
+    {
+      "mode": "directional_only",
+      "name": "directional_only_seed42_model.pt",
+      "asset_id": 799788240,
+      "sha256": "39ea2b963a75f959c06dfe8fa22d4efd80f9a3735f55f1b3adba277a43a99e4a",
+      "size_bytes": 445912799
+    },
+    {
+      "mode": "directional_only",
+      "name": "directional_only_seed42_val.npz",
+      "asset_id": 799788852,
+      "sha256": "369f96bb98c5d65f3256289b28a086ac5c0bfaf5bdbe66d83657dd2c53cd969b",
+      "size_bytes": 104605
+    },
+    {
+      "mode": "directional_only",
+      "name": "directional_only_seed42_completed.json",
+      "asset_id": 799788893,
+      "sha256": "48868a89a29fbabd232fadd0472652c2287a141847812985b6eddd320d785394",
+      "size_bytes": 2959
+    },
+    {
+      "mode": "no_disagreement",
+      "name": "no_disagreement_seed42_model.pt",
+      "asset_id": 799797859,
+      "sha256": "af7f7c7d653f16ca80bd8b263155ca54dde66f8ab8e4ea129419038ac05f42f4",
+      "size_bytes": 445912799
+    },
+    {
+      "mode": "no_disagreement",
+      "name": "no_disagreement_seed42_val.npz",
+      "asset_id": 799798878,
+      "sha256": "65380ebc478f4ea6e0c878437231532c106001466c942fa878180b2126530f2a",
+      "size_bytes": 106470
+    },
+    {
+      "mode": "no_disagreement",
+      "name": "no_disagreement_seed42_completed.json",
+      "asset_id": 799798914,
+      "sha256": "da2685f0325acc48f9053d68813aa487cc4fc4a39421db3964f2214ecdb18861",
+      "size_bytes": 2983
+    },
+    {
+      "mode": "fixed_fusion",
+      "name": "fixed_fusion_seed42_model.pt",
+      "asset_id": 799808249,
+      "sha256": "898174ec460f642668c00cebbec705d792f37a9296c823baa0a22524842b5c37",
+      "size_bytes": 445912799
+    },
+    {
+      "mode": "fixed_fusion",
+      "name": "fixed_fusion_seed42_val.npz",
+      "asset_id": 799809160,
+      "sha256": "5d0cbc6800e1deb6b6c9f9467a7aa32fc65b88face22b608902788ccb0766287",
+      "size_bytes": 102458
+    },
+    {
+      "mode": "fixed_fusion",
+      "name": "fixed_fusion_seed42_completed.json",
+      "asset_id": 799809195,
+      "sha256": "dae788417dceeb8b1981dd859aa2d0a3e0830c9746369228dd2bcca4049b8f39",
+      "size_bytes": 2962
+    },
+    {
+      "mode": "full",
+      "name": "full_seed42_model.pt",
+      "asset_id": 799818495,
+      "sha256": "e1181d13370a7cba094a5a060af384a38f545c321102d3b022782bef7722ae8f",
+      "size_bytes": 445912799
+    },
+    {
+      "mode": "full",
+      "name": "full_seed42_val.npz",
+      "asset_id": 799819257,
+      "sha256": "fd98b02b1f6d632dcffd1cf70202b0f6ac62aa0252c55498d7fc3be3af2dfdec",
+      "size_bytes": 106494
+    },
+    {
+      "mode": "full",
+      "name": "full_seed42_completed.json",
+      "asset_id": 799819278,
+      "sha256": "be50641593af40901d92753d0e9515c61ee94dc186eb3b2af8dcf549cd914d2f",
+      "size_bytes": 2913
+    }
+  ],
+  "experiment_config": {
+    "stage": "6c",
+    "architecture": "AMSC-Net",
+    "candidate_novelty": "Disagreement-conditioned directional multi-scale residual composition",
+    "seed": 42,
+    "epochs": 4,
+    "patience": 2,
+    "max_length": 64,
+    "train_batch": 32,
+    "encoder_lr": 5e-06,
+    "head_lr": 0.0002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "dim": 128,
+    "dropout": 0.15,
+    "aux_weight": 0.15,
+    "residual_weight": 0.001,
+    "control_width": 1431,
+    "modes": [
+      "global_control",
+      "phrase_only",
+      "directional_only",
+      "no_disagreement",
+      "fixed_fusion",
+      "full"
+    ],
+    "base_checkpoint_sha256": "a11f8084723b7df750aabb26c512b3d56c40e0cb1f95df214f2a653a5a1e1aaf",
+    "base_validation_f1": 0.8159419852657895,
+    "raw_sha256": "4580950af06bbfbe5bd79e20957b63a2ed122af2a6a3e685b10576d3f70241c5",
+    "source_commit": "9aab6b515deee172f0afcdd70157d9f24dedb331",
+    "selection_metric": "validation macro-F1",
+    "test_evaluated": false,
+    "novelty_verified": false,
+    "torch_version": "2.10.0+cu128"
+  }
+}
