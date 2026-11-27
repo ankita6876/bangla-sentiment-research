@@ -34,5 +34,23 @@
     "format": "svg",
     "sha256": "0e5426c9577057a6afb6570f31fbe5a283ca12e1f0469c06d9344c7157d61eea",
     "caption": "Pairwise disagreement between hard sentiment predictions."
+  },
+  {
+    "figure": "stage7c_03_shared_error_matrix",
+    "format": "png",
+    "sha256": "38ef63a150643c2b03cdcdb1eab3ec631319cc8b88dd431ea900b99a13baf1a0",
+    "caption": "Fraction of validation samples misclassified by both models."
+  },
+  {
+    "figure": "stage7c_03_shared_error_matrix",
+    "format": "pdf",
+    "sha256": "f0a74a9ca1062ca1f8a431526acda4edb6faa401622a6f6c6761a5d469e2ac59",
+    "caption": "Fraction of validation samples misclassified by both models."
+  },
+  {
+    "figure": "stage7c_03_shared_error_matrix",
+    "format": "svg",
+    "sha256": "74e9f09ba8cb6de866a61893a433045313c28a9260677f1747e9c234180694f4",
+    "caption": "Fraction of validation samples misclassified by both models."
   }
 ]
