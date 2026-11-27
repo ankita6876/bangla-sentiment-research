@@ -232,5 +232,23 @@
     "format": "svg",
     "sha256": "a77ea1f60fabbdce463977b69026b893b222ae1130db7518bbb0d2f9941acb96",
     "caption": "Provisional DGSL-Net architecture. Dashed arrows denote training-only supervision."
+  },
+  {
+    "figure": "stage7de_14_calibration",
+    "format": "png",
+    "sha256": "0ab6ad655f337fde8f5881946473b35d18a61fefb77fa447eb38f4fbb80ca790",
+    "caption": "Uncalibrated validation expected calibration error."
+  },
+  {
+    "figure": "stage7de_14_calibration",
+    "format": "pdf",
+    "sha256": "7150d3ea318e3881519c485dcaacaed95017676e0c097dbc76667fb824929973",
+    "caption": "Uncalibrated validation expected calibration error."
+  },
+  {
+    "figure": "stage7de_14_calibration",
+    "format": "svg",
+    "sha256": "2a59e5e18c1d298f4c2bf9a754010b0a637a9cc5e3f449af5705653237df5b25",
+    "caption": "Uncalibrated validation expected calibration error."
   }
 ]
