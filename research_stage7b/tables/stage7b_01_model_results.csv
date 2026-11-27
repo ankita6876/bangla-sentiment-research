@@ -1,0 +1,2 @@
+model,backbone,mode,seed,best_epoch,trainable_parameters,original_best_macro_f1,checkpoint_prediction_agreement,accuracy,macro_f1,macro_precision,macro_recall
+base_standard,csebuetnlp/banglabert,standard,42,3,110224131,0.8091289975034606,1.0,0.8076086956521739,0.8091289975034606,0.8058362244566779,0.8151681291314627
