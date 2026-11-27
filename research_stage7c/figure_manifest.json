@@ -1,0 +1,20 @@
+[
+  {
+    "figure": "stage7c_01_model_comparison",
+    "format": "png",
+    "sha256": "a08d9b2bdc9314f41462b81c8dc0e2a03d3012fa3f43a83e9480b7cb0095eace",
+    "caption": "Exploratory comparison of 15 trained models and probability ensembles."
+  },
+  {
+    "figure": "stage7c_01_model_comparison",
+    "format": "pdf",
+    "sha256": "581cc442483b85bb2d4b49539d895ff153e79435c07b1eb38dc5ae0e2643ab62",
+    "caption": "Exploratory comparison of 15 trained models and probability ensembles."
+  },
+  {
+    "figure": "stage7c_01_model_comparison",
+    "format": "svg",
+    "sha256": "d37a0cf2165a5bf42fbdd132871dccde93a0f651c6bbd0877fd96a8cfc0bddfa",
+    "caption": "Exploratory comparison of 15 trained models and probability ensembles."
+  }
+]
