@@ -160,5 +160,23 @@
     "format": "svg",
     "sha256": "38329ff2d207b7cefca08382f4753104663c6116ce4ce9a0ccef2af77718e08a",
     "caption": "Corrected semantic-expert errors and damaged correct predictions."
+  },
+  {
+    "figure": "stage7de_10_paired_effects",
+    "format": "png",
+    "sha256": "6831158ef46c1dffcf0d3f744bdc16292b9b260f7ee31294869471110ecaab0c",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage7de_10_paired_effects",
+    "format": "pdf",
+    "sha256": "887e0eda2c1d327118f4f447e5e3f3061527fa9b7f5f5393aa7b1ba3d64190f1",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage7de_10_paired_effects",
+    "format": "svg",
+    "sha256": "75c2cb5fc935440d8318f2a5f87f1dc635c7ac5b4104ae98e565a88c941a76fc",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
   }
 ]
