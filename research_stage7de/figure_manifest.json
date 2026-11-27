@@ -52,5 +52,23 @@
     "format": "svg",
     "sha256": "000ac8408bdf66bda92a8f402d4b158a4becd4f28fcd271c65cc03dd11f00186",
     "caption": "DGSL-Net and control model validation performance."
+  },
+  {
+    "figure": "stage7de_04_learning_curves",
+    "format": "png",
+    "sha256": "0d72d3b97ffaeb0df399fb73642ae476ffdaa196736eefd6117eac16cccf6c3f",
+    "caption": "Validation learning curves under the shared training budget."
+  },
+  {
+    "figure": "stage7de_04_learning_curves",
+    "format": "pdf",
+    "sha256": "7814922c097545709c1a0fbd8e5e9dffba8f2d80962b7eed993beeff47c0bfe4",
+    "caption": "Validation learning curves under the shared training budget."
+  },
+  {
+    "figure": "stage7de_04_learning_curves",
+    "format": "svg",
+    "sha256": "257041d1e00a64ccc0a2f0550bcfbd9cf4086e94472a1771204d3d92e52a207e",
+    "caption": "Validation learning curves under the shared training budget."
   }
 ]
