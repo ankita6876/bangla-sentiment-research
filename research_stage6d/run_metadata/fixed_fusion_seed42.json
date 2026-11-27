@@ -1,0 +1,90 @@
+{
+  "run_hash": "a551af984f5aa4b193a68eff32dd64dc7fca671a0afc793274e20e487af026cb",
+  "config": {
+    "stage": "6d",
+    "source_stage6c_commit": "17df059f688b5e0fb609a6f270ae2c2b3c9c3995",
+    "pretrained_model": "csebuetnlp/banglabert",
+    "dataset_split_seed": 42,
+    "training_seeds": [
+      42,
+      123
+    ],
+    "architectures": [
+      "standard",
+      "fixed_fusion",
+      "normalized_fusion"
+    ],
+    "epochs": 4,
+    "batch_size": 32,
+    "max_length": 64,
+    "encoder_lr": 2e-05,
+    "new_head_lr": 0.0002,
+    "auxiliary_weight": 0.1,
+    "warmup": 0.1,
+    "weight_decay": 0.01,
+    "selection": "validation_macro_f1",
+    "initialization": "fresh_pretrained",
+    "test_evaluated": false,
+    "novelty_verified": false,
+    "mode": "fixed_fusion",
+    "seed": 42
+  },
+  "result": {
+    "model": "fixed_fusion",
+    "seed": 42,
+    "best_epoch": 4,
+    "parameters": 111065232,
+    "accuracy": 0.8141304347826087,
+    "macro_f1": 0.8162814180156633,
+    "macro_precision": 0.8138641510474519,
+    "macro_recall": 0.8195549623121837,
+    "ece": 0.11436736201462541,
+    "nll": 0.5742817521095276,
+    "brier": 0.30004225999431783,
+    "runtime_minutes": 2.828041497866313
+  },
+  "history": [
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 1,
+      "train_loss": 0.7989524128591429,
+      "accuracy": 0.7793478260869565,
+      "macro_f1": 0.7798211577821189,
+      "macro_precision": 0.7779832546309061,
+      "macro_recall": 0.7904702502510189
+    },
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 2,
+      "train_loss": 0.4616884159515962,
+      "accuracy": 0.7978260869565217,
+      "macro_f1": 0.7965681229639093,
+      "macro_precision": 0.8097319073952525,
+      "macro_recall": 0.7909938688768087
+    },
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 3,
+      "train_loss": 0.3071740810402784,
+      "accuracy": 0.7994565217391304,
+      "macro_f1": 0.8004754692230177,
+      "macro_precision": 0.7985755630956796,
+      "macro_recall": 0.8116807495542933
+    },
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 4,
+      "train_loss": 0.21125660600324445,
+      "accuracy": 0.8141304347826087,
+      "macro_f1": 0.8162814180156633,
+      "macro_precision": 0.8138641510474519,
+      "macro_recall": 0.8195549623121837
+    }
+  ],
+  "checkpoint_sha256": "4c2936a7cb206e8e00789a7938c44c625b9092ed9951d92dad4bf27510a1e404",
+  "prediction_sha256": "043b97a7e726dce4ca38ced37d0b55148323510abcf8449aa370c5086ef58ef1"
+}
