@@ -1,0 +1,5 @@
+stage,rows
+Raw dataset,15584
+Valid records,15584
+After conflict exclusion,14810
+After normalized deduplication,12893

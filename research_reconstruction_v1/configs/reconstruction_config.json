@@ -1,0 +1,26 @@
+{
+  "raw_dataset_sha256": "4580950af06bbfbe5bd79e20957b63a2ed122af2a6a3e685b10576d3f70241c5",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "labels": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "normalization": "NFC, zero-width removal, whitespace, casefold",
+  "conflicting_labels": "exclude all conflicting normalized groups",
+  "deduplication": "normalized text, keep first",
+  "near_duplicate_similarity": 0.9,
+  "near_duplicate_method": "character TF-IDF cosine",
+  "outer_group_folds": 7,
+  "inner_group_folds": 6,
+  "exact_historical_split_reproduction": false,
+  "test_predictions_generated": false,
+  "test_metrics_computed": false,
+  "best_classical_baseline": "LogisticRegression",
+  "proposed_model_finalized": false,
+  "novelty_verified": false
+}

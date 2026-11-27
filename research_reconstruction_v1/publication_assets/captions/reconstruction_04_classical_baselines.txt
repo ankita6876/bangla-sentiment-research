@@ -1,0 +1,1 @@
+Mean validation macro-F1 across three grouped dataset partitions. Error bars represent split-level standard deviations, not confidence intervals.

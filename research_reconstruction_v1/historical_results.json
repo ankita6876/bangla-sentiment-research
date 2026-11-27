@@ -1,0 +1,8 @@
+{
+  "status": "historical reported results; not reproduced",
+  "stage3_banglabert_ensemble_test_macro_f1": 0.8108,
+  "stage4_global_validation_macro_f1": 0.829533,
+  "stage4_ulcnet_validation_macro_f1": 0.824094,
+  "stage5_ulcnet_v2_validation_macro_f1": 0.824765,
+  "interpretation": "Earlier linguistic heads did not surpass the strongest global residual control."
+}
