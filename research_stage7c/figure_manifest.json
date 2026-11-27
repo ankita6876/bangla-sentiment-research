@@ -52,5 +52,23 @@
     "format": "svg",
     "sha256": "74e9f09ba8cb6de866a61893a433045313c28a9260677f1747e9c234180694f4",
     "caption": "Fraction of validation samples misclassified by both models."
+  },
+  {
+    "figure": "stage7c_04_specialist_rescues",
+    "format": "png",
+    "sha256": "a7e7d28c2c3177981a5053b4db6729b0f3572da9408200491f62c84deec7678a",
+    "caption": "Individual model gains and losses relative to the previous nine-model ensemble."
+  },
+  {
+    "figure": "stage7c_04_specialist_rescues",
+    "format": "pdf",
+    "sha256": "874604069a3bab3fd56c9f76581cb1181ece9aceaa61017cf116dec9ee4583f5",
+    "caption": "Individual model gains and losses relative to the previous nine-model ensemble."
+  },
+  {
+    "figure": "stage7c_04_specialist_rescues",
+    "format": "svg",
+    "sha256": "67de29aaec46c7e393566ca91bbf2d64857160d630ab04dd7f4e64c1c3bee30b",
+    "caption": "Individual model gains and losses relative to the previous nine-model ensemble."
   }
 ]
