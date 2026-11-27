@@ -1,0 +1,98 @@
+{
+  "run_hash": "e5471353b9ce485a32ab888b1e2eb999689b58e670b1ea29b7f5ece6aa6141a3",
+  "config": {
+    "stage": "6c",
+    "architecture": "AMSC-Net",
+    "candidate_novelty": "Disagreement-conditioned directional multi-scale residual composition",
+    "seed": 42,
+    "epochs": 4,
+    "patience": 2,
+    "max_length": 64,
+    "train_batch": 32,
+    "encoder_lr": 5e-06,
+    "head_lr": 0.0002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "dim": 128,
+    "dropout": 0.15,
+    "aux_weight": 0.15,
+    "residual_weight": 0.001,
+    "control_width": 1431,
+    "modes": [
+      "global_control",
+      "phrase_only",
+      "directional_only",
+      "no_disagreement",
+      "fixed_fusion",
+      "full"
+    ],
+    "base_checkpoint_sha256": "a11f8084723b7df750aabb26c512b3d56c40e0cb1f95df214f2a653a5a1e1aaf",
+    "base_validation_f1": 0.8159419852657895,
+    "raw_sha256": "4580950af06bbfbe5bd79e20957b63a2ed122af2a6a3e685b10576d3f70241c5",
+    "source_commit": "9aab6b515deee172f0afcdd70157d9f24dedb331",
+    "selection_metric": "validation macro-F1",
+    "test_evaluated": false,
+    "novelty_verified": false,
+    "torch_version": "2.10.0+cu128",
+    "mode": "fixed_fusion"
+  },
+  "result": {
+    "model": "fixed_fusion",
+    "seed": 42,
+    "best_epoch": 2,
+    "extra_parameters": 445581,
+    "trainable_parameters": 111065232,
+    "accuracy": 0.8195652173913044,
+    "macro_f1": 0.8214890860265811,
+    "macro_precision": 0.8203954931618935,
+    "macro_recall": 0.8229089665692939,
+    "ece": 0.11411281030463137,
+    "nll": 0.6050450801849365,
+    "brier": 0.29821103496883855,
+    "runtime_minutes": 2.8125388701756795
+  },
+  "history": [
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 1,
+      "train_loss": 0.3221247377006037,
+      "accuracy": 0.8168478260869565,
+      "macro_f1": 0.818479543767936,
+      "macro_precision": 0.8183543554066137,
+      "macro_recall": 0.8186601619293189
+    },
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 2,
+      "train_loss": 0.2632161633462452,
+      "accuracy": 0.8195652173913044,
+      "macro_f1": 0.8214890860265811,
+      "macro_precision": 0.8203954931618935,
+      "macro_recall": 0.8229089665692939
+    },
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 3,
+      "train_loss": 0.22343172110303078,
+      "accuracy": 0.8152173913043478,
+      "macro_f1": 0.8169821063250658,
+      "macro_precision": 0.8144163972233676,
+      "macro_recall": 0.8205746943927914
+    },
+    {
+      "model": "fixed_fusion",
+      "seed": 42,
+      "epoch": 4,
+      "train_loss": 0.19409933593002726,
+      "accuracy": 0.8152173913043478,
+      "macro_f1": 0.816858588182391,
+      "macro_precision": 0.81513960813848,
+      "macro_recall": 0.8191444600150022
+    }
+  ],
+  "checkpoint_sha256": "898174ec460f642668c00cebbec705d792f37a9296c823baa0a22524842b5c37",
+  "prediction_sha256": "5d0cbc6800e1deb6b6c9f9467a7aa32fc65b88face22b608902788ccb0766287"
+}
