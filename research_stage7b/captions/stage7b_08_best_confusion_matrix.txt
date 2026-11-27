@@ -1,0 +1,1 @@
+Confusion matrix of the strongest newly trained screening configuration.
