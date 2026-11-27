@@ -1,0 +1,17 @@
+{
+  "release": "stage7c-specialist-discovery-v1",
+  "assets": [
+    {
+      "name": "sentiment_stage7c_private_83204e6b757f.zip",
+      "asset_id": 800276984,
+      "size": 6761452,
+      "sha256": "83204e6b757f987627f2555ddebe52b661366f5e0211402c156b4fe227bfbd11"
+    },
+    {
+      "name": "sentiment_stage7c_publication_6b1cef4a2afa.zip",
+      "asset_id": 800277030,
+      "size": 23171931,
+      "sha256": "6b1cef4a2afa3c3e581759641de5efa8df8d2c6ba143783456e561c2796e5c67"
+    }
+  ]
+}

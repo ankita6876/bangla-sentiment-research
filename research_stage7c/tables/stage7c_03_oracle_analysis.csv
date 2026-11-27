@@ -1,0 +1,2 @@
+validation_samples,all_models_correct,all_models_wrong,mixed_correctness,previous_ensemble_errors,previous_errors_recoverable_by_model_selection,previous_errors_unrecoverable_by_model_selection,oracle_accuracy,oracle_macro_f1_diagnostic
+1840,1221,120,499,332,212,120,0.9347826086956522,0.935564070378961

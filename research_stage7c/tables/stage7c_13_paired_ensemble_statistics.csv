@@ -1,0 +1,8 @@
+model,reference,delta_macro_f1,ci95_low,ci95_high,gained_correct,lost_correct,analysis
+new_six,previous_nine,-0.0007271658537801873,-0.010445295829272758,0.008758903286146926,40,40,exploratory_validation
+all_fifteen,previous_nine,-0.0024250708334572213,-0.00837163516922739,0.003478633969767614,14,18,exploratory_validation
+base_pasnet_large_pasnet,previous_nine,0.0033559946047726497,-0.009401948624231864,0.016182577873590606,76,70,exploratory_validation
+prototype_family,previous_nine,0.0071795132123866345,-0.003687388880822906,0.017562624536281362,57,43,exploratory_validation
+old_plus_pasnet_family,previous_nine,-0.0017523639902431443,-0.006729369028151949,0.003091238390805653,10,13,exploratory_validation
+equal_family_weight,previous_nine,-0.0016363557218239677,-0.00927055620987997,0.005928083264710139,25,27,exploratory_validation
+majority_vote_15,previous_nine,-0.00016001604699245053,-0.006035483529933078,0.005728987909868935,16,16,exploratory_validation
