@@ -160,5 +160,23 @@
     "format": "svg",
     "sha256": "a16f412e5f29e9fdc0ee4f2a9d399e096194c4eafd81e9424b91bf4e433d53c4",
     "caption": "Diagnostic ability of label-free uncertainty signals to identify errors."
+  },
+  {
+    "figure": "stage7c_10_paired_ensemble_effects",
+    "format": "png",
+    "sha256": "b1ff7bcb3a734eb1a7a24168e610ee71ebee2ea329218f1b6df475f85045477b",
+    "caption": "Exploratory paired group-bootstrap confidence intervals on development data."
+  },
+  {
+    "figure": "stage7c_10_paired_ensemble_effects",
+    "format": "pdf",
+    "sha256": "7a1ec171f10bb41f6c00a7100e1774447cd1332c489d9b4a5521a0013dd75bf7",
+    "caption": "Exploratory paired group-bootstrap confidence intervals on development data."
+  },
+  {
+    "figure": "stage7c_10_paired_ensemble_effects",
+    "format": "svg",
+    "sha256": "01f8f5a2b2e68f36561b0d2d14e28043603d405413806582c27988a91a3e7fa9",
+    "caption": "Exploratory paired group-bootstrap confidence intervals on development data."
   }
 ]
