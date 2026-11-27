@@ -1,0 +1,60 @@
+{
+  "config_hash": "f98d42d03b2da076f1edc91f057a0e480ebe5b82b422b4be2e7fce4469846c70",
+  "result": {
+    "model": "large_standard",
+    "backbone": "csebuetnlp/banglabert_large",
+    "mode": "standard",
+    "seed": 42,
+    "best_epoch": 2,
+    "trainable_parameters": 335868675,
+    "original_best_macro_f1": 0.8128913278909097,
+    "checkpoint_prediction_agreement": 1.0,
+    "accuracy": 0.8135869565217392,
+    "macro_f1": 0.8128913278909097,
+    "macro_precision": 0.821152353131669,
+    "macro_recall": 0.8084918108357781
+  },
+  "history": [
+    {
+      "model": "large_standard",
+      "epoch": 1,
+      "train_loss": 0.7407491474722283,
+      "accuracy": 0.7847826086956522,
+      "macro_f1": 0.7845960197650381,
+      "macro_precision": 0.785056979419439,
+      "macro_recall": 0.7987505686802888
+    },
+    {
+      "model": "large_standard",
+      "epoch": 2,
+      "train_loss": 0.42582903998530913,
+      "accuracy": 0.8135869565217392,
+      "macro_f1": 0.8128913278909097,
+      "macro_precision": 0.821152353131669,
+      "macro_recall": 0.8084918108357781
+    },
+    {
+      "model": "large_standard",
+      "epoch": 3,
+      "train_loss": 0.24634984209906993,
+      "accuracy": 0.808695652173913,
+      "macro_f1": 0.8098111644496951,
+      "macro_precision": 0.8082127909070139,
+      "macro_recall": 0.8134538817302017
+    },
+    {
+      "model": "large_standard",
+      "epoch": 4,
+      "train_loss": 0.14102263307825158,
+      "accuracy": 0.8054347826086956,
+      "macro_f1": 0.8071113706627102,
+      "macro_precision": 0.8043000097153405,
+      "macro_recall": 0.8126615602423927
+    }
+  ],
+  "checkpoint_sha256": "84a1ea7cd401f530c712aa830f73406e41ccf1198f7caa40583955dde8be35d7",
+  "prediction_sha256": "fb365b14ca89fed1ee24c83203b1ef04160254e46a38373f1c53378df99feec6",
+  "checkpoint_dtype": "float16 storage",
+  "model_name": "csebuetnlp/banglabert_large",
+  "mode": "standard"
+}
