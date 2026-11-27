@@ -48,5 +48,9 @@
   "initialization": "fresh_pretrained",
   "primary_candidate": "fixed_fusion",
   "test_evaluated": false,
-  "novelty_verified": false
+  "novelty_verified": false,
+  "control_width": 609,
+  "proposed_extra_parameters": 445581,
+  "control_extra_parameters": 445418,
+  "relative_parameter_mismatch": 0.00036581452081664166
 }
