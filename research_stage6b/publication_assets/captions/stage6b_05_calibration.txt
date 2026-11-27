@@ -1,0 +1,1 @@
+Validation ECE before and after temperature scaling. Temperature fitting and assessment use the same validation cohort; results are descriptive.
