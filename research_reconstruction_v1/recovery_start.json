@@ -1,0 +1,8 @@
+{
+  "project": "Bangla sentiment research",
+  "authentication_verified": true,
+  "branch": "research/reconstruction-20261127-080232",
+  "raw_dataset_expected_sha256": "4580950af06bbfbe5bd79e20957b63a2ed122af2a6a3e685b10576d3f70241c5",
+  "purpose": "Reconstruct essential research artifacts",
+  "created_at": "2026-11-27 08:02:32"
+}
