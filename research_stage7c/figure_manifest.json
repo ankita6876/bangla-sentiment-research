@@ -178,5 +178,23 @@
     "format": "svg",
     "sha256": "01f8f5a2b2e68f36561b0d2d14e28043603d405413806582c27988a91a3e7fa9",
     "caption": "Exploratory paired group-bootstrap confidence intervals on development data."
+  },
+  {
+    "figure": "stage7c_11_error_group_structure",
+    "format": "png",
+    "sha256": "2a1aa5de4a8eb3572425093f6c73d757a5fe9a2ca432bfa94dca5628057ac41b",
+    "caption": "Linguistic and class composition of model error categories."
+  },
+  {
+    "figure": "stage7c_11_error_group_structure",
+    "format": "pdf",
+    "sha256": "e4d3e38f07d6b847b9fc5b0aa114cd7959ab6e7be466ae502ef5a53d889ad18d",
+    "caption": "Linguistic and class composition of model error categories."
+  },
+  {
+    "figure": "stage7c_11_error_group_structure",
+    "format": "svg",
+    "sha256": "c98ef70c83173a9fa893b6fd8ec22f7b4d2c45c814b6f3a8d339464e8d4b35b7",
+    "caption": "Linguistic and class composition of model error categories."
   }
 ]
