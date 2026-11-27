@@ -106,5 +106,23 @@
     "format": "svg",
     "sha256": "4477cc45ba3b0895f17183abadbcad66758c3ee65e4a90e01026b93f831235fc",
     "caption": "Linguistic subgroup performance of selected models and ensembles."
+  },
+  {
+    "figure": "stage7c_07_classwise_specialization",
+    "format": "png",
+    "sha256": "596b3812729b572151c5e34915b3a3b093380e874958278a6dcfa85172ff27b5",
+    "caption": "Class-specific sentiment discrimination."
+  },
+  {
+    "figure": "stage7c_07_classwise_specialization",
+    "format": "pdf",
+    "sha256": "384a1a5c8cd01ddb443c52222d92439457789a417e0f4fc8ef6b16cc3f07f6ab",
+    "caption": "Class-specific sentiment discrimination."
+  },
+  {
+    "figure": "stage7c_07_classwise_specialization",
+    "format": "svg",
+    "sha256": "2ec95836c023a7487b72dff79e709f9a564aed3fcfcf498ba824ea98733cb0a4",
+    "caption": "Class-specific sentiment discrimination."
   }
 ]
