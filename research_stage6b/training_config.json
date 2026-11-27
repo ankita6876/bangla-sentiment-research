@@ -1,0 +1,34 @@
+{
+  "dataset_branch": "research/reconstruction-20261127-080232",
+  "split_hashes": {
+    "train": "11522b6affd5543c26108cf723dfd292ac1ed3f0338495fcb1a9da42849cee9e",
+    "val": "bbe5fec295302db94471626848dcf7ac4d16f53988373f93af13165cb2f5c7bc",
+    "test": "dd7276d5078de6fa21d1ce56fee825c5dae74358c9e42d89d57a97e48a6be680"
+  },
+  "seed": 42,
+  "epochs": 4,
+  "max_length": 64,
+  "train_batch": 16,
+  "eval_batch": 32,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "models": {
+    "BanglaBERT": {
+      "hf_id": "csebuetnlp/banglabert",
+      "normalization": "banglabert"
+    },
+    "XLM-RoBERTa": {
+      "hf_id": "FacebookAI/xlm-roberta-base",
+      "normalization": "standard"
+    },
+    "mBERT": {
+      "hf_id": "google-bert/bert-base-multilingual-cased",
+      "normalization": "standard"
+    }
+  },
+  "selection_metric": "validation macro-F1",
+  "test_evaluated": false,
+  "training_seeds_per_model": 1,
+  "experiment_type": "baseline screening"
+}
