@@ -1,0 +1,90 @@
+{
+  "run_hash": "7f134d2c37572359605307a58b4fe3c67df4407f2cd437201c6e006e51d56594",
+  "config": {
+    "stage": "6d",
+    "source_stage6c_commit": "17df059f688b5e0fb609a6f270ae2c2b3c9c3995",
+    "pretrained_model": "csebuetnlp/banglabert",
+    "dataset_split_seed": 42,
+    "training_seeds": [
+      42,
+      123
+    ],
+    "architectures": [
+      "standard",
+      "fixed_fusion",
+      "normalized_fusion"
+    ],
+    "epochs": 4,
+    "batch_size": 32,
+    "max_length": 64,
+    "encoder_lr": 2e-05,
+    "new_head_lr": 0.0002,
+    "auxiliary_weight": 0.1,
+    "warmup": 0.1,
+    "weight_decay": 0.01,
+    "selection": "validation_macro_f1",
+    "initialization": "fresh_pretrained",
+    "test_evaluated": false,
+    "novelty_verified": false,
+    "mode": "normalized_fusion",
+    "seed": 123
+  },
+  "result": {
+    "model": "normalized_fusion",
+    "seed": 123,
+    "best_epoch": 3,
+    "parameters": 111090515,
+    "accuracy": 0.8146739130434782,
+    "macro_f1": 0.8164343627887997,
+    "macro_precision": 0.8133385640153409,
+    "macro_recall": 0.8215307504270158,
+    "ece": 0.09125869517093115,
+    "nll": 0.5317051410675049,
+    "brier": 0.28435619443972715,
+    "runtime_minutes": 2.8115320444107055
+  },
+  "history": [
+    {
+      "model": "normalized_fusion",
+      "seed": 123,
+      "epoch": 1,
+      "train_loss": 0.8054964025090021,
+      "accuracy": 0.7972826086956522,
+      "macro_f1": 0.7989103042560535,
+      "macro_precision": 0.7969059412167646,
+      "macro_recall": 0.8014167560937353
+    },
+    {
+      "model": "normalized_fusion",
+      "seed": 123,
+      "epoch": 2,
+      "train_loss": 0.4582132150276181,
+      "accuracy": 0.8070652173913043,
+      "macro_f1": 0.8081956136231412,
+      "macro_precision": 0.8104240712517319,
+      "macro_recall": 0.8079610990870648
+    },
+    {
+      "model": "normalized_fusion",
+      "seed": 123,
+      "epoch": 3,
+      "train_loss": 0.308164053782335,
+      "accuracy": 0.8146739130434782,
+      "macro_f1": 0.8164343627887997,
+      "macro_precision": 0.8133385640153409,
+      "macro_recall": 0.8215307504270158
+    },
+    {
+      "model": "normalized_fusion",
+      "seed": 123,
+      "epoch": 4,
+      "train_loss": 0.20356536332496816,
+      "accuracy": 0.8,
+      "macro_f1": 0.8017578418502896,
+      "macro_precision": 0.7984390722474785,
+      "macro_recall": 0.8088729742839226
+    }
+  ],
+  "checkpoint_sha256": "c1abd050ffc1cc87cefbeb538ca95921697a450377028d550f12e2f24dbc3d19",
+  "prediction_sha256": "45ea3a45dd821f016e0de0f312c5445b14138ca78263cb613581841aa3125174"
+}
