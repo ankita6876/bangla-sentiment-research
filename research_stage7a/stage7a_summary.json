@@ -1,0 +1,30 @@
+{
+  "stage": "7A",
+  "validation_samples": 1840,
+  "training_samples": 9204,
+  "confirmed_runs_recovered": 9,
+  "best_family": "fixed_fusion",
+  "best_family_macro_f1": 0.8187778484929229,
+  "best_exploratory_fusion": "uniform_raw",
+  "best_exploratory_fusion_macro_f1": 0.8215240777580629,
+  "all_nine_oracle_accuracy": 0.9021739130434783,
+  "oracle_correct_when_available_macro_f1": 0.9032441819878189,
+  "unanimously_wrong": 180,
+  "unanimously_correct": 1302,
+  "training_annotation_candidates": 324,
+  "human_verified_label_errors": 0,
+  "new_figures": 10,
+  "new_tables": 14,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "new_model_trained": false,
+  "novelty_verified": false,
+  "limitations": [
+    "Validation previously used for checkpoint selection.",
+    "Fusion cross-validation is exploratory, not independent testing.",
+    "Oracle requires true labels.",
+    "Linguistic cues are heuristic.",
+    "Annotation candidates are not verified label errors.",
+    "Bootstrap intervals are conditional on existing trained models."
+  ]
+}

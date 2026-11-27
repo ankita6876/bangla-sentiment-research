@@ -1,0 +1,17 @@
+{
+  "release": "stage7a-bottleneck-discovery-v1",
+  "assets": [
+    {
+      "name": "sentiment_stage7a_private_a7129798cccd.zip",
+      "asset_id": 800088503,
+      "size": 4197647,
+      "sha256": "a7129798cccd696a9bf777295ce6c028bfe51351b586f447769ebab0fe5cbd48"
+    },
+    {
+      "name": "sentiment_stage7a_publication_90abdd10cf18.zip",
+      "asset_id": 800088550,
+      "size": 13932524,
+      "sha256": "90abdd10cf18528835b92ced6790adbadecf4fec51545000d47c792488a5d225"
+    }
+  ]
+}

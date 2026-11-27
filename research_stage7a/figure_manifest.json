@@ -1,0 +1,52 @@
+[
+  {
+    "name": "stage7a_01_model_performance",
+    "caption": "Development validation macro-F1 across nine individual runs and ensembles.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_02_oracle_ceiling",
+    "caption": "Oracle accuracy assumes access to true labels and is not deployable performance.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_03_sample_difficulty",
+    "caption": "Number of correct predictions per validation example across nine model runs.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_04_model_agreement",
+    "caption": "Pairwise prediction agreement between individual model runs.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_05_subgroup_performance",
+    "caption": "Descriptive subgroup performance; lexical cues do not establish gold linguistic annotations.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_06_classwise_performance",
+    "caption": "Class-specific F1 for the three confirmed model families.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_07_fusion_screening",
+    "caption": "Grouped cross-validation of fusion weights within the previously used development validation set.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_08_paired_statistics",
+    "caption": "Exploratory paired group-bootstrap intervals conditional on the trained models.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_09_length_performance",
+    "caption": "Descriptive macro-F1 across review-length bins.",
+    "stage": "7A"
+  },
+  {
+    "name": "stage7a_10_confusion_matrix",
+    "caption": "Validation confusion matrix of the parameter-matched control ensemble.",
+    "stage": "7A"
+  }
+]

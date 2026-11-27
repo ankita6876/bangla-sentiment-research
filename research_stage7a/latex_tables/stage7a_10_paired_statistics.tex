@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+model & reference & delta\_macro\_f1 & ci95\_low & ci95\_high & gained\_correct & lost\_correct & mcnemar\_p\_unadjusted & mcnemar\_p\_holm \\
+\midrule
+standard & matched\_control & -0.0055 & -0.0149 & 0.0028 & 29 & 39 & 0.2750 & 1.0000 \\
+fixed\_fusion & matched\_control & 0.0006 & -0.0084 & 0.0093 & 38 & 38 & 1.0000 & 1.0000 \\
+uniform\_raw & matched\_control & 0.0034 & -0.0026 & 0.0099 & 21 & 15 & 0.4050 & 1.0000 \\
+uniform\_calibrated & matched\_control & 0.0028 & -0.0034 & 0.0094 & 21 & 16 & 0.5114 & 1.0000 \\
+weighted\_calibrated & matched\_control & 0.0008 & -0.0059 & 0.0078 & 20 & 19 & 1.0000 & 1.0000 \\
+\bottomrule
+\end{tabular}
