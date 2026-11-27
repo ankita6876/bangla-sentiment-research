@@ -1,0 +1,1 @@
+Provisional DGSL-Net architecture. Dashed arrows denote training-only supervision.

@@ -214,5 +214,23 @@
     "format": "svg",
     "sha256": "4c5e7133262b4f6613cda2adf64aa757250552b2f0ab56321beb573009300490",
     "caption": "DGSL-Net validation confusion matrix."
+  },
+  {
+    "figure": "stage7de_13_dgsl_architecture",
+    "format": "png",
+    "sha256": "b7efc9ea916d6911910015ed05cb065e5e1699f277c43fef144db1e844609bb9",
+    "caption": "Provisional DGSL-Net architecture. Dashed arrows denote training-only supervision."
+  },
+  {
+    "figure": "stage7de_13_dgsl_architecture",
+    "format": "pdf",
+    "sha256": "6e87953e066bff9a108c213458f36e037f4f6b0c0ff09a2d11ff3206f3fb1720",
+    "caption": "Provisional DGSL-Net architecture. Dashed arrows denote training-only supervision."
+  },
+  {
+    "figure": "stage7de_13_dgsl_architecture",
+    "format": "svg",
+    "sha256": "a77ea1f60fabbdce463977b69026b893b222ae1130db7518bbb0d2f9941acb96",
+    "caption": "Provisional DGSL-Net architecture. Dashed arrows denote training-only supervision."
   }
 ]
