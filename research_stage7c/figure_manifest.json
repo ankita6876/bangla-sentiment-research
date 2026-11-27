@@ -88,5 +88,23 @@
     "format": "svg",
     "sha256": "a262dee89b4316a6fdb5070b4a3a178340f0747a4f6727ec6a8eeb8ee6cfe3b3",
     "caption": "Distribution of model error counts across validation samples."
+  },
+  {
+    "figure": "stage7c_06_subgroup_specialization",
+    "format": "png",
+    "sha256": "94a9af7562b141ceda6037c38fb887f9bd402773a89871907bd198eed181e100",
+    "caption": "Linguistic subgroup performance of selected models and ensembles."
+  },
+  {
+    "figure": "stage7c_06_subgroup_specialization",
+    "format": "pdf",
+    "sha256": "3005d3a4bc27cc26da3670283562f2db32d16088f345885e88021711508156de",
+    "caption": "Linguistic subgroup performance of selected models and ensembles."
+  },
+  {
+    "figure": "stage7c_06_subgroup_specialization",
+    "format": "svg",
+    "sha256": "4477cc45ba3b0895f17183abadbcad66758c3ee65e4a90e01026b93f831235fc",
+    "caption": "Linguistic subgroup performance of selected models and ensembles."
   }
 ]
