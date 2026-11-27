@@ -1,0 +1,98 @@
+{
+  "run_hash": "4888683365b83728144cba42632ef575feccc5b0f434487af82eeab224a56279",
+  "config": {
+    "stage": "7DE",
+    "model": "csebuetnlp/banglabert",
+    "seed": 42,
+    "oof_folds": 3,
+    "oof_epochs": 3,
+    "final_epochs": 4,
+    "max_length": 64,
+    "train_batch": 32,
+    "encoder_lr": 2e-05,
+    "head_lr": 0.0002,
+    "weight_decay": 0.01,
+    "warmup": 0.1,
+    "dim": 128,
+    "matched_width": 277,
+    "modes": [
+      "standard",
+      "matched_control",
+      "dgsl_fixed",
+      "dgsl_full"
+    ],
+    "oof_sha256": "78a42dabdbeb1fcef7c26aff7605adb7c7118a7e4c48b81e1f3dc31638a6a6e3",
+    "source_sha256": "a5e4dbd0e05fdcc3935b922a9cc02df2c6d57582d96f05101261be3db2c8841d",
+    "test_evaluated": false,
+    "mode": "standard"
+  },
+  "result": {
+    "model": "standard",
+    "seed": 42,
+    "best_epoch": 4,
+    "parameters": 110619651,
+    "accuracy": 0.8092391304347826,
+    "macro_f1": 0.8108135212916993,
+    "nll": 0.5588594904980339
+  },
+  "history": [
+    {
+      "mode": "standard",
+      "seed": 42,
+      "epoch": 1,
+      "train_loss": 0.7722017877208622,
+      "train_primary": 0.7722017877208622,
+      "train_expert": 0.0,
+      "train_competence": 0.0,
+      "train_routing": 0.0,
+      "train_protection": 0.0,
+      "val_accuracy": 0.7744565217391305,
+      "val_macro_f1": 0.775583880349735,
+      "val_nll": 0.5419953799613678
+    },
+    {
+      "mode": "standard",
+      "seed": 42,
+      "epoch": 2,
+      "train_loss": 0.4649680160481429,
+      "train_primary": 0.4649680160481429,
+      "train_expert": 0.0,
+      "train_competence": 0.0,
+      "train_routing": 0.0,
+      "train_protection": 0.0,
+      "val_accuracy": 0.8032608695652174,
+      "val_macro_f1": 0.8046053970593396,
+      "val_nll": 0.4996772765144164
+    },
+    {
+      "mode": "standard",
+      "seed": 42,
+      "epoch": 3,
+      "train_loss": 0.33253114502464154,
+      "train_primary": 0.33253114502464154,
+      "train_expert": 0.0,
+      "train_competence": 0.0,
+      "train_routing": 0.0,
+      "train_protection": 0.0,
+      "val_accuracy": 0.8027173913043478,
+      "val_macro_f1": 0.804785798483639,
+      "val_nll": 0.5151195922080034
+    },
+    {
+      "mode": "standard",
+      "seed": 42,
+      "epoch": 4,
+      "train_loss": 0.25065889094560784,
+      "train_primary": 0.25065889094560784,
+      "train_expert": 0.0,
+      "train_competence": 0.0,
+      "train_routing": 0.0,
+      "train_protection": 0.0,
+      "val_accuracy": 0.8092391304347826,
+      "val_macro_f1": 0.8108135212916993,
+      "val_nll": 0.5588594904980339
+    }
+  ],
+  "checkpoint_sha256": "0a20923345940ed2b374ea22f76e40469fd1ad5934edfbb52f8c366adea29c4b",
+  "prediction_sha256": "31f4b0fd94192de0d11870779c03713c58ff3decfa2c9267e1b9c6c86a345d6a"
+}
