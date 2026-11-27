@@ -1,0 +1,27 @@
+{
+  "stage": "6d",
+  "source_stage6c_commit": "17df059f688b5e0fb609a6f270ae2c2b3c9c3995",
+  "pretrained_model": "csebuetnlp/banglabert",
+  "dataset_split_seed": 42,
+  "training_seeds": [
+    42,
+    123
+  ],
+  "architectures": [
+    "standard",
+    "fixed_fusion",
+    "normalized_fusion"
+  ],
+  "epochs": 4,
+  "batch_size": 32,
+  "max_length": 64,
+  "encoder_lr": 2e-05,
+  "new_head_lr": 0.0002,
+  "auxiliary_weight": 0.1,
+  "warmup": 0.1,
+  "weight_decay": 0.01,
+  "selection": "validation_macro_f1",
+  "initialization": "fresh_pretrained",
+  "test_evaluated": false,
+  "novelty_verified": false
+}
