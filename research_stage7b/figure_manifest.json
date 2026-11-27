@@ -1,0 +1,164 @@
+[
+  {
+    "figure": "stage7b_01_model_comparison",
+    "format": "png",
+    "sha256": "612714d6a59e72b836dcfdffc7b80f66f7231bb5f2a9e9b6f988e68de25279e2",
+    "caption": "Single-seed development screening and historical ensemble comparison."
+  },
+  {
+    "figure": "stage7b_01_model_comparison",
+    "format": "pdf",
+    "sha256": "a3d3fd7ca0f90e4b887cd9d1664aa8fcb25cc855df30bf369487470a8c7694de",
+    "caption": "Single-seed development screening and historical ensemble comparison."
+  },
+  {
+    "figure": "stage7b_01_model_comparison",
+    "format": "svg",
+    "sha256": "5b4b1d56d95cb2551949dfe0af4b052b83c498a4510a00590bab87e4b4d1ef00",
+    "caption": "Single-seed development screening and historical ensemble comparison."
+  },
+  {
+    "figure": "stage7b_02_training_convergence",
+    "format": "png",
+    "sha256": "ff007a598425dfa325e34f73e03c547d0a9020a93652f1170549221166da4a5f",
+    "caption": "Validation macro-F1 during model development."
+  },
+  {
+    "figure": "stage7b_02_training_convergence",
+    "format": "pdf",
+    "sha256": "b8ef1b27138916f6171a447091512193110ab78dc5ae2adc5ae5c2ec85bf2397",
+    "caption": "Validation macro-F1 during model development."
+  },
+  {
+    "figure": "stage7b_02_training_convergence",
+    "format": "svg",
+    "sha256": "7d3b4de8ebaede3681f58a3572e79088302438b095e9d9328ddf797a33af07f8",
+    "caption": "Validation macro-F1 during model development."
+  },
+  {
+    "figure": "stage7b_03_training_loss",
+    "format": "png",
+    "sha256": "a4471c71777fe909a662f786db8bc59f7099c03c237c36ae94280af0c0e2dc51",
+    "caption": "Training objectives differ across modes and are not directly equivalent."
+  },
+  {
+    "figure": "stage7b_03_training_loss",
+    "format": "pdf",
+    "sha256": "2f4c150c8cf8ce9a9aaa35b98f982cdd45ccb83e569a4a6cdb2a9992ae28312e",
+    "caption": "Training objectives differ across modes and are not directly equivalent."
+  },
+  {
+    "figure": "stage7b_03_training_loss",
+    "format": "svg",
+    "sha256": "4aa1c53b25cca42fc582ed914e29bf31b20838f785eadc93eb10fc54cf52fc5f",
+    "caption": "Training objectives differ across modes and are not directly equivalent."
+  },
+  {
+    "figure": "stage7b_04_linguistic_subgroups",
+    "format": "png",
+    "sha256": "6db02fbafda70ef6722d368000e2be7bee2236fd1154e0fafc0ccac646146e1f",
+    "caption": "Descriptive linguistic subgroup results based on lexical heuristics."
+  },
+  {
+    "figure": "stage7b_04_linguistic_subgroups",
+    "format": "pdf",
+    "sha256": "c722e11508617107d0d0b00df786147c61f4340cc72d01ab1152284351cb4eda",
+    "caption": "Descriptive linguistic subgroup results based on lexical heuristics."
+  },
+  {
+    "figure": "stage7b_04_linguistic_subgroups",
+    "format": "svg",
+    "sha256": "943d322a87e565b72124932d6c496aad0aa8781f0beffbee4fabe87ee876cf61",
+    "caption": "Descriptive linguistic subgroup results based on lexical heuristics."
+  },
+  {
+    "figure": "stage7b_05_classwise_f1",
+    "format": "png",
+    "sha256": "c5a8d282ad20599c67feb06cee999c164a3356b8c198cb911d101512e821d700",
+    "caption": "Class-specific validation performance."
+  },
+  {
+    "figure": "stage7b_05_classwise_f1",
+    "format": "pdf",
+    "sha256": "e23e5fc0232536b7f446334616fa9c34a6c166cc0f6ec9df22357a5026672abd",
+    "caption": "Class-specific validation performance."
+  },
+  {
+    "figure": "stage7b_05_classwise_f1",
+    "format": "svg",
+    "sha256": "09038f0dc302b46b7c1cc956912acbe544fe015ee09201384ccae02548a678af",
+    "caption": "Class-specific validation performance."
+  },
+  {
+    "figure": "stage7b_06_paired_effects",
+    "format": "png",
+    "sha256": "215feebbc49f0cedee9843731e2802b1055673d49559925d24ceb6784b90d730",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage7b_06_paired_effects",
+    "format": "pdf",
+    "sha256": "22d9d51c2a0855f724a8e1608876463c53e06a5ceee39996e6fdc8a0d3be5e2c",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage7b_06_paired_effects",
+    "format": "svg",
+    "sha256": "fc20162d8032d376b7b335ef110e06d7aee9235620f7c1bb4c26dc2a58469673",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage7b_07_parameter_efficiency",
+    "format": "png",
+    "sha256": "a1f2d26664d096b5a23379440e404b5bf45a7bf73907fa700c48574de7d4c5e4",
+    "caption": "Parameter count versus development validation performance."
+  },
+  {
+    "figure": "stage7b_07_parameter_efficiency",
+    "format": "pdf",
+    "sha256": "68448c9ded8a5cd0856fde4b8279681a99eed68a0a77f27f0795cdb32c0a7f87",
+    "caption": "Parameter count versus development validation performance."
+  },
+  {
+    "figure": "stage7b_07_parameter_efficiency",
+    "format": "svg",
+    "sha256": "02242cebcff00bb821251046b30f0f8f64aa0e2a4ffe24dc1443c630111b005b",
+    "caption": "Parameter count versus development validation performance."
+  },
+  {
+    "figure": "stage7b_08_best_confusion_matrix",
+    "format": "png",
+    "sha256": "85f2c7895d435780cbf1ceeece56a45355246ac318521899768d75478a1be9cf",
+    "caption": "Confusion matrix of the strongest newly trained screening configuration."
+  },
+  {
+    "figure": "stage7b_08_best_confusion_matrix",
+    "format": "pdf",
+    "sha256": "2342f92aeb9f39dda200552097d218cd1f330037db64a35d4a8fe9ed1f7ebe02",
+    "caption": "Confusion matrix of the strongest newly trained screening configuration."
+  },
+  {
+    "figure": "stage7b_08_best_confusion_matrix",
+    "format": "svg",
+    "sha256": "30471d0a07ed9319d781c0f71aee15fa64db544012eea3c667d1bb6a60efbeaf",
+    "caption": "Confusion matrix of the strongest newly trained screening configuration."
+  },
+  {
+    "figure": "stage7b_09_pasnet_architecture",
+    "format": "png",
+    "sha256": "4f05783ddef262d8d810d547ba34528b97cf958c493208ef39a17a5ae11b1301",
+    "caption": "Provisional PAS-Net architecture; dashed arrows denote training supervision."
+  },
+  {
+    "figure": "stage7b_09_pasnet_architecture",
+    "format": "pdf",
+    "sha256": "f4b43fcc34372a6257bc3955244684a0a104e32f8b52ff3c37460a625e09ea04",
+    "caption": "Provisional PAS-Net architecture; dashed arrows denote training supervision."
+  },
+  {
+    "figure": "stage7b_09_pasnet_architecture",
+    "format": "svg",
+    "sha256": "8584243c5a973a9476f58fb60cad25556943ddd3e2547e5eae656c0d9a9e98d7",
+    "caption": "Provisional PAS-Net architecture; dashed arrows denote training supervision."
+  }
+]

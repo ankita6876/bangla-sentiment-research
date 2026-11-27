@@ -1,0 +1,23 @@
+{
+  "stage": "7B",
+  "completed_runs": 6,
+  "failed_runs": [],
+  "best_new_model": "large_pasnet",
+  "best_new_macro_f1": 0.8173482726319703,
+  "previous_nine_ensemble_macro_f1": 0.8215240777580629,
+  "improvement_percentage_points": -0.4175805126092613,
+  "target_84_percent_reached": false,
+  "new_unique_figures": 9,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "novelty_verified": false,
+  "publication_superiority_established": false,
+  "limitations": [
+    "Single-seed development screening.",
+    "Validation reused for model selection.",
+    "Prototype and PAS-Net objectives differ.",
+    "No separate capacity-matched control yet.",
+    "Contrastive microbatch size differs by backbone.",
+    "Architecture novelty requires literature verification."
+  ]
+}
