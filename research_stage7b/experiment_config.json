@@ -1,0 +1,55 @@
+{
+  "stage": "7B",
+  "seed": 42,
+  "max_length": 96,
+  "epochs": 4,
+  "patience": 2,
+  "effective_batch": 32,
+  "encoder_lr": 2e-05,
+  "head_lr": 0.0001,
+  "weight_decay": 0.01,
+  "dimension": 128,
+  "dropout": 0.15,
+  "supcon_weight": 0.1,
+  "prototype_weight": 0.1,
+  "hard_gamma": 1.0,
+  "temperature": 0.1,
+  "experiments": [
+    [
+      "base_standard",
+      "csebuetnlp/banglabert",
+      "standard"
+    ],
+    [
+      "base_supcon",
+      "csebuetnlp/banglabert",
+      "supcon"
+    ],
+    [
+      "base_prototype",
+      "csebuetnlp/banglabert",
+      "prototype"
+    ],
+    [
+      "base_pasnet",
+      "csebuetnlp/banglabert",
+      "pasnet"
+    ],
+    [
+      "large_standard",
+      "csebuetnlp/banglabert_large",
+      "standard"
+    ],
+    [
+      "large_pasnet",
+      "csebuetnlp/banglabert_large",
+      "pasnet"
+    ]
+  ],
+  "initialization": "original pretrained encoder",
+  "selection": "development validation macro-F1",
+  "test_evaluated": false,
+  "raw_sha256": "4580950af06bbfbe5bd79e20957b63a2ed122af2a6a3e685b10576d3f70241c5",
+  "train_membership_sha256": "d233882d5c358e8ec9d9504af4366d918294fa3007b5d1921475a47dff490aeb",
+  "validation_membership_sha256": "e6c4489c82ea430ad1fe3651f814a6aff3fdd61e56c40f446f8cd61c6fe79568"
+}
