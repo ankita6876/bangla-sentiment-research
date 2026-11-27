@@ -1,0 +1,20 @@
+[
+  {
+    "figure": "stage7de_01_oof_performance",
+    "format": "png",
+    "sha256": "d5a2e0d2f0ca15152935c33a683ba00206b2ff6bcc74e4297bd0a41997be387d",
+    "caption": "Group-disjoint out-of-fold training prediction performance."
+  },
+  {
+    "figure": "stage7de_01_oof_performance",
+    "format": "pdf",
+    "sha256": "4ae85def60bd1fbcf537db351a824927ff39ce2cf3a430f9e7f123b11f4bdcf6",
+    "caption": "Group-disjoint out-of-fold training prediction performance."
+  },
+  {
+    "figure": "stage7de_01_oof_performance",
+    "format": "svg",
+    "sha256": "aa9ce8e248a23f84e47d01680ac1d3b95d1ddfe4fed1725062b6785fc3197960",
+    "caption": "Group-disjoint out-of-fold training prediction performance."
+  }
+]
