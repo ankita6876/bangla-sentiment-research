@@ -1,0 +1,141 @@
+{
+  "release_tag": "stage6d-amsc-refinement-v1",
+  "repository": "ankita6876/bangla-sentiment-research-artifacts",
+  "assets": [
+    {
+      "name": "standard_seed42_model.pt",
+      "asset_id": 799870508,
+      "sha256": "4461122c4516a02c7d9564891ba691d40f93425ade50f2214a22491082486a60",
+      "size_bytes": 442531215
+    },
+    {
+      "name": "standard_seed42_val.npz",
+      "asset_id": 799871155,
+      "sha256": "e0f87ed8b358bfe6b784bfdec3062858f916580b5e64d15bd5956f38f8126562",
+      "size_bytes": 102208
+    },
+    {
+      "name": "standard_seed42_completed.json",
+      "asset_id": 799871184,
+      "sha256": "ef0ba4a97582a49638f3b0386c1824fc8b468a7621181f35c2e52531a16de41a",
+      "size_bytes": 2490
+    },
+    {
+      "name": "fixed_fusion_seed42_model.pt",
+      "asset_id": 799880158,
+      "sha256": "4c2936a7cb206e8e00789a7938c44c625b9092ed9951d92dad4bf27510a1e404",
+      "size_bytes": 444322175
+    },
+    {
+      "name": "fixed_fusion_seed42_val.npz",
+      "asset_id": 799881392,
+      "sha256": "043b97a7e726dce4ca38ced37d0b55148323510abcf8449aa370c5086ef58ef1",
+      "size_bytes": 105102
+    },
+    {
+      "name": "fixed_fusion_seed42_completed.json",
+      "asset_id": 799881436,
+      "sha256": "bf657ea4f51f1ce6e67717c2824cc8d7c0fd82214eb4083bcbfb9bcc7cd93be3",
+      "size_bytes": 2530
+    },
+    {
+      "name": "normalized_fusion_seed42_model.pt",
+      "asset_id": 799891866,
+      "sha256": "f694c6f658682f8b958f7950f3cb093dbe28817383b9460ae0c56adc11d95bd5",
+      "size_bytes": 444424679
+    },
+    {
+      "name": "normalized_fusion_seed42_val.npz",
+      "asset_id": 799892439,
+      "sha256": "058c10ddda75a6642ce239e039f527467eb5bdd9d052f0be04778dc0e4b85cb5",
+      "size_bytes": 109955
+    },
+    {
+      "name": "normalized_fusion_seed42_completed.json",
+      "asset_id": 799892492,
+      "sha256": "793076d5e708e9b4cd6ea37a7d103cb4e0d6f02f7e33a702c28df10eb31c7645",
+      "size_bytes": 2560
+    },
+    {
+      "name": "standard_seed123_model.pt",
+      "asset_id": 799900275,
+      "sha256": "53ac32af8b4bae55ac0bd7aa47f684ef2c859a31a5b2e755d9a819563ceb5e87",
+      "size_bytes": 442531215
+    },
+    {
+      "name": "standard_seed123_val.npz",
+      "asset_id": 799900908,
+      "sha256": "fdd184844cbee04d9e6ccee471b5284214c79e65919276507ff03a22da4cf6c6",
+      "size_bytes": 102623
+    },
+    {
+      "name": "standard_seed123_completed.json",
+      "asset_id": 799900938,
+      "sha256": "e9e48587aeeec38ddf0e80d6d5600d9c3c2fb9421a0267c0f553afc388bc4c37",
+      "size_bytes": 2505
+    },
+    {
+      "name": "fixed_fusion_seed123_model.pt",
+      "asset_id": 799909644,
+      "sha256": "8a78e7d4c50559c4398f1480be046ce15b93f55d0920607e2369fbaa409aa8ba",
+      "size_bytes": 444322175
+    },
+    {
+      "name": "fixed_fusion_seed123_val.npz",
+      "asset_id": 799910617,
+      "sha256": "ebaf5df006a3d72ef7846d26d17c613875b8e16511c64a401636d28ddb36839d",
+      "size_bytes": 104814
+    },
+    {
+      "name": "fixed_fusion_seed123_completed.json",
+      "asset_id": 799910672,
+      "sha256": "99c5a117fec099ea90ac51e3ea551d1fdfa015d046eb2f1c63ed3adf4b291ce0",
+      "size_bytes": 2518
+    },
+    {
+      "name": "normalized_fusion_seed123_model.pt",
+      "asset_id": 799920270,
+      "sha256": "c1abd050ffc1cc87cefbeb538ca95921697a450377028d550f12e2f24dbc3d19",
+      "size_bytes": 444424679
+    },
+    {
+      "name": "normalized_fusion_seed123_val.npz",
+      "asset_id": 799920899,
+      "sha256": "45ea3a45dd821f016e0de0f312c5445b14138ca78263cb613581841aa3125174",
+      "size_bytes": 109457
+    },
+    {
+      "name": "normalized_fusion_seed123_completed.json",
+      "asset_id": 799920935,
+      "sha256": "f14596e761748412ca53b5691378ae10a423ed5074def79f64aa63e126c4f165",
+      "size_bytes": 2551
+    }
+  ],
+  "config": {
+    "stage": "6d",
+    "source_stage6c_commit": "17df059f688b5e0fb609a6f270ae2c2b3c9c3995",
+    "pretrained_model": "csebuetnlp/banglabert",
+    "dataset_split_seed": 42,
+    "training_seeds": [
+      42,
+      123
+    ],
+    "architectures": [
+      "standard",
+      "fixed_fusion",
+      "normalized_fusion"
+    ],
+    "epochs": 4,
+    "batch_size": 32,
+    "max_length": 64,
+    "encoder_lr": 2e-05,
+    "new_head_lr": 0.0002,
+    "auxiliary_weight": 0.1,
+    "warmup": 0.1,
+    "weight_decay": 0.01,
+    "selection": "validation_macro_f1",
+    "initialization": "fresh_pretrained",
+    "test_evaluated": false,
+    "novelty_verified": false
+  }
+}

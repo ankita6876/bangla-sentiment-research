@@ -1,0 +1,17 @@
+{
+  "standard_mean_f1": 0.8092533876237669,
+  "fixed_fusion_mean_f1": 0.8167891881602456,
+  "normalized_fusion_mean_f1": 0.8138269902479751,
+  "best_architectural_candidate": "fixed_fusion",
+  "candidate_mean_f1": 0.8167891881602456,
+  "candidate_delta_vs_standard": 0.007535800536478732,
+  "candidate_wins_both_seeds": true,
+  "decision": "Advance strongest architectural candidate to third-seed and matched-capacity confirmation.",
+  "training_seeds": [
+    42,
+    123
+  ],
+  "test_evaluated": false,
+  "external_evaluation": false,
+  "novelty_verified": false
+}

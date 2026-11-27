@@ -1,0 +1,9 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+model & reference & delta_macro_f1 & ci95_low & ci95_high & gained_correct & lost_correct & mcnemar_p & mcnemar_p_holm \\
+\midrule
+fixed_fusion & standard & 0.0106 & 0.0008 & 0.0206 & 57 & 39 & 0.0822 & 0.2466 \\
+normalized_fusion & standard & 0.0029 & -0.0081 & 0.0136 & 56 & 51 & 0.6992 & 0.6992 \\
+normalized_fusion & fixed_fusion & -0.0078 & -0.0173 & 0.0012 & 32 & 45 & 0.1711 & 0.3421 \\
+\bottomrule
+\end{tabular}

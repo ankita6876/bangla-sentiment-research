@@ -1,0 +1,1 @@
+Mean validation macro-F1 across two training seeds at each epoch.
