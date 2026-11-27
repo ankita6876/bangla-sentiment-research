@@ -1,0 +1,115 @@
+{
+  "config": {
+    "dataset_branch": "research/reconstruction-20261127-080232",
+    "split_hashes": {
+      "train": "11522b6affd5543c26108cf723dfd292ac1ed3f0338495fcb1a9da42849cee9e",
+      "val": "bbe5fec295302db94471626848dcf7ac4d16f53988373f93af13165cb2f5c7bc",
+      "test": "dd7276d5078de6fa21d1ce56fee825c5dae74358c9e42d89d57a97e48a6be680"
+    },
+    "seed": 42,
+    "epochs": 4,
+    "max_length": 64,
+    "train_batch": 16,
+    "eval_batch": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "models": {
+      "BanglaBERT": {
+        "hf_id": "csebuetnlp/banglabert",
+        "normalization": "banglabert"
+      },
+      "XLM-RoBERTa": {
+        "hf_id": "FacebookAI/xlm-roberta-base",
+        "normalization": "standard"
+      },
+      "mBERT": {
+        "hf_id": "google-bert/bert-base-multilingual-cased",
+        "normalization": "standard"
+      }
+    },
+    "selection_metric": "validation macro-F1",
+    "test_evaluated": false,
+    "training_seeds_per_model": 1,
+    "experiment_type": "baseline screening",
+    "model_name": "mBERT",
+    "hf_id": "google-bert/bert-base-multilingual-cased"
+  },
+  "result": {
+    "model": "mBERT",
+    "hf_id": "google-bert/bert-base-multilingual-cased",
+    "seed": 42,
+    "best_epoch": 4,
+    "parameters": 177855747,
+    "n_validation": 1840,
+    "accuracy": 0.775,
+    "macro_f1": 0.7753182304380299,
+    "macro_precision": 0.7728831414205857,
+    "macro_recall": 0.7816271847268771,
+    "runtime_minutes": 4.836594974994659
+  },
+  "history": [
+    {
+      "model": "mBERT",
+      "seed": 42,
+      "epoch": 1,
+      "train_loss": 0.8527474185789424,
+      "accuracy": 0.683695652173913,
+      "macro_f1": 0.6860276113726048,
+      "macro_precision": 0.71408343803111,
+      "macro_recall": 0.7060107864926725
+    },
+    {
+      "model": "mBERT",
+      "seed": 42,
+      "epoch": 2,
+      "train_loss": 0.5958287115979848,
+      "accuracy": 0.7521739130434782,
+      "macro_f1": 0.7476927232951516,
+      "macro_precision": 0.76638676558084,
+      "macro_recall": 0.7401434717135441
+    },
+    {
+      "model": "mBERT",
+      "seed": 42,
+      "epoch": 3,
+      "train_loss": 0.45163404356132947,
+      "accuracy": 0.7603260869565217,
+      "macro_f1": 0.7593504113912682,
+      "macro_precision": 0.7588330576233803,
+      "macro_recall": 0.7599665174586919
+    },
+    {
+      "model": "mBERT",
+      "seed": 42,
+      "epoch": 4,
+      "train_loss": 0.34402082941419193,
+      "accuracy": 0.775,
+      "macro_f1": 0.7753182304380299,
+      "macro_precision": 0.7728831414205857,
+      "macro_recall": 0.7816271847268771
+    }
+  ],
+  "token_audit": [
+    {
+      "model": "mBERT",
+      "split": "train",
+      "mean_tokens": 21.23761408083442,
+      "p95_tokens": 52.0,
+      "p99_tokens": 96.0,
+      "truncated_count": 253,
+      "truncated_fraction": 0.02748804867448935
+    },
+    {
+      "model": "mBERT",
+      "split": "val",
+      "mean_tokens": 21.497826086956522,
+      "p95_tokens": 52.0,
+      "p99_tokens": 93.4399999999996,
+      "truncated_count": 53,
+      "truncated_fraction": 0.028804347826086957
+    }
+  ],
+  "checkpoint_sha256": "4cd71ed9e0025ec89136f854166f5bffa77ee52d48bf441cfa9d6b5f06937770",
+  "prediction_sha256": "54b728422f3f7df2980d20ba72c5dc416c9d4843d423662ed97000a5a9e03277"
+}
