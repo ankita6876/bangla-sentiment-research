@@ -1,0 +1,115 @@
+{
+  "config": {
+    "dataset_branch": "research/reconstruction-20261127-080232",
+    "split_hashes": {
+      "train": "11522b6affd5543c26108cf723dfd292ac1ed3f0338495fcb1a9da42849cee9e",
+      "val": "bbe5fec295302db94471626848dcf7ac4d16f53988373f93af13165cb2f5c7bc",
+      "test": "dd7276d5078de6fa21d1ce56fee825c5dae74358c9e42d89d57a97e48a6be680"
+    },
+    "seed": 42,
+    "epochs": 4,
+    "max_length": 64,
+    "train_batch": 16,
+    "eval_batch": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "models": {
+      "BanglaBERT": {
+        "hf_id": "csebuetnlp/banglabert",
+        "normalization": "banglabert"
+      },
+      "XLM-RoBERTa": {
+        "hf_id": "FacebookAI/xlm-roberta-base",
+        "normalization": "standard"
+      },
+      "mBERT": {
+        "hf_id": "google-bert/bert-base-multilingual-cased",
+        "normalization": "standard"
+      }
+    },
+    "selection_metric": "validation macro-F1",
+    "test_evaluated": false,
+    "training_seeds_per_model": 1,
+    "experiment_type": "baseline screening",
+    "model_name": "XLM-RoBERTa",
+    "hf_id": "FacebookAI/xlm-roberta-base"
+  },
+  "result": {
+    "model": "XLM-RoBERTa",
+    "hf_id": "FacebookAI/xlm-roberta-base",
+    "seed": 42,
+    "best_epoch": 4,
+    "parameters": 278045955,
+    "n_validation": 1840,
+    "accuracy": 0.7831521739130435,
+    "macro_f1": 0.7838594822528812,
+    "macro_precision": 0.7820903995905196,
+    "macro_recall": 0.787125295840397,
+    "runtime_minutes": 6.550715454419454
+  },
+  "history": [
+    {
+      "model": "XLM-RoBERTa",
+      "seed": 42,
+      "epoch": 1,
+      "train_loss": 0.8825128929141499,
+      "accuracy": 0.7266304347826087,
+      "macro_f1": 0.7257146026756769,
+      "macro_precision": 0.7239705558253892,
+      "macro_recall": 0.7327869623941018
+    },
+    {
+      "model": "XLM-RoBERTa",
+      "seed": 42,
+      "epoch": 2,
+      "train_loss": 0.6294327039192262,
+      "accuracy": 0.7684782608695652,
+      "macro_f1": 0.7683947183668646,
+      "macro_precision": 0.7720898126913164,
+      "macro_recall": 0.7655554301491824
+    },
+    {
+      "model": "XLM-RoBERTa",
+      "seed": 42,
+      "epoch": 3,
+      "train_loss": 0.5124462758494894,
+      "accuracy": 0.7733695652173913,
+      "macro_f1": 0.7745149580855922,
+      "macro_precision": 0.772022849072711,
+      "macro_recall": 0.7803343036401372
+    },
+    {
+      "model": "XLM-RoBERTa",
+      "seed": 42,
+      "epoch": 4,
+      "train_loss": 0.4218959132778494,
+      "accuracy": 0.7831521739130435,
+      "macro_f1": 0.7838594822528812,
+      "macro_precision": 0.7820903995905196,
+      "macro_recall": 0.787125295840397
+    }
+  ],
+  "token_audit": [
+    {
+      "model": "XLM-RoBERTa",
+      "split": "train",
+      "mean_tokens": 14.932203389830509,
+      "p95_tokens": 35.0,
+      "p99_tokens": 66.0,
+      "truncated_count": 100,
+      "truncated_fraction": 0.01086484137331595
+    },
+    {
+      "model": "XLM-RoBERTa",
+      "split": "val",
+      "mean_tokens": 15.169565217391304,
+      "p95_tokens": 36.0,
+      "p99_tokens": 65.2199999999998,
+      "truncated_count": 19,
+      "truncated_fraction": 0.010326086956521738
+    }
+  ],
+  "checkpoint_sha256": "30c8a657b8532cc1affed97f5ccad2640d190ae1a69782854e38ad08c942f704",
+  "prediction_sha256": "c9e0c8477e5905ddb6995c1ce59fad0012b18f0a007622cc2b363f21cc4ba701"
+}
