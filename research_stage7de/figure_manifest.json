@@ -88,5 +88,23 @@
     "format": "svg",
     "sha256": "889a79080104c1214d202e26b4e59c2fc73daecfad1e9e5bf74f056d01796ad2",
     "caption": "Validation performance across linguistic candidate subgroups."
+  },
+  {
+    "figure": "stage7de_06_classwise_performance",
+    "format": "png",
+    "sha256": "0bc8702b24dfe0cf4ff24dca5431b31089380dd1771edb3a91f40ead4c7c4ebe",
+    "caption": "Class-specific sentiment classification performance."
+  },
+  {
+    "figure": "stage7de_06_classwise_performance",
+    "format": "pdf",
+    "sha256": "d391f0f44c4dd36b398aa2ff5c06b6576c43dd31b7a917633a7bb44e876286f3",
+    "caption": "Class-specific sentiment classification performance."
+  },
+  {
+    "figure": "stage7de_06_classwise_performance",
+    "format": "svg",
+    "sha256": "9325c42155cace5a02aa2a646127925ea0e85f423c7353c84480003229ef07e3",
+    "caption": "Class-specific sentiment classification performance."
   }
 ]
