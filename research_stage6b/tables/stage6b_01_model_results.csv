@@ -1,0 +1,2 @@
+model,hf_id,seed,best_epoch,parameters,n_validation,accuracy,macro_f1,macro_precision,macro_recall,runtime_minutes
+BanglaBERT,csebuetnlp/banglabert,42,2,110619651,1840,0.8141304347826087,0.8159419852657895,0.819406330415859,0.8131789875787429,3.468699256579081

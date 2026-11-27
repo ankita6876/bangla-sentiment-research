@@ -1,0 +1,115 @@
+{
+  "config": {
+    "dataset_branch": "research/reconstruction-20261127-080232",
+    "split_hashes": {
+      "train": "11522b6affd5543c26108cf723dfd292ac1ed3f0338495fcb1a9da42849cee9e",
+      "val": "bbe5fec295302db94471626848dcf7ac4d16f53988373f93af13165cb2f5c7bc",
+      "test": "dd7276d5078de6fa21d1ce56fee825c5dae74358c9e42d89d57a97e48a6be680"
+    },
+    "seed": 42,
+    "epochs": 4,
+    "max_length": 64,
+    "train_batch": 16,
+    "eval_batch": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "models": {
+      "BanglaBERT": {
+        "hf_id": "csebuetnlp/banglabert",
+        "normalization": "banglabert"
+      },
+      "XLM-RoBERTa": {
+        "hf_id": "FacebookAI/xlm-roberta-base",
+        "normalization": "standard"
+      },
+      "mBERT": {
+        "hf_id": "google-bert/bert-base-multilingual-cased",
+        "normalization": "standard"
+      }
+    },
+    "selection_metric": "validation macro-F1",
+    "test_evaluated": false,
+    "training_seeds_per_model": 1,
+    "experiment_type": "baseline screening",
+    "model_name": "BanglaBERT",
+    "hf_id": "csebuetnlp/banglabert"
+  },
+  "result": {
+    "model": "BanglaBERT",
+    "hf_id": "csebuetnlp/banglabert",
+    "seed": 42,
+    "best_epoch": 2,
+    "parameters": 110619651,
+    "n_validation": 1840,
+    "accuracy": 0.8141304347826087,
+    "macro_f1": 0.8159419852657895,
+    "macro_precision": 0.819406330415859,
+    "macro_recall": 0.8131789875787429,
+    "runtime_minutes": 3.468699256579081
+  },
+  "history": [
+    {
+      "model": "BanglaBERT",
+      "seed": 42,
+      "epoch": 1,
+      "train_loss": 0.7282682383179613,
+      "accuracy": 0.7771739130434783,
+      "macro_f1": 0.7773515026239738,
+      "macro_precision": 0.7745957123763936,
+      "macro_recall": 0.785936688312351
+    },
+    {
+      "model": "BanglaBERT",
+      "seed": 42,
+      "epoch": 2,
+      "train_loss": 0.4168145645188021,
+      "accuracy": 0.8141304347826087,
+      "macro_f1": 0.8159419852657895,
+      "macro_precision": 0.819406330415859,
+      "macro_recall": 0.8131789875787429
+    },
+    {
+      "model": "BanglaBERT",
+      "seed": 42,
+      "epoch": 3,
+      "train_loss": 0.28020334305943534,
+      "accuracy": 0.7994565217391304,
+      "macro_f1": 0.8012001818088272,
+      "macro_precision": 0.7979806219466877,
+      "macro_recall": 0.8067706968953807
+    },
+    {
+      "model": "BanglaBERT",
+      "seed": 42,
+      "epoch": 4,
+      "train_loss": 0.1884292165697372,
+      "accuracy": 0.8119565217391305,
+      "macro_f1": 0.813631017887308,
+      "macro_precision": 0.811132133312204,
+      "macro_recall": 0.8170127057263743
+    }
+  ],
+  "token_audit": [
+    {
+      "model": "BanglaBERT",
+      "split": "train",
+      "mean_tokens": 10.476423294219904,
+      "p95_tokens": 24.0,
+      "p99_tokens": 43.969999999999345,
+      "truncated_count": 29,
+      "truncated_fraction": 0.0031508039982616255
+    },
+    {
+      "model": "BanglaBERT",
+      "split": "val",
+      "mean_tokens": 10.55163043478261,
+      "p95_tokens": 25.0,
+      "p99_tokens": 43.2199999999998,
+      "truncated_count": 8,
+      "truncated_fraction": 0.004347826086956522
+    }
+  ],
+  "checkpoint_sha256": "a11f8084723b7df750aabb26c512b3d56c40e0cb1f95df214f2a653a5a1e1aaf",
+  "prediction_sha256": "c0127fd7ca2180a8ef96e5cb61777d74eb94cb68bfea175e0a473f8e9efebbad"
+}
