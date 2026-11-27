@@ -1,0 +1,52 @@
+{
+  "stage": "6e",
+  "parent_commit": "fe8be78c4c00a2ed98d88ad6c0f7479c962091e5",
+  "parent_release": "stage6d-amsc-refinement-v1",
+  "pretrained_model": "csebuetnlp/banglabert",
+  "dataset_split_seed": 42,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "architectures": [
+    "standard",
+    "fixed_fusion",
+    "matched_control"
+  ],
+  "new_runs": [
+    [
+      "standard",
+      2026
+    ],
+    [
+      "fixed_fusion",
+      2026
+    ],
+    [
+      "matched_control",
+      42
+    ],
+    [
+      "matched_control",
+      123
+    ],
+    [
+      "matched_control",
+      2026
+    ]
+  ],
+  "epochs": 4,
+  "batch_size": 32,
+  "max_length": 64,
+  "encoder_lr": 2e-05,
+  "new_head_lr": 0.0002,
+  "auxiliary_weight": 0.1,
+  "warmup": 0.1,
+  "weight_decay": 0.01,
+  "selection": "validation_macro_f1",
+  "initialization": "fresh_pretrained",
+  "primary_candidate": "fixed_fusion",
+  "test_evaluated": false,
+  "novelty_verified": false
+}
