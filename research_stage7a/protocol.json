@@ -1,0 +1,19 @@
+{
+  "stage": "7A",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "families": [
+    "standard",
+    "fixed_fusion",
+    "matched_control"
+  ],
+  "test_evaluation": false,
+  "external_evaluation": false,
+  "new_training": false,
+  "fusion_evaluation": "five-fold grouped cross-validation within development validation",
+  "oracle_is_deployable": false,
+  "raw_text_publication": false
+}
