@@ -124,5 +124,23 @@
     "format": "svg",
     "sha256": "2ec95836c023a7487b72dff79e709f9a564aed3fcfcf498ba824ea98733cb0a4",
     "caption": "Class-specific sentiment discrimination."
+  },
+  {
+    "figure": "stage7c_08_oracle_gap",
+    "format": "png",
+    "sha256": "397870e078736bb31a4514a191043cfa62c15429c946a9d8ef89ed00e6caf0f8",
+    "caption": "Oracle accuracy is a non-deployable ground-truth-assisted selection diagnostic."
+  },
+  {
+    "figure": "stage7c_08_oracle_gap",
+    "format": "pdf",
+    "sha256": "febbcc34266666ae2dd165dce3873a70357408c22b51ee45927281ffadb1695e",
+    "caption": "Oracle accuracy is a non-deployable ground-truth-assisted selection diagnostic."
+  },
+  {
+    "figure": "stage7c_08_oracle_gap",
+    "format": "svg",
+    "sha256": "d16e003989492ea4cfb31d04e1a53383cf5f6afb56075ebdcfd4945788d43377",
+    "caption": "Oracle accuracy is a non-deployable ground-truth-assisted selection diagnostic."
   }
 ]
