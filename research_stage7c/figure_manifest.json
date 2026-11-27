@@ -196,5 +196,23 @@
     "format": "svg",
     "sha256": "c98ef70c83173a9fa893b6fd8ec22f7b4d2c45c814b6f3a8d339464e8d4b35b7",
     "caption": "Linguistic and class composition of model error categories."
+  },
+  {
+    "figure": "stage7c_12_difficulty_uncertainty",
+    "format": "png",
+    "sha256": "fc90d1919a346becb3894ee2526ec0080f874cc57499002624d39b0d32ce6835",
+    "caption": "Relationship between model error counts and uncertainty signals."
+  },
+  {
+    "figure": "stage7c_12_difficulty_uncertainty",
+    "format": "pdf",
+    "sha256": "b490036a8c6fc7d92ae76e42b59386213d40d06982019c9ad5e35691a4962311",
+    "caption": "Relationship between model error counts and uncertainty signals."
+  },
+  {
+    "figure": "stage7c_12_difficulty_uncertainty",
+    "format": "svg",
+    "sha256": "fbfbfe4a9d587696facdb124e4be6054e6e92f93c787d4af3d9fba8c6e36fa8e",
+    "caption": "Relationship between model error counts and uncertainty signals."
   }
 ]
