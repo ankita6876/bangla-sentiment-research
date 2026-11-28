@@ -1,2 +1,3 @@
 figure,caption
 stage9b_01_complete_comparison,Exploratory comparison of recovered systems on the identical validation cohort. Inference budgets differ.
+stage9b_02_classwise_comparison,Classwise validation F1 for selected prototype and standard systems.
