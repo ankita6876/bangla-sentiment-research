@@ -116,6 +116,12 @@
       "digest": "sha256:b4faa8ace04bc62b91b4c2b831987a9a425b64ede0b31a28c7d57676e3c7af84"
     },
     {
+      "name": "sentiment_stage7de_compact_0d28fccd96dc.zip",
+      "asset_id": 804671842,
+      "size": 6199943,
+      "digest": "sha256:0d28fccd96dc4a77919a1872d701317c711e071dbf3934d73b33e5653d9a946d"
+    },
+    {
       "name": "sentiment_stage7de_compact_dd0500e4a8aa.zip",
       "asset_id": 800357764,
       "size": 6198298,
@@ -126,6 +132,18 @@
       "asset_id": 800357820,
       "size": 27036456,
       "digest": "sha256:cb73b7b1c7f5cfefac51df5d57d585402cd9474daecc317cefcbfb0f7bf340ac"
+    },
+    {
+      "name": "sentiment_stage7de_publication_cc51f8dc5387.zip",
+      "asset_id": 804671895,
+      "size": 27038217,
+      "digest": "sha256:cc51f8dc5387aa4ddb60ff8238768010541a92105d2a7a953dc0d6ed696e8240"
+    },
+    {
+      "name": "stage7de_manifest_9704fcf9accd.json",
+      "asset_id": 800357895,
+      "size": 9642,
+      "digest": "sha256:9704fcf9accdc753e314127cbf36cafea3d470df733ac387d4eab83b872b03d4"
     },
     {
       "name": "standard_seed42_completed.json",
@@ -148,148 +166,22 @@
   ],
   "verified_this_session": [
     {
-      "name": "oof_fold0_seed42_model.pt",
-      "asset_id": 800302712,
-      "size": 442547598,
-      "sha256": "674eec7260e48d0ec16ace0cce4bd3207bd5c6ae8da6a799e68724b590450a21"
-    },
-    {
-      "name": "oof_fold0_seed42_predictions.npz",
-      "asset_id": 800303505,
-      "size": 239529,
-      "sha256": "28c9092d696806113c0850f3beb3cd4be23582497b6f0c8bcca0dbc718d33188"
-    },
-    {
-      "name": "oof_fold0_seed42_completed.json",
-      "asset_id": 800303539,
-      "size": 1184,
-      "sha256": "2778ff470bbbddc8159fc8a508ceaf751d3d45057c27b68fde1aa8f600c0d376"
-    },
-    {
-      "name": "oof_fold1_seed42_model.pt",
-      "asset_id": 800308093,
-      "size": 442547598,
-      "sha256": "57bdcf309fb32ebda2e4c8c3275cde6f2e3af2c4945ee386151c30a6f56c173e"
-    },
-    {
-      "name": "oof_fold1_seed42_predictions.npz",
-      "asset_id": 800308816,
-      "size": 239208,
-      "sha256": "0ef5e20e30aeb4b68fd6c559f5b786bf64698e87546e721b38fd82731ecac1e8"
-    },
-    {
-      "name": "oof_fold1_seed42_completed.json",
-      "asset_id": 800308834,
-      "size": 1187,
-      "sha256": "575513dac04c7d7ecbd7b6f406d004d80944959ad66f52726c21b808c1474883"
-    },
-    {
-      "name": "oof_fold2_seed42_model.pt",
-      "asset_id": 800312894,
-      "size": 442547598,
-      "sha256": "9ad8df99f76d942e5145d0e4037080af58bd6766748036a42c552d28a7a9babb"
-    },
-    {
-      "name": "oof_fold2_seed42_predictions.npz",
-      "asset_id": 800313557,
-      "size": 238398,
-      "sha256": "b4faa8ace04bc62b91b4c2b831987a9a425b64ede0b31a28c7d57676e3c7af84"
-    },
-    {
-      "name": "oof_fold2_seed42_completed.json",
-      "asset_id": 800313589,
-      "size": 1189,
-      "sha256": "2c0add27030433351615e87e46747d9f1d86bfd34ba36fbe0c874b913d184d10"
-    },
-    {
       "name": "locked_oof_78a42dabdbeb.npz",
       "asset_id": 800313728,
       "size": 702588,
       "sha256": "78a42dabdbeb1fcef7c26aff7605adb7c7118a7e4c48b81e1f3dc31638a6a6e3"
     },
     {
-      "name": "standard_seed42_model.pt",
-      "asset_id": 800322859,
-      "size": 442547327,
-      "sha256": "0a20923345940ed2b374ea22f76e40469fd1ad5934edfbb52f8c366adea29c4b"
+      "name": "sentiment_stage7de_compact_0d28fccd96dc.zip",
+      "asset_id": 804671842,
+      "size": 6199943,
+      "sha256": "0d28fccd96dc4a77919a1872d701317c711e071dbf3934d73b33e5653d9a946d"
     },
     {
-      "name": "standard_seed42_val.npz",
-      "asset_id": 800323741,
-      "size": 159789,
-      "sha256": "31f4b0fd94192de0d11870779c03713c58ff3decfa2c9267e1b9c6c86a345d6a"
-    },
-    {
-      "name": "standard_seed42_completed.json",
-      "asset_id": 800323772,
-      "size": 2746,
-      "sha256": "0a5adad843e1b468f5580bfb6e1991475869fef85d19a7bed0f28a1dc3af9ea1"
-    },
-    {
-      "name": "matched_control_seed42_model.pt",
-      "asset_id": 800332788,
-      "size": 444272788,
-      "sha256": "3215daa630613600fbdbf216ab500b1299b7ddf0a65f3b7aad3c030018705ce4"
-    },
-    {
-      "name": "matched_control_seed42_val.npz",
-      "asset_id": 800333444,
-      "size": 225522,
-      "sha256": "720c257c6f50ab680ba1c8ded42d64a758a6a01596168aa9eb449684dd04547a"
-    },
-    {
-      "name": "matched_control_seed42_completed.json",
-      "asset_id": 800333468,
-      "size": 3035,
-      "sha256": "f67882277c56ae4945e2f17fc4f00feb88c8404423952ba4f6d69888e03978c6"
-    },
-    {
-      "name": "dgsl_fixed_seed42_model.pt",
-      "asset_id": 800342861,
-      "size": 444273285,
-      "sha256": "2a5c3e9c05b467381dc560be10b571bce4b421e344776a7d2606c98e7f58a743"
-    },
-    {
-      "name": "dgsl_fixed_seed42_val.npz",
-      "asset_id": 800344087,
-      "size": 219746,
-      "sha256": "80e32cd8c5fad3e124a9b0fa45a76b657f0c22f4bc08425a6e82e58b803d2b88"
-    },
-    {
-      "name": "dgsl_fixed_seed42_completed.json",
-      "asset_id": 800344124,
-      "size": 3007,
-      "sha256": "e5ac7ef0f84b559f9830b6930210fcfc99f29d7e53c1fa3e96841d023957de79"
-    },
-    {
-      "name": "dgsl_full_seed42_model.pt",
-      "asset_id": 800354561,
-      "size": 444273034,
-      "sha256": "eb11c83b054d0c967f011162f16bd225021f8016b44205f79c200bddf0e7b7f7"
-    },
-    {
-      "name": "dgsl_full_seed42_val.npz",
-      "asset_id": 800355306,
-      "size": 237955,
-      "sha256": "3ec5b4d7e8bb82dc94e56bce38578efb6978a65d31bc34130ef22d82aacb974e"
-    },
-    {
-      "name": "dgsl_full_seed42_completed.json",
-      "asset_id": 800355323,
-      "size": 3000,
-      "sha256": "580b7081e72ed89b0ebebb2d0f9f03086634c89fcf50e40a1e5a117c191bddc0"
-    },
-    {
-      "name": "sentiment_stage7de_compact_dd0500e4a8aa.zip",
-      "asset_id": 800357764,
-      "size": 6198298,
-      "sha256": "dd0500e4a8aa8696f653fed5fa182dbaef96cccdd40248f6914e561f956063e2"
-    },
-    {
-      "name": "sentiment_stage7de_publication_cb73b7b1c7f5.zip",
-      "asset_id": 800357820,
-      "size": 27036456,
-      "sha256": "cb73b7b1c7f5cfefac51df5d57d585402cd9474daecc317cefcbfb0f7bf340ac"
+      "name": "sentiment_stage7de_publication_cc51f8dc5387.zip",
+      "asset_id": 804671895,
+      "size": 27038217,
+      "sha256": "cc51f8dc5387aa4ddb60ff8238768010541a92105d2a7a953dc0d6ed696e8240"
     }
   ]
 }
