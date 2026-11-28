@@ -1,0 +1,1 @@
+Fifteen largest domain categories, or all categories when fewer than fifteen are available.
