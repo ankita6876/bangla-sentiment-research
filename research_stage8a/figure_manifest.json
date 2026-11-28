@@ -106,5 +106,23 @@
     "format": "svg",
     "sha256": "e6ea820445dd534c11da0ebb5a8295976e3396844bee7b8822999768582752c3",
     "caption": "Performance across linguistic candidate subgroups."
+  },
+  {
+    "figure": "stage8a_07_paired_effects",
+    "format": "png",
+    "sha256": "09937babac0d1e9daa12405bf1d7e5c90802c6bc4a507d172ce58d3564ad382f",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage8a_07_paired_effects",
+    "format": "pdf",
+    "sha256": "1d494dc253e251484ce52abb43430ed6a31346a1e07417b44343b615b2a93b19",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage8a_07_paired_effects",
+    "format": "svg",
+    "sha256": "450fc138b677e5b1e50326ee85f84a2534c88f55818dd11ff2760929bc41db29",
+    "caption": "Exploratory paired group-bootstrap confidence intervals."
   }
 ]
