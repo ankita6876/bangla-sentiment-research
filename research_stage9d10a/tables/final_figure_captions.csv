@@ -12,3 +12,4 @@ final_10_gate_distribution,Distribution of learned prototype fusion coefficients
 final_11_performance_complexity,Performance versus total model parameters. Ensemble parameter counts are summed.
 final_12_validation_reproduction,Reproducibility of all nine saved model checkpoints before internal test access.
 final_13_pasnet_architecture,PAS-Net architecture with semantic and prototype classification branches and uncertainty-conditioned fusion. The fixed prototype variant uses alpha=0.25.
+final_14_ensemble_architecture,The locked three-member prototype-family ensemble with equal probability averaging.
