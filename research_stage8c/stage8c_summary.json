@@ -1,0 +1,42 @@
+{
+  "stage": "8C",
+  "architecture": "RAP-Net",
+  "completed_runs": 24,
+  "training_samples": 9204,
+  "validation_samples": 1840,
+  "historical_prototype_recovered": true,
+  "historical_best_macro_f1": 0.8287035909704495,
+  "best_current_model": "historical_prototype_family",
+  "best_current_macro_f1": 0.8287035909704495,
+  "rap_full_macro_f1": 0.819573449382636,
+  "rap_full_mean_seed_macro_f1": 0.8206155500602715,
+  "generic_control_macro_f1": 0.8210806495923202,
+  "generic_control_mean_seed_macro_f1": 0.8216777466343627,
+  "rap_delta_vs_historical_best": -0.009130141587813556,
+  "rap_delta_vs_generic_control": -0.0015072002096842008,
+  "rap_control_ci95": [
+    -0.005638237735114146,
+    0.002654151097917817
+  ],
+  "new_figures": 10,
+  "unique_figure_content_by_format": {
+    "pdf": 115,
+    "png": 115,
+    "svg": 115
+  },
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "novelty_verified": false,
+  "backbone_frozen": true,
+  "limitations": [
+    "Repeated use of the same validation partition.",
+    "Frozen encoder trained on the full training cohort.",
+    "Training retrieval is group-disjoint but embeddings are not fully cross-fitted.",
+    "Training and validation retrieval memory sizes differ.",
+    "Three seeds vary fusion heads rather than the encoder.",
+    "Allocated parameter equality does not guarantee active parameter equality.",
+    "Historical ensembles have different inference budgets.",
+    "Independent confirmation and novelty verification are required."
+  ],
+  "decision": "END ARCHITECTURE SEARCH AND REVIEW PUBLICATION CONTRIBUTION"
+}

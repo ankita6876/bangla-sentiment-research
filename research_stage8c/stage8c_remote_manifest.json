@@ -1,0 +1,653 @@
+[
+  {
+    "name": "semantic_only_seed42_model.pt",
+    "sha256": "4b2a7c83939e64036acedec5ecf4db3ca82b42bd52a35968e4232b6cd207eaff",
+    "size": 1291349,
+    "asset_id": 804846479,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed42_val.npz",
+    "sha256": "644f397223f997c49f98835566f0eb0cecaac0581253153e1070971052933ebf",
+    "size": 171997,
+    "asset_id": 804846531,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed42_completed.json",
+    "sha256": "f2b6a3de4e50bdf1ca61cf7db4695891d0b38f86bc25e42c97bb553b6bf68af5",
+    "size": 4639,
+    "asset_id": 804846570,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed123_model.pt",
+    "sha256": "b2da6b39851592ffe138a4af73fd118d3b8529bc13b787748079a317443c9700",
+    "size": 1291387,
+    "asset_id": 804846929,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed123_val.npz",
+    "sha256": "4d1c16c7e6432c5441912662a6d8edc24b9a72d1554190aa571f51edbee2ff9b",
+    "size": 171809,
+    "asset_id": 804846955,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed123_completed.json",
+    "sha256": "159980a9cf8bdc89b79ad76b787655534d6c10ac3eea421661c617cddac76cb2",
+    "size": 3101,
+    "asset_id": 804846976,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed2026_model.pt",
+    "sha256": "7b5bc57b805203bf577050b7827a66d8a279ab9ff2e06b1cf386b24831142a31",
+    "size": 1291425,
+    "asset_id": 804847344,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed2026_val.npz",
+    "sha256": "fd81e76ac3903165ef3d45ff98c44e01d4c8305ca549b20083dbdd831776c69e",
+    "size": 171703,
+    "asset_id": 804847381,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_seed2026_completed.json",
+    "sha256": "895e02aad6ee8cb4c85d862377b8dc575eda5747c2add0bb11ce1262e9529db6",
+    "size": 3326,
+    "asset_id": 804847405,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed42_model.pt",
+    "sha256": "c0eb28cb90fc8c6e5849feb305f098e794b73da827e5590f05d35c5be0cc3424",
+    "size": 1291387,
+    "asset_id": 804847712,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed42_val.npz",
+    "sha256": "4caca37db538b2fbd9038b26c34a2367b70a0cdfe9c2fa3cf257d94b526971da",
+    "size": 166185,
+    "asset_id": 804847747,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed42_completed.json",
+    "sha256": "69c674474e9c8d6fc6ca62e9811afb0f3f06d7baff5576cb7227f32efe3d4df3",
+    "size": 2652,
+    "asset_id": 804847787,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed123_model.pt",
+    "sha256": "58d7664a398c86d7ec4dd3c7066a7c13c7faca643964612eba14997ebe63044a",
+    "size": 1291425,
+    "asset_id": 804848130,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed123_val.npz",
+    "sha256": "c8f43a75bafb4967e7443fd708a02f0b4ca42934f296f25a9b0be601c22e929f",
+    "size": 166687,
+    "asset_id": 804848176,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed123_completed.json",
+    "sha256": "69b63cdb5d56dd4217cd0b3010298bed9b98233310245534e98d0c487097c79f",
+    "size": 2667,
+    "asset_id": 804848203,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed2026_model.pt",
+    "sha256": "b2acb2b2f459ba0e2c7d07758218677a96f1c81943bd1793042567430e1ddaf4",
+    "size": 1291463,
+    "asset_id": 804848449,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed2026_val.npz",
+    "sha256": "25707846fc3471a03340cf53d2adfaa0315a1ed30a8e3d50b7c75125de112c45",
+    "size": 166728,
+    "asset_id": 804848493,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_seed2026_completed.json",
+    "sha256": "11a5729994609f30bca94d94bcdbfd25e70b28fb725234f773654f777839fa0e",
+    "size": 2673,
+    "asset_id": 804848511,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed42_model.pt",
+    "sha256": "b9205f87bb7ba21643021bf2b5eebab8d444a7c61c7e73372a58d7d23795efb2",
+    "size": 1291387,
+    "asset_id": 804849000,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed42_val.npz",
+    "sha256": "9d25502a1165c2625a6e35cfe336d3b067b941d16f87e1ffa7a7a52db7806a4b",
+    "size": 166406,
+    "asset_id": 804849024,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed42_completed.json",
+    "sha256": "d0c70a58d1fa35efc9a19451eef9f75d0a195cb0d6c7c1dadbbf0ac915266fbc",
+    "size": 4894,
+    "asset_id": 804849045,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed123_model.pt",
+    "sha256": "8e0c51ba6cbec58422b11a64005989768ff0d66253317953d4d45ae1ca69eb35",
+    "size": 1291425,
+    "asset_id": 804849302,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed123_val.npz",
+    "sha256": "55407c456b706fa436eb3b42e5b3d310542876c6bd931ff2a01ed4654a6120f6",
+    "size": 165936,
+    "asset_id": 804849332,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed123_completed.json",
+    "sha256": "20675147260313cae6202048abcdb4c1efd3efc67794c5b700163d36b47d4ec2",
+    "size": 3339,
+    "asset_id": 804849357,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed2026_model.pt",
+    "sha256": "54996ad17fc92b66f249b877418f7cc75491f667e6e99c925383fcadebfe216c",
+    "size": 1291463,
+    "asset_id": 804849778,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed2026_val.npz",
+    "sha256": "b3f487d01b1d14ed0b972e7fbf09f2df0f78dca69077ad2ec7507f33a2f34c2a",
+    "size": 166345,
+    "asset_id": 804849796,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_seed2026_completed.json",
+    "sha256": "5789cd3cc0272c3f0c4a3a971415a379e429c8784df9687ec85361a296fc0b9d",
+    "size": 4700,
+    "asset_id": 804849811,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed42_model.pt",
+    "sha256": "21344cb3f75460eddc4438c1d88e0a5312e959ee4dc4019812e6b68588a03690",
+    "size": 1291311,
+    "asset_id": 804850164,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed42_val.npz",
+    "sha256": "51e6415fe118b75a13e002ccac05d06bc0e0b1be4ee62d6efd45d8f7c75ea74d",
+    "size": 171286,
+    "asset_id": 804850204,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed42_completed.json",
+    "sha256": "6a0c3165ab2b8de802528c33ac1a27537cfb2b360ea0b8c00cd3e4a38e068071",
+    "size": 3301,
+    "asset_id": 804850238,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed123_model.pt",
+    "sha256": "e0f7ec1e6cde4c759296defd05dc3351bb667b3514bf3967a87b824abf5a9289",
+    "size": 1291349,
+    "asset_id": 804850573,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed123_val.npz",
+    "sha256": "1f61696c4a4a14721d90a6bf9a52b09bd48f91ce6e287778646b87f756b4d840",
+    "size": 171230,
+    "asset_id": 804850619,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed123_completed.json",
+    "sha256": "37fc84b69c62a550a11a5871772228d91e04ca508e28a9cfb83c3227cde2f9a8",
+    "size": 3532,
+    "asset_id": 804850642,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed2026_model.pt",
+    "sha256": "7fa39278a5bc370304ddcf9faa6bf603d3085aae1e1d96d00f5f41a2674b7df3",
+    "size": 1291387,
+    "asset_id": 804850950,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed2026_val.npz",
+    "sha256": "35e0b0b7476bb92494639756ad5c6d58d4680dae065158979859c0dea15725a1",
+    "size": 171077,
+    "asset_id": 804850994,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_seed2026_completed.json",
+    "sha256": "7c5cdfa8a5eca279111dda825f779a92b45e61909d906258a11fa3324b0efe40",
+    "size": 3099,
+    "asset_id": 804851022,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed42_model.pt",
+    "sha256": "7e8dece7f58d3e63c1866c843d324327c52295d61f14388252dca98b8df9d244",
+    "size": 1291349,
+    "asset_id": 804851409,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed42_val.npz",
+    "sha256": "3dee362a78f3797a3772692ae0dd59b6efdd92e33df28460810cc85566ee2924",
+    "size": 193323,
+    "asset_id": 804851461,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed42_completed.json",
+    "sha256": "f2c113da039f7df579999bc8d27c46231db5daf5636b2ad0e8bbf0cbde5c928d",
+    "size": 3089,
+    "asset_id": 804851490,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed123_model.pt",
+    "sha256": "7044b2ca564ad4a35684de8f3fef73bfb4398d45c64ac807017b7f544b01ee42",
+    "size": 1291387,
+    "asset_id": 804852040,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed123_val.npz",
+    "sha256": "1fe50d9ef0d49b3f30ec3a37b5988967b28c6a63378018caf5a17e53647a9bab",
+    "size": 192951,
+    "asset_id": 804852141,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed123_completed.json",
+    "sha256": "057c9e0bc01bc0ec354e6829d9b85b4f1266803bd79897e7da4c45ec4eeee868",
+    "size": 3549,
+    "asset_id": 804852174,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed2026_model.pt",
+    "sha256": "e44b79b0939e2698869e442b727b4ad1fd48b0f6616a42935cd677fd3e301d4c",
+    "size": 1291425,
+    "asset_id": 804852851,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed2026_val.npz",
+    "sha256": "5455927cd4f2e0acff92bc323ad269372d47e4d97b6b302ee05d89b38e844a45",
+    "size": 193416,
+    "asset_id": 804852892,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_seed2026_completed.json",
+    "sha256": "43d7b85b2c656e5c556a9730fa1311be05d52cc7652a878952ff175ff866d9cf",
+    "size": 4228,
+    "asset_id": 804852943,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed42_model.pt",
+    "sha256": "27c22f3f1eacdfb18bc26b1e0bc8806aa790b2a305bcee055ae4931fa400599f",
+    "size": 1291311,
+    "asset_id": 804853473,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed42_val.npz",
+    "sha256": "55dfc7cd47d1b5bf44375a053c16ea2d4cd168c5f08f287b38ce2d250c60c0e3",
+    "size": 227845,
+    "asset_id": 804853518,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed42_completed.json",
+    "sha256": "aba04900c4104b7b1f71d4e0c4cb32f8c6dfb4864e577d1acda81591dabca640",
+    "size": 3083,
+    "asset_id": 804853559,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed123_model.pt",
+    "sha256": "0c588cb5e2d957339ce9b5c004bc48ed9a3bb6d245e6a3131eadd3542d2efc3c",
+    "size": 1291349,
+    "asset_id": 804854172,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed123_val.npz",
+    "sha256": "2350dbf036f2eecf0b85ec8dc7057fd0a4aa91625c38f894bce723d638ffc74b",
+    "size": 228747,
+    "asset_id": 804854211,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed123_completed.json",
+    "sha256": "949737d67fe57356b9f4afb3cc5aa0b98efb2dd46351a30a22a1a4905a2e2a1f",
+    "size": 3535,
+    "asset_id": 804854250,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed2026_model.pt",
+    "sha256": "86aa79982be3bc6611536323148d3568204f2f03d71a4a6a8d0aca01586e0cc3",
+    "size": 1291387,
+    "asset_id": 804854727,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed2026_val.npz",
+    "sha256": "854b78f68d7362aeb695dbe975391829b40a3997eb6a573fc7adcec8538d0b62",
+    "size": 228624,
+    "asset_id": 804854802,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_seed2026_completed.json",
+    "sha256": "61578cb4491ae20df23f770acf91588b0db43a309fca9753d9c091c0d65deb28",
+    "size": 3327,
+    "asset_id": 804854835,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed42_model.pt",
+    "sha256": "e841aa914dc96dc3a6ec537caf3731b5d85a7da9930483c5ae88383574511d71",
+    "size": 1291425,
+    "asset_id": 804855345,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed42_val.npz",
+    "sha256": "343b4868278212caf7e99dba43bf6d67509ddbec7f73273591635376c6fd75b4",
+    "size": 228521,
+    "asset_id": 804855383,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed42_completed.json",
+    "sha256": "94d2ca803aa81684a90fdbbb462957c595a7b132486b40fd6aaf46f5f7d1eadc",
+    "size": 3336,
+    "asset_id": 804855427,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed123_model.pt",
+    "sha256": "f92defd0f386c477b13dc0b540d023cf1bc0b621eb09558d1534f3285a0a9cf2",
+    "size": 1291463,
+    "asset_id": 804856054,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed123_val.npz",
+    "sha256": "1e73952120e3d2c7c42e8fd53063b6f5087f0b95e58c5716769da49316d4f714",
+    "size": 228602,
+    "asset_id": 804856092,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed123_completed.json",
+    "sha256": "4acf7144764cc78da42c9e8969a405135edd1f816155dcf2ac39be1943f64d3d",
+    "size": 3803,
+    "asset_id": 804856118,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed2026_model.pt",
+    "sha256": "a9bc19207f1edc79c03a755354033c504c75ab2a4c4b062af9c4441365fc79e1",
+    "size": 1291501,
+    "asset_id": 804856877,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed2026_val.npz",
+    "sha256": "11a64a3112700b1db0b1cf520f8748ab8d133e74f529b6fbe353080240d8117f",
+    "size": 228484,
+    "asset_id": 804856931,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_seed2026_completed.json",
+    "sha256": "6f247911e46fd8a80b403d4242aaa0c4c8c0880ee7a01b1810082a0dcc062ece",
+    "size": 4270,
+    "asset_id": 804856982,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed42_model.pt",
+    "sha256": "1defe00d16ce84dd55b1ed22a84824e2c50dd1f7632c8692a9af63245387fc68",
+    "size": 1291095,
+    "asset_id": 804857408,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed42_val.npz",
+    "sha256": "e8c5c07b8f7f1ec6e1df3a8e5b50b6fc0d46f074016377b46b766e511ae8f7c1",
+    "size": 228850,
+    "asset_id": 804857462,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed42_completed.json",
+    "sha256": "27fe68b0d15296b3720fa0b0968dd91d387c2c697240763b7d61044d959db3b4",
+    "size": 3253,
+    "asset_id": 804857500,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed123_model.pt",
+    "sha256": "7f7b6ce3904d44440f9aa3c258fba2c1993b95cc8eca51f70d36f7ac46a55bfe",
+    "size": 1291197,
+    "asset_id": 804858059,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed123_val.npz",
+    "sha256": "fcd3ad51cfa39d333a1760d3da3d84112518e242a93e82786035de340c070496",
+    "size": 228537,
+    "asset_id": 804858092,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed123_completed.json",
+    "sha256": "89a41203a4361010b9f624a96bb9b4d84d6cc62964c0cbc61689548842ae405b",
+    "size": 3468,
+    "asset_id": 804858117,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed2026_model.pt",
+    "sha256": "0a4f23b549ab21b1ff7a3ac1a9a907449efb12279125118f0ca6b8572cf76ba7",
+    "size": 1291235,
+    "asset_id": 804858503,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed2026_val.npz",
+    "sha256": "666c84bd12ab8ebeddac5a39efcf6b17097f97178de479bee4a3e6b9e138708d",
+    "size": 228559,
+    "asset_id": 804858533,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_seed2026_completed.json",
+    "sha256": "905312f5a20382142ea4f2fccf904c040b28977de351b307b21e23ea39b5089c",
+    "size": 3054,
+    "asset_id": 804858564,
+    "remote_verified": true
+  },
+  {
+    "name": "semantic_only_ensemble_val.npz",
+    "sha256": "2867c74d112c776d29361efd4acea46528dc653502f5091a783d91923620774f",
+    "size": 109810,
+    "asset_id": 804867989,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_only_ensemble_val.npz",
+    "sha256": "97ed3b87aba477cac2fcb98d6838a66401f2fa477823c5bbc433eab982dcd3d9",
+    "size": 109424,
+    "asset_id": 804868023,
+    "remote_verified": true
+  },
+  {
+    "name": "retrieval_only_ensemble_val.npz",
+    "sha256": "bd754dcef412e53b01e3934e4cb8f62688400a1e33a1b2233fe07823a7accaad",
+    "size": 109639,
+    "asset_id": 804868070,
+    "remote_verified": true
+  },
+  {
+    "name": "fixed_fusion_ensemble_val.npz",
+    "sha256": "09e75955b86ef35978da9b1201541a0128d7d3b6956653e48e5d057df05794e3",
+    "size": 109620,
+    "asset_id": 804868111,
+    "remote_verified": true
+  },
+  {
+    "name": "global_router_ensemble_val.npz",
+    "sha256": "3e5b2b424c9f1df347e129bffe3d1ae767d0f649aee39774f9739fe719801256",
+    "size": 109631,
+    "asset_id": 804868140,
+    "remote_verified": true
+  },
+  {
+    "name": "class_router_ensemble_val.npz",
+    "sha256": "8e953fc0da13a1722c8b511d01a21f8d7de51a7ba7e6db41eb89d9ced5f2f445",
+    "size": 109610,
+    "asset_id": 804868173,
+    "remote_verified": true
+  },
+  {
+    "name": "generic_control_ensemble_val.npz",
+    "sha256": "cb73bc0c25f7c9ca971525b21af1a1b566e96edbd3a445dbb7a264d89b6ba8a9",
+    "size": 109566,
+    "asset_id": 804868210,
+    "remote_verified": true
+  },
+  {
+    "name": "rap_full_ensemble_val.npz",
+    "sha256": "b2f1c4bfc8a6c657d2720aad1053aca9f17848838602f407cc0ab5c035e4a1f8",
+    "size": 109602,
+    "asset_id": 804868252,
+    "remote_verified": true
+  },
+  {
+    "name": "frozen_banglabert_ensemble_val.npz",
+    "sha256": "2471990337635d9f417dfb128fe29a196b90418a29cb45fab807d33b920edd89",
+    "size": 109733,
+    "asset_id": 804868295,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8b_retrieval_only_ensemble_val.npz",
+    "sha256": "0b92552509af4841ea432c56364fa43dc9228668c7db03df49fe19f7d2e15ec5",
+    "size": 109659,
+    "asset_id": 804868331,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8b_hybrid_knn_ensemble_val.npz",
+    "sha256": "d618d4782b4c6b9e54bdd85865697d356228fb6effc7a598df907e8332e7133d",
+    "size": 99064,
+    "asset_id": 804868371,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8b_cer_full_ensemble_val.npz",
+    "sha256": "aba3d7723c38f70a8ad042149094a23766e85a84a712052a4642c53b509e00d9",
+    "size": 109857,
+    "asset_id": 804868395,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8b_matched_control_ensemble_val.npz",
+    "sha256": "ff255cd00037bf10c189afa733f1abcbc3ec68a59f467997c58ea66703249cdb",
+    "size": 109885,
+    "asset_id": 804868438,
+    "remote_verified": true
+  },
+  {
+    "name": "historical_prototype_family_ensemble_val.npz",
+    "sha256": "408101bf7d937c6467dd1a64e1c041589c22719af5a6b5515c659c495faecfda",
+    "size": 131221,
+    "asset_id": 804868469,
+    "remote_verified": true
+  },
+  {
+    "name": "prototype_retrieval_average_ensemble_val.npz",
+    "sha256": "322ab3c3887d41ba9fd96b9d9b5e90f225d0e0b1924c1d0d72ad99382cbdfb98",
+    "size": 109450,
+    "asset_id": 804868485,
+    "remote_verified": true
+  },
+  {
+    "name": "three_branch_average_ensemble_val.npz",
+    "sha256": "2084930d8cb6b4365c42ad7709ff712ad29c414511e4fa642ac906f59e2bf3de",
+    "size": 109574,
+    "asset_id": 804868505,
+    "remote_verified": true
+  },
+  {
+    "name": "historical_prototype_plus_retrieval_ensemble_val.npz",
+    "sha256": "103ca082f74d8248e1f1ea9bcbff10083d90059c0bea120ff0537bee1329047e",
+    "size": 131217,
+    "asset_id": 804868534,
+    "remote_verified": true
+  },
+  {
+    "name": "historical_prototype_plus_rap_ensemble_val.npz",
+    "sha256": "86e4b9a1a8852d950364134deefe89aa360c314b3d7079d7551da67b6c985730",
+    "size": 131217,
+    "asset_id": 804868561,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8c_locked_features.npz",
+    "sha256": "2229f179f91190c0a6c633904ae15d6afd3f45a76e199b08384e5940339b082f",
+    "size": 64741557,
+    "asset_id": 804868820,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8c_compact.zip",
+    "sha256": "effa7b27c534663b52487838359dbeae64e5e4b18cdbaaee24b2dbd2dfa05d3b",
+    "size": 39462796,
+    "asset_id": 804869445,
+    "remote_verified": true
+  },
+  {
+    "name": "stage8c_publication.zip",
+    "sha256": "efd5371cf14f856d2aebe1a50e961fc5449afbfd1361a008be8bd0362662cdc5",
+    "size": 41093589,
+    "asset_id": 804869636,
+    "remote_verified": true
+  }
+]
