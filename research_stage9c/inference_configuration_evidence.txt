@@ -1,0 +1,20 @@
+69: from normalizer import normalize as bn_normalize
+72:     AutoModel,
+73:     AutoTokenizer,
+113: MAX_LENGTH = 96
+122: DIM = 128
+123: DROPOUT = .15
+479:     text = unicodedata.normalize("NFC", str(text))
+603:     "max_length": MAX_LENGTH,
+611:     "dropout": DROPOUT,
+743:             max_length=MAX_LENGTH,
+777:         tokenizer = AutoTokenizer.from_pretrained(model_name)
+795:         self.encoder = AutoModel.from_pretrained(model_name)
+804:             nn.Dropout(DROPOUT)
+872:         embedding = F.normalize(
+888:         prototypes = F.normalize(
+911:             probs = semantic.float().softmax(-1)
+1083:     model.eval()
+1120:     probs = softmax(logits, axis=1)
+1372:     model.load_state_dict(state, strict=True)
+1602:     name: softmax(logits, axis=1)

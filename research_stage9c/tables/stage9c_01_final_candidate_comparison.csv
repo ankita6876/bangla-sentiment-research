@@ -1,0 +1,11 @@
+model,accuracy,macro_f1,scope
+locked_banglabert,0.8141304347826087,0.8159419852657895,Exploratory validation
+base_standard,0.8076086956521739,0.8091289975034606,Exploratory validation
+large_standard,0.8135869565217392,0.8128913278909097,Exploratory validation
+base_prototype,0.8130434782608695,0.8144159546137798,Exploratory validation
+base_pasnet,0.8146739130434782,0.8163921950625551,Exploratory validation
+large_pasnet,0.8152173913043478,0.8173482726319703,Exploratory validation
+base_large_standard_ensemble,0.8222826086956522,0.8230530750262095,Exploratory validation
+base_large_pasnet_ensemble,0.8228260869565217,0.8248800723628356,Exploratory validation
+three_member_standard_control,0.8255434782608696,0.8270719072506142,Exploratory validation
+prototype_family,0.8271739130434783,0.8287035909704495,Exploratory validation

@@ -1,0 +1,266 @@
+
+# SentimentDataset
+class SentimentDataset(Dataset):
+
+    def __init__(self, df, tokenizer):
+
+        enc = tokenizer(
+            df["model_text"].tolist(),
+            max_length=MAX_LENGTH,
+            padding="max_length",
+            truncation=True,
+            return_special_tokens_mask=True,
+            return_tensors="pt"
+        )
+
+        self.ids = enc["input_ids"]
+        self.attention = enc["attention_mask"]
+        self.valid = (
+            enc["attention_mask"].bool()
+            & ~enc["special_tokens_mask"].bool()
+        )
+
+        self.labels = torch.tensor(
+            df["label_id"].to_numpy(),
+            dtype=torch.long
+        )
+
+    def __len__(self):
+        return len(self.labels)
+
+    def __getitem__(self, i):
+        return {
+            "input_ids": self.ids[i],
+            "attention_mask": self.attention[i],
+            "valid": self.valid[i],
+            "labels": self.labels[i]
+        }
+
+
+# get_datasets
+def get_datasets(model_name):
+
+    if model_name not in TOKEN_CACHE:
+
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+        TOKEN_CACHE[model_name] = (
+            tokenizer,
+            SentimentDataset(DATA["train"], tokenizer),
+            SentimentDataset(DATA["val"], tokenizer)
+        )
+
+    return TOKEN_CACHE[model_name]
+
+
+# PASNet
+class PASNet(nn.Module):
+
+    def __init__(self, model_name, mode):
+
+        super().__init__()
+
+        self.mode = mode
+
+        self.encoder = AutoModel.from_pretrained(model_name)
+
+        hidden = self.encoder.config.hidden_size
+
+        # Shared semantic representation in every configuration.
+        self.project = nn.Sequential(
+            nn.Linear(hidden * 2, DIM),
+            nn.LayerNorm(DIM),
+            nn.GELU(),
+            nn.Dropout(DROPOUT)
+        )
+
+        self.semantic_head = nn.Linear(DIM, 3)
+
+        # These components are shared across all model modes.
+        self.metric_head = nn.Sequential(
+            nn.Linear(DIM, DIM),
+            nn.GELU(),
+            nn.Linear(DIM, DIM)
+        )
+
+        # Two trainable prototypes per sentiment class.
+        self.prototypes = nn.Parameter(
+            torch.randn(3, 2, DIM) * .02
+        )
+
+        self.gate = nn.Sequential(
+            nn.Linear(DIM + 3, 64),
+            nn.GELU(),
+            nn.Linear(64, 1)
+        )
+
+        nn.init.zeros_(self.gate[-1].weight)
+        nn.init.constant_(self.gate[-1].bias, 0.0)
+
+        if mode == "standard":
+            for p in self.metric_head.parameters():
+                p.requires_grad = False
+
+        if mode not in ["prototype", "pasnet"]:
+            self.prototypes.requires_grad = False
+
+        if mode != "pasnet":
+            for p in self.gate.parameters():
+                p.requires_grad = False
+
+    def forward(self, input_ids, attention_mask, valid):
+
+        hidden = self.encoder(
+            input_ids=input_ids,
+            attention_mask=attention_mask
+        ).last_hidden_state
+
+        cls = hidden[:, 0]
+
+        mask = valid.unsqueeze(-1).to(hidden.dtype)
+
+        mean = (
+            (hidden * mask).sum(1)
+            / mask.sum(1).clamp_min(1)
+        )
+
+        z = self.project(torch.cat([cls, mean], dim=-1))
+
+        semantic = self.semantic_head(z)
+
+        if self.mode == "standard":
+            return {
+                "logits": semantic,
+                "semantic": semantic,
+                "embedding": None,
+                "prototype": None,
+                "gate": torch.zeros(
+                    len(z), device=z.device
+                )
+            }
+
+        embedding = F.normalize(
+            self.metric_head(z).float(),
+            dim=-1
+        )
+
+        if self.mode == "supcon":
+            return {
+                "logits": semantic,
+                "semantic": semantic,
+                "embedding": embedding,
+                "prototype": None,
+                "gate": torch.zeros(
+                    len(z), device=z.device
+                )
+            }
+
+        prototypes = F.normalize(
+            self.prototypes.float(), dim=-1
+        )
+
+        similarities = torch.einsum(
+            "bd,ckd->bck",
+            embedding, prototypes
+        )
+
+        # Smooth aggregation of within-class prototypes.
+        prototype_logits = (
+            torch.logsumexp(10 * similarities, dim=-1)
+            - math.log(2)
+        )
+
+        if self.mode == "prototype":
+
+            alpha = torch.full(
+                (len(z), 1), .25, device=z.device
+            )
+
+        else:
+
+            probs = semantic.float().softmax(-1)
+
+            sorted_p = probs.sort(dim=-1).values
+
+            entropy = -(
+                probs * probs.clamp_min(1e-8).log()
+            ).sum(-1) / math.log(3)
+
+            uncertainty = torch.stack([
+                1 - probs.max(-1).values,
+                entropy,
+                1 - (
+                    sorted_p[:, -1] - sorted_p[:, -2]
+                )
+            ], dim=-1)
+
+            alpha = .5 * torch.sigmoid(
+                self.gate(
+                    torch.cat([
+                        z,
+                        uncertainty.detach().to(z.dtype)
+                    ], dim=-1)
+                )
+            )
+
+        logits = (
+            (1 - alpha) * semantic.float()
+            + alpha * prototype_logits
+        )
+
+        return {
+            "logits": logits,
+            "semantic": semantic,
+            "embedding": embedding,
+            "prototype": prototype_logits,
+            "gate": alpha.squeeze(-1)
+        }
+
+
+# evaluate
+def evaluate(model, loader):
+
+    model.eval()
+
+    logits = []
+    gates = []
+    labels = []
+
+    for batch in loader:
+
+        batch = {
+            k: v.to(DEVICE, non_blocking=True)
+            for k, v in batch.items()
+        }
+
+        y = batch.pop("labels")
+
+        with torch.autocast(
+            device_type="cuda", dtype=torch.float16
+        ):
+            output = model(**batch)
+
+        logits.append(
+            output["logits"].float().cpu().numpy()
+        )
+
+        gates.append(
+            output["gate"].float().cpu().numpy()
+        )
+
+        labels.append(y.cpu().numpy())
+
+    logits = np.concatenate(logits)
+    gates = np.concatenate(gates)
+    labels = np.concatenate(labels)
+
+    assert np.array_equal(labels, Y)
+    assert np.isfinite(logits).all()
+
+    probs = softmax(logits, axis=1)
+
+    return (
+        metrics(labels, probs.argmax(1)),
+        logits,
+        gates
+    )
