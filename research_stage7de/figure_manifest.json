@@ -70,5 +70,23 @@
     "format": "svg",
     "sha256": "5d7cdfe8daf565ee9d4e9d467c80406a5e17e49bf4defd0e47436f7155a6abe5",
     "caption": "Validation learning curves under the shared training budget."
+  },
+  {
+    "figure": "stage7de_05_linguistic_subgroups",
+    "format": "png",
+    "sha256": "f99532391252f9f1835297a88f6ff1e1287842fa3a615f355226cf857aeb33a3",
+    "caption": "Validation performance across linguistic candidate subgroups."
+  },
+  {
+    "figure": "stage7de_05_linguistic_subgroups",
+    "format": "pdf",
+    "sha256": "3cf5f77a16da058775c689b373d6c6c2477bde5e960cff1305d4a9fad9fa7a31",
+    "caption": "Validation performance across linguistic candidate subgroups."
+  },
+  {
+    "figure": "stage7de_05_linguistic_subgroups",
+    "format": "svg",
+    "sha256": "9e7a6b6e43235f089ada622a0a48f8033f145dd579130f54cba2289d9dea7f8d",
+    "caption": "Validation performance across linguistic candidate subgroups."
   }
 ]
