@@ -52,5 +52,23 @@
     "format": "svg",
     "sha256": "c0d8aad9d9ffd50e18758b0eba28622645dbd66f976af9f3268d972b06dd4d8a",
     "caption": "Negative, neutral and positive sentiment classification performance."
+  },
+  {
+    "figure": "stage8a_04_neutrality_errors",
+    "format": "png",
+    "sha256": "7dcc94e9b8e261eb78f7642fb02c40ba90040494f95b7db19903028f7889f373",
+    "caption": "Error decomposition around the neutral sentiment boundary."
+  },
+  {
+    "figure": "stage8a_04_neutrality_errors",
+    "format": "pdf",
+    "sha256": "c6aceb6efa8fe330b5e8e3634e694fb6d4d7962481dd2e0a91e808153cd63429",
+    "caption": "Error decomposition around the neutral sentiment boundary."
+  },
+  {
+    "figure": "stage8a_04_neutrality_errors",
+    "format": "svg",
+    "sha256": "eaa730b24a31025f92367cc8480fdcfefd4ca59c7687f7aa2668050d79085fa3",
+    "caption": "Error decomposition around the neutral sentiment boundary."
   }
 ]
