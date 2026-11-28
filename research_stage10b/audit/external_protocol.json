@@ -1,0 +1,36 @@
+{
+  "stage": "10B",
+  "source_dataset_sha256": "4580950af06bbfbe5bd79e20957b63a2ed122af2a6a3e685b10576d3f70241c5",
+  "class_order": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "sentnob_mapping": {
+    "0": "Neutral",
+    "1": "Positive",
+    "2": "Negative"
+  },
+  "sentigold_mapping": {
+    "SN": "Negative",
+    "WN": "Negative",
+    "NU": "Neutral",
+    "WP": "Positive",
+    "SP": "Positive"
+  },
+  "near_duplicate_threshold": 0.9,
+  "external_role": "diagnostic evaluation",
+  "external_model_inference_completed": false,
+  "new_training_completed": false,
+  "internal_test_tuning": false,
+  "raw_external_text_uploaded": false,
+  "limitations": [
+    "SentiGOLD copy is a public mirror.",
+    "Original SentiGOLD distribution and licensing require confirmation before publication.",
+    "SentNoB has appeared in BanglaBERT benchmarking.",
+    "Pretraining corpus overlap cannot be ruled out.",
+    "Character similarity cannot detect all paraphrases.",
+    "Cross-external near-duplicate overlap not yet assessed.",
+    "External diagnostic cohorts cannot subsequently serve as untouched confirmation sets if used for tuning."
+  ]
+}
