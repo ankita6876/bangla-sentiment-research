@@ -1,2 +1,3 @@
 model,strict_reload,saved_macro_f1,reproduced_macro_f1,absolute_f1_difference,prediction_agreement,mean_probability_error,max_probability_error,passed
 base_standard,True,0.8091289975034606,0.8091289975034606,0.0,1.0,0.0,0.0,True
+base_supcon,True,0.8102006902690366,0.8102006902690366,0.0,1.0,0.0,0.0,True
