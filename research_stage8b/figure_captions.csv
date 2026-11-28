@@ -2,3 +2,4 @@ figure,caption
 stage8b_01_model_comparison,Validation macro-F1 for CER-Net variants and retrieval controls.
 stage8b_02_multiseed,Mean and standard deviation across three fusion-head seeds.
 stage8b_03_classwise,"Class-specific performance, including neutral sentiment."
+stage8b_04_subgroup_heatmap,Performance across linguistic difficulty subgroups.
