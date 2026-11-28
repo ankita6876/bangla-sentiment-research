@@ -1,0 +1,8 @@
+{
+  "model": "BanglaBERT",
+  "error": "'BanglaBERT'",
+  "completed": {
+    "SentNoB": [],
+    "SentiGOLD": []
+  }
+}
