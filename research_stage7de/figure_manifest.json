@@ -142,5 +142,23 @@
     "format": "svg",
     "sha256": "0ff48b4092972194c70b56e66098cf67d33a13cc280b0ef94ffdd11759b4e4bd",
     "caption": "Mean DGSL expert contribution across linguistic subgroups."
+  },
+  {
+    "figure": "stage7de_09_specialist_rescues",
+    "format": "png",
+    "sha256": "7d33b34f196f8c843d7ad00f631f34cc30532cd2d42f585658ee92ea90b6ac34",
+    "caption": "Corrected semantic-expert errors and damaged correct predictions."
+  },
+  {
+    "figure": "stage7de_09_specialist_rescues",
+    "format": "pdf",
+    "sha256": "4cdde106fc8025cc493bd04598f624bc4407035f1179fc3821461b543e86ead0",
+    "caption": "Corrected semantic-expert errors and damaged correct predictions."
+  },
+  {
+    "figure": "stage7de_09_specialist_rescues",
+    "format": "svg",
+    "sha256": "7246f2ced951e92f3aa1e9afac72c835338366d4bbe0588ae794df5864df7304",
+    "caption": "Corrected semantic-expert errors and damaged correct predictions."
   }
 ]
