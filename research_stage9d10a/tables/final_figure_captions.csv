@@ -10,3 +10,4 @@ final_08_reliability,Uncalibrated test reliability diagrams. No test-set tempera
 final_09_linguistic_subgroups,Descriptive linguistic subgroup results. Subgroups smaller than 50 samples are omitted from this figure but retained in the tables.
 final_10_gate_distribution,Distribution of learned prototype fusion coefficients on the internal test partition.
 final_11_performance_complexity,Performance versus total model parameters. Ensemble parameter counts are summed.
+final_12_validation_reproduction,Reproducibility of all nine saved model checkpoints before internal test access.
