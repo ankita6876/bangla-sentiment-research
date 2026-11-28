@@ -1,0 +1,29 @@
+{
+  "stage": "11A",
+  "external_cohorts": [
+    {
+      "dataset": "SentNoB",
+      "rows": 13408,
+      "membership_verified": true,
+      "local_text_available": true,
+      "local_membership_verified": true
+    },
+    {
+      "dataset": "SentiGOLD",
+      "rows": 69983,
+      "membership_verified": true,
+      "local_text_available": true,
+      "local_membership_verified": true
+    }
+  ],
+  "external_samples": 83391,
+  "source_files_recovered": 8,
+  "inference_definitions": 27,
+  "checkpoint_assets": 9,
+  "external_inference_completed": false,
+  "new_training": false,
+  "internal_test_tuning": false,
+  "manual_saving_required": false,
+  "google_drive_used": false,
+  "runtime_minutes": 0.24
+}
