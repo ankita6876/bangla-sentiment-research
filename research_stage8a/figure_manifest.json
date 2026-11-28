@@ -160,5 +160,23 @@
     "format": "svg",
     "sha256": "de977f971badcf3935a5f9b69e6976116f672137113fe5157b0e134b571c2fe5",
     "caption": "Descriptive PCA projection of the conditional polarity representation."
+  },
+  {
+    "figure": "stage8a_10_representation_separation",
+    "format": "png",
+    "sha256": "082e44345b06aece32d08c6db0ac0752b13fdcdb19b230fb1bfc8d4b781616c0",
+    "caption": "Representation-space separation for the two classification tasks."
+  },
+  {
+    "figure": "stage8a_10_representation_separation",
+    "format": "pdf",
+    "sha256": "f58067bf8e0e26652fc0e71b8d22cacf3db561f268b2d6a85e1aeddf3653e40e",
+    "caption": "Representation-space separation for the two classification tasks."
+  },
+  {
+    "figure": "stage8a_10_representation_separation",
+    "format": "svg",
+    "sha256": "ff710c19582486106dcd08bf94fcf357fed374b747a7d7550dc8e645ab31304a",
+    "caption": "Representation-space separation for the two classification tasks."
   }
 ]
