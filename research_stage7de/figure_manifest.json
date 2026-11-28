@@ -106,5 +106,23 @@
     "format": "svg",
     "sha256": "f7d1595b2e6fb877ca15720dc2801737593133705fd543a08637a4a63e802e74",
     "caption": "Class-specific sentiment classification performance."
+  },
+  {
+    "figure": "stage7de_07_router_distribution",
+    "format": "png",
+    "sha256": "05e03c6b3fce560a643b5e115e2a8a093e712a27a417a0375b4bf0b91b7564d7",
+    "caption": "Distribution of sample-dependent expert routing weights."
+  },
+  {
+    "figure": "stage7de_07_router_distribution",
+    "format": "pdf",
+    "sha256": "9cb80c46e9d0b25fe2269892cdf5e378969bce69fa45e98cb49bddec4797f002",
+    "caption": "Distribution of sample-dependent expert routing weights."
+  },
+  {
+    "figure": "stage7de_07_router_distribution",
+    "format": "svg",
+    "sha256": "d94de643811de5a7bc5e409cc224a7bda0d2fbdec03a10b09eedcb57ee97df3d",
+    "caption": "Distribution of sample-dependent expert routing weights."
   }
 ]
