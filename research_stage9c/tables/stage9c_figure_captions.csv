@@ -1,2 +1,3 @@
 figure,caption
 stage9c_01_backbone_control_comparison,Exploratory validation comparison. The three-member control matches the base/large backbone composition but not every training detail.
+stage9c_02_checkpoint_inventory,Actual verified checkpoint storage sizes. Storage size is not equivalent to inference cost because checkpoint precision differs.
