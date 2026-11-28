@@ -1,0 +1,53 @@
+{
+  "stage": "9D-10A",
+  "candidate_members": [
+    "base_prototype",
+    "base_pasnet",
+    "large_pasnet"
+  ],
+  "control_members": [
+    "locked_banglabert",
+    "base_standard",
+    "large_standard"
+  ],
+  "validation_reproduction_passed": true,
+  "strict_checkpoint_reloads": 9,
+  "train_samples": 9204,
+  "validation_samples": 1840,
+  "test_samples": 1849,
+  "internal_test_evaluated": true,
+  "candidate_test_macro_f1": 0.8042098751016079,
+  "candidate_test_accuracy": 0.803677663601947,
+  "control_test_macro_f1": 0.8109095717368587,
+  "banglabert_test_macro_f1": 0.8053073069352968,
+  "primary_delta_macro_f1": -0.006699696635250829,
+  "primary_ci95_low": -0.017131025252461483,
+  "primary_ci95_high": 0.003934996718989999,
+  "primary_mcnemar_p": 0.22762615711004688,
+  "primary_holm_p": 1.0,
+  "external_cohorts_evaluated": [],
+  "external_status": "DATASETS_NOT_AVAILABLE",
+  "independent_external_confirmation": false,
+  "new_figures": 14,
+  "new_figure_files": 42,
+  "bootstrap_replicates": 5000,
+  "test_tuning": false,
+  "external_tuning": false,
+  "new_neural_training": false,
+  "classical_baseline_fitted_on_train_only": true,
+  "manual_saving_required": false,
+  "google_drive_used": false,
+  "paid_api_used": false,
+  "novelty_verified": false,
+  "state_of_the_art_claim_supported": false,
+  "limitations": [
+    "Reconstructed test cohort overlaps historical research data exposure.",
+    "Repeated validation-driven architecture exploration.",
+    "Standard ensemble is backbone-comparable but not fully training-matched.",
+    "External cohorts require provenance, label mapping and near-duplicate overlap verification.",
+    "No new multi-seed PAS-Net confirmation.",
+    "Inference timing is descriptive rather than a controlled hardware benchmark.",
+    "Architectural novelty remains unverified."
+  ],
+  "decision": "ARCHITECTURAL SUPERIORITY NOT ESTABLISHED"
+}

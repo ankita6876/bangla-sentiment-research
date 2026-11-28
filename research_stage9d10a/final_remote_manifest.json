@@ -1,0 +1,163 @@
+[
+  {
+    "name": "base_standard_reproduced_val_74c116f182a8.npz",
+    "asset_id": 805286595,
+    "sha256": "74c116f182a88e045391a215e50a75f2e8c8014701dc24f2a8f55f47cc25d9d6",
+    "bytes": 126938,
+    "remote_verified": true
+  },
+  {
+    "name": "base_supcon_reproduced_val_05bc9e56c9e5.npz",
+    "asset_id": 805286974,
+    "sha256": "05bc9e56c9e5e400680fdfb14042ea16af046e6b5d64ceb1a07e522d9337c734",
+    "bytes": 126341,
+    "remote_verified": true
+  },
+  {
+    "name": "base_prototype_reproduced_val_c0e79d1278ab.npz",
+    "asset_id": 805287385,
+    "sha256": "c0e79d1278ab3b223b4fc77112c9897f88c0bc283289f579261adcb4afa81057",
+    "bytes": 134311,
+    "remote_verified": true
+  },
+  {
+    "name": "base_pasnet_reproduced_val_3ebbdce4c1f9.npz",
+    "asset_id": 805287717,
+    "sha256": "3ebbdce4c1f909dc3aabcebec9a7061d893cdf2edf43e7fb3602a7cc19160a63",
+    "bytes": 136507,
+    "remote_verified": true
+  },
+  {
+    "name": "large_standard_reproduced_val_e47b99084914.npz",
+    "asset_id": 805289176,
+    "sha256": "e47b99084914d26f66e999cc0097fe56fcbf8c9f95dfb7b86a73e47f08c914f4",
+    "bytes": 126581,
+    "remote_verified": true
+  },
+  {
+    "name": "large_pasnet_reproduced_val_345a5d3b1633.npz",
+    "asset_id": 805289841,
+    "sha256": "345a5d3b163340a0588ee364c14446f14acc784673054ce014944b86b3fde9db",
+    "bytes": 135790,
+    "remote_verified": true
+  },
+  {
+    "name": "locked_banglabert_reproduced_val_424c076d7548.npz",
+    "asset_id": 805290217,
+    "sha256": "424c076d7548b19927d17226cb888220cc506584e49078c9a710235e096d6848",
+    "bytes": 126787,
+    "remote_verified": true
+  },
+  {
+    "name": "xlm_roberta_reproduced_val_277d28942d65.npz",
+    "asset_id": 805290984,
+    "sha256": "277d28942d65426e14bcda9e795dc7febfaed08ec04271d585e4aee77c7e5b23",
+    "bytes": 127234,
+    "remote_verified": true
+  },
+  {
+    "name": "mbert_reproduced_val_0a273839c14a.npz",
+    "asset_id": 805291490,
+    "sha256": "0a273839c14a4584dc1cb84c15115745e67db0440675d032f0f5b60202985154",
+    "bytes": 127178,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_base_standard_8caebba045ed.npz",
+    "asset_id": 805291854,
+    "sha256": "8caebba045ed6a413dde1b0838b287ff3ba49b370fdee7857879561efaa09f0f",
+    "bytes": 132209,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_base_supcon_55a47667e6b7.npz",
+    "asset_id": 805292067,
+    "sha256": "55a47667e6b744d52f8aaedf77efbafee0de695fea55f215803bf4966c99dad9",
+    "bytes": 131715,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_base_prototype_4c59b3b2b759.npz",
+    "asset_id": 805292256,
+    "sha256": "4c59b3b2b759bc423a72281bca8bde67e5c40e3b0580e2686626ad61003b9083",
+    "bytes": 139628,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_base_pasnet_c04fe7f4e0eb.npz",
+    "asset_id": 805292505,
+    "sha256": "c04fe7f4e0eb0a1ae8bd8d81d09999ed41bec45690a25a15e32e40d5b78bd1ba",
+    "bytes": 141836,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_large_standard_9399d30462b7.npz",
+    "asset_id": 805293120,
+    "sha256": "9399d30462b7791720d1d59d0d90a69affa86215e8a9d14870a5e54fbdf06820",
+    "bytes": 131863,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_large_pasnet_3fd169f79b2a.npz",
+    "asset_id": 805293650,
+    "sha256": "3fd169f79b2a96120de951284b260af9369f61c9ad898e10f1a47a5424c6ec2e",
+    "bytes": 141150,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_locked_banglabert_7451859d3af1.npz",
+    "asset_id": 805293967,
+    "sha256": "7451859d3af1ca47f86043ee1a09a0e6b870057eb8b5b3cc808012a0e3af52b8",
+    "bytes": 132038,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_xlm_roberta_f80e642ad0d0.npz",
+    "asset_id": 805294609,
+    "sha256": "f80e642ad0d070072532eb95c5352cfd108b9c3856726ad3796485cf745cca53",
+    "bytes": 132560,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_mbert_edabd30b7822.npz",
+    "asset_id": 805295119,
+    "sha256": "edabd30b78229f6786be15d0e832317febe37f4648f7f277054c39e6b621cad3",
+    "bytes": 132456,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_tfidf_logistic_regression_aabfbbb48c24.npz",
+    "asset_id": 805295691,
+    "sha256": "aabfbbb48c24dae98fd194c7da9d36c6ec01e1d2e468ca43812c5878cbc007e5",
+    "bytes": 114255,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_all_systems_aed293805942.npz",
+    "asset_id": 805295734,
+    "sha256": "aed2938059427facf3946fe7f76ac25da192458e00f395c0d65b9ec4071b103f",
+    "bytes": 663403,
+    "remote_verified": true
+  },
+  {
+    "name": "internal_test_bootstrap_distributions_1c40ceb3e254.npz",
+    "asset_id": 805296116,
+    "sha256": "1c40ceb3e25497ecd18347e01e31ddafbd4cc196a233004fa0e043dd9ad1426b",
+    "bytes": 514993,
+    "remote_verified": true
+  },
+  {
+    "name": "final_publication_assets_8e7d6eedd65d.zip",
+    "asset_id": 805299600,
+    "sha256": "8e7d6eedd65dabb771718f39d2d85e0d22ffbedf6edd00e96e0d26cab9630803",
+    "bytes": 4275767,
+    "remote_verified": true
+  },
+  {
+    "name": "final_private_evaluation_06037752389c.zip",
+    "asset_id": 805299661,
+    "sha256": "06037752389c487cff438ae157000f0becdc6cf17fea006cc5cbb19b1e779117",
+    "bytes": 3707994,
+    "remote_verified": true
+  }
+]
