@@ -6,3 +6,4 @@ stage8b_04_subgroup_heatmap,Performance across linguistic difficulty subgroups.
 stage8b_05_paired_effects,Group-bootstrap confidence intervals for paired model differences.
 stage8b_06_training_curves,Validation learning curves for fusion-head screening.
 stage8b_07_confusion_matrix,Confusion matrix of the highest-scoring Stage 8B model: retrieval_only.
+stage8b_08_cernet_architecture,Provisional CER-Net frozen-backbone retrieval-fusion architecture.
