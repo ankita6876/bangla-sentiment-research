@@ -34,5 +34,23 @@
     "format": "svg",
     "sha256": "2166ae57e2f46858619dc689eb1c3b28af09f2f1cf8004db6b2e02af9fe6bfdb",
     "caption": "Training-only difficulty distributions derived from held-out fold predictions."
+  },
+  {
+    "figure": "stage7de_03_model_comparison",
+    "format": "png",
+    "sha256": "6a5d8688bdc0a0262bf259592d310f0bbdaf3286628240bd459e929f65e134b2",
+    "caption": "DGSL-Net and control model validation performance."
+  },
+  {
+    "figure": "stage7de_03_model_comparison",
+    "format": "pdf",
+    "sha256": "9e6507b70cf7ce68bfe5138725634dc35bd627ec27e77e9a43e82f0e3e86f003",
+    "caption": "DGSL-Net and control model validation performance."
+  },
+  {
+    "figure": "stage7de_03_model_comparison",
+    "format": "svg",
+    "sha256": "4925c1d37550517793e1f00850936191750ee6a758b3ae5161e131ae0e0911a7",
+    "caption": "DGSL-Net and control model validation performance."
   }
 ]
