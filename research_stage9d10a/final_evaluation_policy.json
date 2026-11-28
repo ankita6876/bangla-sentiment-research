@@ -1,0 +1,26 @@
+{
+  "candidate": [
+    "base_prototype",
+    "base_pasnet",
+    "large_pasnet"
+  ],
+  "control": [
+    "locked_banglabert",
+    "base_standard",
+    "large_standard"
+  ],
+  "aggregation": "equal probability mean",
+  "primary_metric": "macro_f1",
+  "primary_comparison": "prototype_family versus three_member_standard_control",
+  "bootstrap_replicates": 5000,
+  "validation_reproduction_passed": true,
+  "validation_tolerances": {
+    "max_f1_difference": 0.002,
+    "min_prediction_agreement": 0.995,
+    "max_mean_probability_error": 0.002
+  },
+  "external_tuning": false,
+  "test_tuning": false,
+  "test_accessed_at_policy_creation": false,
+  "source_sha256": "57fc6777cccaa4914a2c9ad8e374e8d210380ad5890731f5f210bac280be4aaf"
+}
