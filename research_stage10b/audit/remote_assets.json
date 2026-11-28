@@ -1,0 +1,16 @@
+[
+  {
+    "name": "stage10b_external_membership_a542b6a5ed18.zip",
+    "asset_id": 805327764,
+    "sha256": "a542b6a5ed1896af1b638ab2e700d6eb52f5710fedfe118a20cf13ed2eda74b4",
+    "bytes": 5078723,
+    "remote_verified": true
+  },
+  {
+    "name": "stage10b_remote_manifest_2270c73cb118.json",
+    "asset_id": 805327807,
+    "sha256": "2270c73cb118371146ffff1d60ece2574532d2061fca33e897109752b6d7ae10",
+    "bytes": 231,
+    "remote_verified": true
+  }
+]

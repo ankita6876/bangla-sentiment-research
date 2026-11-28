@@ -1,0 +1,30 @@
+{
+  "stage": "10B",
+  "datasets_acquired": [
+    "SentNoB",
+    "SentiGOLD"
+  ],
+  "datasets_audited": [
+    "SentNoB",
+    "SentiGOLD"
+  ],
+  "audited_cohort_sizes": {
+    "SentNoB": 13408,
+    "SentiGOLD": 69983
+  },
+  "source_dataset_verified": true,
+  "source_code_saved": true,
+  "external_inference_completed": false,
+  "external_cohorts_locked_for_diagnostics": true,
+  "new_model_training": false,
+  "internal_test_tuning": false,
+  "new_publication_figures": 5,
+  "new_figure_files": 15,
+  "remote_verified_assets": 2,
+  "manual_saving_required": false,
+  "google_drive_used": false,
+  "paid_api_used": false,
+  "acquisition_errors": [],
+  "runtime_minutes": 1.32,
+  "decision": "REVIEW COHORT AUDIT BEFORE EXTERNAL INFERENCE"
+}
