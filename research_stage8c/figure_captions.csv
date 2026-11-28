@@ -7,3 +7,4 @@ stage8c_05_paired_effects,Paired group-bootstrap intervals for RAP-Net compariso
 stage8c_06_expert_weights,"Class-conditional semantic, prototype and retrieval weights."
 stage8c_07_complementarity,Complementary errors among historical prototype and retrieval models.
 stage8c_08_learning_curves,Validation learning curves for RAP-Net screening.
+stage8c_09_confusion_matrix,Confusion matrix for historical_prototype_family.
