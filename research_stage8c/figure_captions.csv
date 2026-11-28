@@ -8,3 +8,4 @@ stage8c_06_expert_weights,"Class-conditional semantic, prototype and retrieval w
 stage8c_07_complementarity,Complementary errors among historical prototype and retrieval models.
 stage8c_08_learning_curves,Validation learning curves for RAP-Net screening.
 stage8c_09_confusion_matrix,Confusion matrix for historical_prototype_family.
+stage8c_10_rapnet_architecture,Provisional retrieval-augmented prototype architecture.
