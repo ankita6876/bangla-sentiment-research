@@ -1,0 +1,20 @@
+[
+  {
+    "figure": "stage8a_01_model_comparison",
+    "format": "png",
+    "sha256": "1d219aed0c18322dc0d0dbb1b182345e3a76d287a0a9233946b2971b94dc7ea4",
+    "caption": "Validation performance of HDS-Net variants, controls and historical models."
+  },
+  {
+    "figure": "stage8a_01_model_comparison",
+    "format": "pdf",
+    "sha256": "b269b3ee491e7b04ffde5cc449169a111e073ff02c544ce00665aef8adc51235",
+    "caption": "Validation performance of HDS-Net variants, controls and historical models."
+  },
+  {
+    "figure": "stage8a_01_model_comparison",
+    "format": "svg",
+    "sha256": "92df1c4ee68b43156ca23ae535135c962f79d62c18edca25fb9029073460c940",
+    "caption": "Validation performance of HDS-Net variants, controls and historical models."
+  }
+]
