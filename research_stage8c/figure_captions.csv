@@ -4,3 +4,4 @@ stage8c_02_multiseed_stability,Performance stability across three fusion-head se
 stage8c_03_classwise,Class-specific performance with emphasis on neutral sentiment.
 stage8c_04_subgroups,Linguistic subgroup performance across architecture variants.
 stage8c_05_paired_effects,Paired group-bootstrap intervals for RAP-Net comparisons.
+stage8c_06_expert_weights,"Class-conditional semantic, prototype and retrieval weights."
