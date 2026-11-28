@@ -16,5 +16,23 @@
     "format": "svg",
     "sha256": "92df1c4ee68b43156ca23ae535135c962f79d62c18edca25fb9029073460c940",
     "caption": "Validation performance of HDS-Net variants, controls and historical models."
+  },
+  {
+    "figure": "stage8a_02_learning_curves",
+    "format": "png",
+    "sha256": "914e7212c72cd91d1167644a72d4cdd3706e69713b662401c7a7f7a60a162178",
+    "caption": "Learning curves under the shared five-epoch training protocol."
+  },
+  {
+    "figure": "stage8a_02_learning_curves",
+    "format": "pdf",
+    "sha256": "36eef162ce5361b313845ec4d55c89f5e77f9c32d8b21da1263f8f07f6172edf",
+    "caption": "Learning curves under the shared five-epoch training protocol."
+  },
+  {
+    "figure": "stage8a_02_learning_curves",
+    "format": "svg",
+    "sha256": "5a1cf332802a0961c3ff5ec0cb79ab931cc953ab6710fcbcf95130404adde46e",
+    "caption": "Learning curves under the shared five-epoch training protocol."
   }
 ]

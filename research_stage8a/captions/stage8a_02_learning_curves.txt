@@ -1,0 +1,1 @@
+Learning curves under the shared five-epoch training protocol.
