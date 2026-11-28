@@ -1,0 +1,37 @@
+{
+  "stage": "8B",
+  "architecture": "CER-Net",
+  "training_samples": 9204,
+  "validation_samples": 1840,
+  "completed_runs": 18,
+  "head_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "frozen_backbone_seeds": [
+    42
+  ],
+  "best_stage8b_model": "retrieval_only",
+  "best_stage8b_macro_f1": 0.8248455705705845,
+  "cer_full_macro_f1": 0.8200126717683632,
+  "matched_control_macro_f1": 0.8216605683259205,
+  "historical_prototype_family_macro_f1": 0.8287035909704495,
+  "cer_delta_vs_previous_best": -0.008690919202086311,
+  "cer_delta_vs_matched_control": -0.0016478965575572602,
+  "new_figures": 8,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "novelty_verified": false,
+  "limitations": [
+    "Frozen encoder trained on complete training cohort.",
+    "Training representations are in-sample despite group-disjoint retrieval.",
+    "Training retrieval pools are smaller than validation retrieval pool.",
+    "Three seeds vary fusion heads, not backbone training.",
+    "Repeated exploratory use of the same validation set.",
+    "Matched control uses a semantic feature slice instead of retrieval evidence.",
+    "Historical prototype family comparison has a different inference budget.",
+    "Independent evaluation and novelty verification remain necessary."
+  ],
+  "decision": "DO NOT FINALIZE WITHOUT COMPARATIVE REVIEW"
+}
