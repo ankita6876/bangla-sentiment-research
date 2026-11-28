@@ -1,2 +1,3 @@
 cohort,model,samples,seconds,samples_per_second
 internal_test,base_standard,1849,2.2110850990000017,836.2409935448616
+internal_test,base_supcon,1849,2.2385314250000192,825.987957707578
