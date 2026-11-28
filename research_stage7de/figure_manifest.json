@@ -16,5 +16,23 @@
     "format": "svg",
     "sha256": "8fa95a42896dd52d63f4f4e3923d1ea903833084ad64635b186952f5596df3b8",
     "caption": "Group-disjoint out-of-fold training prediction performance."
+  },
+  {
+    "figure": "stage7de_02_difficulty_distribution",
+    "format": "png",
+    "sha256": "16274ae06405996c2cd887107b5ef72249d3d789771d23857de294bc6cdb15cc",
+    "caption": "Training-only difficulty distributions derived from held-out fold predictions."
+  },
+  {
+    "figure": "stage7de_02_difficulty_distribution",
+    "format": "pdf",
+    "sha256": "51b7f824334b946411ff5f4487586594018198e58a31c066a655ea0bb7123eb3",
+    "caption": "Training-only difficulty distributions derived from held-out fold predictions."
+  },
+  {
+    "figure": "stage7de_02_difficulty_distribution",
+    "format": "svg",
+    "sha256": "2166ae57e2f46858619dc689eb1c3b28af09f2f1cf8004db6b2e02af9fe6bfdb",
+    "caption": "Training-only difficulty distributions derived from held-out fold predictions."
   }
 ]
