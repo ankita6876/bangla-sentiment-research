@@ -1,0 +1,3 @@
+dataset,threshold,audited_rows,near_duplicates_removed,zero_feature_rows,median_max_similarity,p95_max_similarity
+SentNoB,0.9,13416,2,6,0.2577148377895355,0.4532128721475601
+SentiGOLD,0.9,69992,7,0,0.2415260374546051,0.4205781310796738

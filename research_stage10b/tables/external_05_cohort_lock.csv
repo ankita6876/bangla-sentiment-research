@@ -1,0 +1,3 @@
+dataset,samples,class_count,membership_sha256,median_words,mean_words,negation_samples,contrast_samples,latin_samples,role
+SentNoB,13408,3,40d3c867be72dda6f24f2b95328c65ce2ae0077e3f45ef3c12d0b108ecb57bd8,12.0,15.256339498806682,5253,950,0,external diagnostic cohort
+SentiGOLD,69983,3,25c1c14a8dcabc1303946c18b996b313cf070b6f303b014ed3be2b00d0931110,9.0,10.079719360416101,16199,4386,8,external diagnostic cohort

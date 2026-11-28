@@ -1,0 +1,8 @@
+dataset,domain,samples
+SentNoB,social_media,13408
+SentiGOLD,bangla_blog,8555
+SentiGOLD,facebook,17244
+SentiGOLD,newspaper,12175
+SentiGOLD,product_review,10351
+SentiGOLD,technology_blog,4088
+SentiGOLD,youtube,17570
