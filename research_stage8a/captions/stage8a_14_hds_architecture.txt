@@ -1,0 +1,1 @@
+Provisional HDS-Net architecture with hierarchical classification and training-only boundary supervision.

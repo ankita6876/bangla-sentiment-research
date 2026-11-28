@@ -232,5 +232,23 @@
     "format": "svg",
     "sha256": "d7c285e47469c3a92921d346c7f2be14ada60dcc8b84445321a53d213208e703",
     "caption": "Training-only difficulty decomposition by recorded sentiment class."
+  },
+  {
+    "figure": "stage8a_14_hds_architecture",
+    "format": "png",
+    "sha256": "a6415929d52d421217647ff2e7356061c90d756284535d1e0bc52d5bd18ec3a5",
+    "caption": "Provisional HDS-Net architecture with hierarchical classification and training-only boundary supervision."
+  },
+  {
+    "figure": "stage8a_14_hds_architecture",
+    "format": "pdf",
+    "sha256": "bb36cab56ffbcfeabdac20f8398f1d2b43b46d32f885facc50b9d2f11038c5b8",
+    "caption": "Provisional HDS-Net architecture with hierarchical classification and training-only boundary supervision."
+  },
+  {
+    "figure": "stage8a_14_hds_architecture",
+    "format": "svg",
+    "sha256": "9cc7bce3e3bf9b324d3c4fd104b2fa33b439dac40ef59fdecbf327995102620e",
+    "caption": "Provisional HDS-Net architecture with hierarchical classification and training-only boundary supervision."
   }
 ]
