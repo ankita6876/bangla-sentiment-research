@@ -1,0 +1,2 @@
+model,parameters,validation_seconds,samples_per_second,max_length,device,batch_size
+base_standard,110266436,2.740399147000062,671.435036029063,96,Tesla T4,32
