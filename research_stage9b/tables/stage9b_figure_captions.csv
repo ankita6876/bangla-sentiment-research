@@ -1,3 +1,4 @@
 figure,caption
 stage9b_01_complete_comparison,Exploratory comparison of recovered systems on the identical validation cohort. Inference budgets differ.
 stage9b_02_classwise_comparison,Classwise validation F1 for selected prototype and standard systems.
+stage9b_03_paired_effects,"Paired group-bootstrap confidence intervals using 5,000 validation resamples. These are exploratory comparisons."
