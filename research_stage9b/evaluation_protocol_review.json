@@ -1,0 +1,47 @@
+{
+  "status": "DRAFT_PENDING_FINAL_REVIEW",
+  "candidate": "prototype_family",
+  "candidate_members": [
+    "base_prototype",
+    "base_pasnet",
+    "large_pasnet"
+  ],
+  "membership_status": "UNIQUE_NUMERICAL_MATCH",
+  "validation_macro_f1": 0.8287035909704495,
+  "checkpoint_metadata_verified": true,
+  "full_checkpoint_bytes_reloaded": false,
+  "aggregation": "Equal probability averaging",
+  "primary_metric": "macro_f1",
+  "partition_seed": 42,
+  "test_partition_source": "stage6b-locked-baselines-v1",
+  "test_partition_expected_samples": 1849,
+  "external_candidates": [
+    "SentNoB",
+    "SentiGOLD"
+  ],
+  "external_overlap_audit_required": true,
+  "external_training_allowed": false,
+  "external_threshold_tuning_allowed": false,
+  "baseline_requirements": [
+    "Locked BanglaBERT",
+    "XLM-RoBERTa",
+    "mBERT",
+    "TF-IDF Logistic Regression",
+    "Equivalent-backbone ensemble controls",
+    "Comparable inference-budget controls"
+  ],
+  "bootstrap_replicates": 5000,
+  "novelty_verified": false,
+  "architecture_superiority_established": false,
+  "test_loaded": false,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "limitations": [
+    "Repeated exploratory validation use",
+    "Numerical membership recovery must agree with source",
+    "Different inference budgets across models",
+    "Remote metadata verification is not model reload",
+    "Reconstructed test overlaps historical research cohorts",
+    "Independent external evaluation remains necessary"
+  ]
+}

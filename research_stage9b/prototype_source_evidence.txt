@@ -1,0 +1,17 @@
+803:     "base_pasnet_large_pasnet": np.mean(
+804:         [
+805:             PROBS["base_pasnet"],
+806:             PROBS["large_pasnet"]
+807:         ],
+808:         axis=0
+809:     ),
+810: 
+811:     "prototype_family": np.mean(
+812:         [
+813:             PROBS["base_prototype"],
+814:             PROBS["base_pasnet"],
+815:             PROBS["large_pasnet"]
+816:         ],
+817:         axis=0
+818:     ),
+819: 

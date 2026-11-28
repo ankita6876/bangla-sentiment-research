@@ -1,0 +1,16 @@
+[
+  {
+    "indices": [
+      11,
+      12,
+      14
+    ],
+    "members": [
+      "base_prototype",
+      "base_pasnet",
+      "large_pasnet"
+    ],
+    "member_count": 3,
+    "maximum_probability_error": 0.0
+  }
+]
