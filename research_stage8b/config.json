@@ -1,0 +1,24 @@
+{
+  "stage": "8B",
+  "backbone": "csebuetnlp/banglabert",
+  "backbone_sha256": "a11f8084723b7df750aabb26c512b3d56c40e0cb1f95df214f2a653a5a1e1aaf",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "modes": [
+    "semantic_only",
+    "retrieval_only",
+    "fixed_fusion",
+    "adaptive_fusion",
+    "matched_control",
+    "cer_full"
+  ],
+  "epochs": 15,
+  "patience": 4,
+  "batch_size": 128,
+  "learning_rate": 0.0003,
+  "retrieval_k": 16,
+  "test_evaluated": false
+}
