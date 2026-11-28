@@ -1,0 +1,16 @@
+model_a,model_b,both_correct,only_a_correct,only_b_correct,both_wrong,oracle_accuracy,equal_average_macro_f1
+frozen_banglabert,stage8b_retrieval_only,1477,21,37,305,0.8342391304347826,0.8218417527885736
+frozen_banglabert,stage8b_hybrid_knn,1471,27,40,302,0.8358695652173913,0.8219756565158485
+frozen_banglabert,stage8b_cer_full,1474,24,31,311,0.8309782608695652,0.8144929793569972
+frozen_banglabert,stage8b_matched_control,1478,20,30,312,0.8304347826086956,0.8155402945352077
+frozen_banglabert,historical_prototype_family,1439,59,83,259,0.8592391304347826,0.8263751245346338
+stage8b_retrieval_only,stage8b_hybrid_knn,1500,14,11,315,0.8288043478260869,0.8246140223846692
+stage8b_retrieval_only,stage8b_cer_full,1495,19,10,316,0.8282608695652174,0.8215357282078193
+stage8b_retrieval_only,stage8b_matched_control,1492,22,16,310,0.8315217391304348,0.8211434251548694
+stage8b_retrieval_only,historical_prototype_family,1452,62,70,256,0.8608695652173913,0.8267732892811942
+stage8b_hybrid_knn,stage8b_cer_full,1486,25,19,310,0.8315217391304348,0.8224753273726905
+stage8b_hybrid_knn,stage8b_matched_control,1485,26,23,306,0.8336956521739131,0.8229982609225548
+stage8b_hybrid_knn,historical_prototype_family,1454,57,68,261,0.8581521739130434,0.8255659443842341
+stage8b_cer_full,stage8b_matched_control,1501,4,7,328,0.8217391304347826,0.8206295360408142
+stage8b_cer_full,historical_prototype_family,1443,62,79,256,0.8608695652173913,0.8256598861509122
+stage8b_matched_control,historical_prototype_family,1445,63,77,255,0.8614130434782609,0.8256598861509122

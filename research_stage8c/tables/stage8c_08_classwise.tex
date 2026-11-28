@@ -1,0 +1,60 @@
+\begin{tabular}{llrrrr}
+\toprule
+model & class & precision & recall & f1-score & support \\
+\midrule
+semantic_only & Negative & 0.82845 & 0.79839 & 0.81314 & 496.00000 \\
+semantic_only & Neutral & 0.76756 & 0.81992 & 0.79288 & 733.00000 \\
+semantic_only & Positive & 0.88256 & 0.83633 & 0.85882 & 611.00000 \\
+prototype_only & Negative & 0.84430 & 0.77621 & 0.80882 & 496.00000 \\
+prototype_only & Neutral & 0.76081 & 0.81583 & 0.78736 & 733.00000 \\
+prototype_only & Positive & 0.86288 & 0.84452 & 0.85360 & 611.00000 \\
+retrieval_only & Negative & 0.83299 & 0.80444 & 0.81846 & 496.00000 \\
+retrieval_only & Neutral & 0.78220 & 0.80355 & 0.79273 & 733.00000 \\
+retrieval_only & Positive & 0.85855 & 0.85434 & 0.85644 & 611.00000 \\
+fixed_fusion & Negative & 0.82600 & 0.79435 & 0.80987 & 496.00000 \\
+fixed_fusion & Neutral & 0.76546 & 0.81037 & 0.78728 & 733.00000 \\
+fixed_fusion & Positive & 0.87394 & 0.83961 & 0.85643 & 611.00000 \\
+global_router & Negative & 0.82816 & 0.80645 & 0.81716 & 496.00000 \\
+global_router & Neutral & 0.77102 & 0.81310 & 0.79150 & 733.00000 \\
+global_router & Positive & 0.87671 & 0.83797 & 0.85690 & 611.00000 \\
+class_router & Negative & 0.82845 & 0.79839 & 0.81314 & 496.00000 \\
+class_router & Neutral & 0.76795 & 0.81719 & 0.79180 & 733.00000 \\
+class_router & Positive & 0.87973 & 0.83797 & 0.85834 & 611.00000 \\
+generic_control & Negative & 0.82438 & 0.80444 & 0.81429 & 496.00000 \\
+generic_control & Neutral & 0.77386 & 0.80764 & 0.79039 & 733.00000 \\
+generic_control & Positive & 0.87310 & 0.84452 & 0.85857 & 611.00000 \\
+rap_full & Negative & 0.82536 & 0.80040 & 0.81269 & 496.00000 \\
+rap_full & Neutral & 0.76774 & 0.81173 & 0.78912 & 733.00000 \\
+rap_full & Positive & 0.87671 & 0.83797 & 0.85690 & 611.00000 \\
+frozen_banglabert & Negative & 0.83512 & 0.78629 & 0.80997 & 496.00000 \\
+frozen_banglabert & Neutral & 0.77064 & 0.80218 & 0.78610 & 733.00000 \\
+frozen_banglabert & Positive & 0.85246 & 0.85106 & 0.85176 & 611.00000 \\
+stage8b_retrieval_only & Negative & 0.83230 & 0.81048 & 0.82125 & 496.00000 \\
+stage8b_retrieval_only & Neutral & 0.78232 & 0.80900 & 0.79544 & 733.00000 \\
+stage8b_retrieval_only & Positive & 0.86644 & 0.84943 & 0.85785 & 611.00000 \\
+stage8b_hybrid_knn & Negative & 0.82988 & 0.80645 & 0.81800 & 496.00000 \\
+stage8b_hybrid_knn & Neutral & 0.78841 & 0.79809 & 0.79322 & 733.00000 \\
+stage8b_hybrid_knn & Positive & 0.85390 & 0.86088 & 0.85738 & 611.00000 \\
+stage8b_cer_full & Negative & 0.82136 & 0.80645 & 0.81384 & 496.00000 \\
+stage8b_cer_full & Neutral & 0.77428 & 0.80491 & 0.78930 & 733.00000 \\
+stage8b_cer_full & Positive & 0.87140 & 0.84288 & 0.85691 & 611.00000 \\
+stage8b_matched_control & Negative & 0.82341 & 0.80847 & 0.81587 & 496.00000 \\
+stage8b_matched_control & Neutral & 0.77704 & 0.80355 & 0.79007 & 733.00000 \\
+stage8b_matched_control & Positive & 0.87059 & 0.84779 & 0.85904 & 611.00000 \\
+historical_prototype_family & Negative & 0.81409 & 0.83871 & 0.82622 & 496.00000 \\
+historical_prototype_family & Neutral & 0.81481 & 0.78035 & 0.79721 & 733.00000 \\
+historical_prototype_family & Positive & 0.85167 & 0.87398 & 0.86268 & 611.00000 \\
+prototype_retrieval_average & Negative & 0.83368 & 0.79839 & 0.81565 & 496.00000 \\
+prototype_retrieval_average & Neutral & 0.77734 & 0.80491 & 0.79088 & 733.00000 \\
+prototype_retrieval_average & Positive & 0.85974 & 0.85270 & 0.85620 & 611.00000 \\
+three_branch_average & Negative & 0.82881 & 0.80040 & 0.81436 & 496.00000 \\
+three_branch_average & Neutral & 0.77285 & 0.80764 & 0.78986 & 733.00000 \\
+three_branch_average & Positive & 0.86723 & 0.84452 & 0.85572 & 611.00000 \\
+historical_prototype_plus_retrieval & Negative & 0.82424 & 0.82258 & 0.82341 & 496.00000 \\
+historical_prototype_plus_retrieval & Neutral & 0.79808 & 0.79263 & 0.79535 & 733.00000 \\
+historical_prototype_plus_retrieval & Positive & 0.85737 & 0.86579 & 0.86156 & 611.00000 \\
+historical_prototype_plus_rap & Negative & 0.82546 & 0.81048 & 0.81790 & 496.00000 \\
+historical_prototype_plus_rap & Neutral & 0.79054 & 0.79809 & 0.79430 & 733.00000 \\
+historical_prototype_plus_rap & Positive & 0.86297 & 0.86579 & 0.86438 & 611.00000 \\
+\bottomrule
+\end{tabular}
