@@ -70,5 +70,23 @@
     "format": "svg",
     "sha256": "eaa730b24a31025f92367cc8480fdcfefd4ca59c7687f7aa2668050d79085fa3",
     "caption": "Error decomposition around the neutral sentiment boundary."
+  },
+  {
+    "figure": "stage8a_05_branch_performance",
+    "format": "png",
+    "sha256": "9ee675b0208bfb489f534b665cb4777dee9db5ff7b2dfd11cfe11e3b52dc1026",
+    "caption": "Neutrality, conditional polarity and final classification performance."
+  },
+  {
+    "figure": "stage8a_05_branch_performance",
+    "format": "pdf",
+    "sha256": "87ef06ac8c6d9740390e1580b1a18197a35e153877657c78b10b3754b93ce441",
+    "caption": "Neutrality, conditional polarity and final classification performance."
+  },
+  {
+    "figure": "stage8a_05_branch_performance",
+    "format": "svg",
+    "sha256": "72a8e65b49d6c596aa8031416a3ab001e47b2f087d7e9eb4afe54403db47774a",
+    "caption": "Neutrality, conditional polarity and final classification performance."
   }
 ]
