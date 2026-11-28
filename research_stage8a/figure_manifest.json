@@ -124,5 +124,23 @@
     "format": "svg",
     "sha256": "450fc138b677e5b1e50326ee85f84a2534c88f55818dd11ff2760929bc41db29",
     "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage8a_08_neutrality_space",
+    "format": "png",
+    "sha256": "99dabe397ec9191123ca5d9122d95046b6c9e86e11377cfa99f71889363e55e1",
+    "caption": "Descriptive PCA projection of the learned neutrality representation."
+  },
+  {
+    "figure": "stage8a_08_neutrality_space",
+    "format": "pdf",
+    "sha256": "4876dc8378b3effb3654228f036c25a8b37f33daeeff99948ba41994af086e75",
+    "caption": "Descriptive PCA projection of the learned neutrality representation."
+  },
+  {
+    "figure": "stage8a_08_neutrality_space",
+    "format": "svg",
+    "sha256": "7d35a7bd71e6fced4f67d8ca9e853c665b7a7db9b8e1f34cec344bb637e599a1",
+    "caption": "Descriptive PCA projection of the learned neutrality representation."
   }
 ]
