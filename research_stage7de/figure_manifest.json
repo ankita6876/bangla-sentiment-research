@@ -178,5 +178,23 @@
     "format": "svg",
     "sha256": "db33d668348607700b17ef5ee6c251be97bfa753b3c1bab1779ca87983982438",
     "caption": "Exploratory paired group-bootstrap confidence intervals."
+  },
+  {
+    "figure": "stage7de_11_expert_competence",
+    "format": "png",
+    "sha256": "35ae14059a8a64b73a28b2bb8eca7daf5a30c3c00e5c15cbb459c73ed26b89aa",
+    "caption": "Ability of competence heads to predict expert correctness."
+  },
+  {
+    "figure": "stage7de_11_expert_competence",
+    "format": "pdf",
+    "sha256": "148c838490a606989d8ec3a6343d6a50bbd59bff68cc16dfd81bf9ef1942c534",
+    "caption": "Ability of competence heads to predict expert correctness."
+  },
+  {
+    "figure": "stage7de_11_expert_competence",
+    "format": "svg",
+    "sha256": "4e45f648ec2cd7022d9c486313082a4f346d068d219a6d24474803135d37a8e7",
+    "caption": "Ability of competence heads to predict expert correctness."
   }
 ]
