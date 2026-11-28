@@ -142,5 +142,23 @@
     "format": "svg",
     "sha256": "7d35a7bd71e6fced4f67d8ca9e853c665b7a7db9b8e1f34cec344bb637e599a1",
     "caption": "Descriptive PCA projection of the learned neutrality representation."
+  },
+  {
+    "figure": "stage8a_09_polarity_space",
+    "format": "png",
+    "sha256": "04b4ec7603b9716824750acffd27793f642f1a99c5c6780dbc0fe2376c7afe9b",
+    "caption": "Descriptive PCA projection of the conditional polarity representation."
+  },
+  {
+    "figure": "stage8a_09_polarity_space",
+    "format": "pdf",
+    "sha256": "b70ca58da5b7c9b9bd35b448614e9d90b82e6b1d68badda5d337a2162fcc8367",
+    "caption": "Descriptive PCA projection of the conditional polarity representation."
+  },
+  {
+    "figure": "stage8a_09_polarity_space",
+    "format": "svg",
+    "sha256": "de977f971badcf3935a5f9b69e6976116f672137113fe5157b0e134b571c2fe5",
+    "caption": "Descriptive PCA projection of the conditional polarity representation."
   }
 ]
