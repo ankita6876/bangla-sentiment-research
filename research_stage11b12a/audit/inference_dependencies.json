@@ -1,0 +1,43 @@
+[
+  {
+    "function": "build_model",
+    "missing_or_unresolved_names": [
+      "eval",
+      "exists",
+      "from_config",
+      "from_pretrained",
+      "load",
+      "load_state_dict",
+      "loc",
+      "to"
+    ]
+  },
+  {
+    "function": "inference",
+    "missing_or_unresolved_names": [
+      "all",
+      "append",
+      "astype",
+      "autocast",
+      "concatenate",
+      "cpu",
+      "cuda",
+      "eval",
+      "float",
+      "float16",
+      "float64",
+      "inference_mode",
+      "isfinite",
+      "items",
+      "logits",
+      "numpy",
+      "perf_counter",
+      "pop",
+      "shape",
+      "synchronize",
+      "to",
+      "tolist",
+      "zeros"
+    ]
+  }
+]

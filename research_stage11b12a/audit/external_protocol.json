@@ -1,0 +1,70 @@
+{
+  "models": [
+    "BanglaBERT",
+    "XLM-RoBERTa",
+    "mBERT",
+    "base_standard",
+    "base_supcon",
+    "base_prototype",
+    "base_pasnet",
+    "large_standard",
+    "large_pasnet"
+  ],
+  "ensembles": {
+    "proposed_prototype_family": [
+      "base_prototype",
+      "base_pasnet",
+      "large_pasnet"
+    ],
+    "base_large_standard": [
+      "base_standard",
+      "large_standard"
+    ],
+    "three_member_standard": [
+      "BanglaBERT",
+      "base_standard",
+      "large_standard"
+    ],
+    "base_large_pasnet": [
+      "base_pasnet",
+      "large_pasnet"
+    ],
+    "all_nine_models": [
+      "BanglaBERT",
+      "XLM-RoBERTa",
+      "mBERT",
+      "base_standard",
+      "base_supcon",
+      "base_prototype",
+      "base_pasnet",
+      "large_standard",
+      "large_pasnet"
+    ]
+  },
+  "ensemble_method": "uniform probability averaging",
+  "class_order": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "datasets": {
+    "SentNoB": 13408,
+    "SentiGOLD": 69983
+  },
+  "primary_metric": "macro_f1",
+  "secondary_metrics": [
+    "accuracy",
+    "weighted_f1",
+    "class_f1",
+    "nll",
+    "brier",
+    "ece"
+  ],
+  "bootstrap_replicates": 5000,
+  "bootstrap_unit": "individual external document",
+  "new_training": false,
+  "external_calibration_fitted": false,
+  "external_threshold_tuning": false,
+  "internal_test_tuning": false,
+  "interpretation": "external diagnostic evaluation"
+}
