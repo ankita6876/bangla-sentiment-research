@@ -214,5 +214,23 @@
     "format": "svg",
     "sha256": "40908d8a66e456081d51d81d436b23fdda1e81d0748a3517b09c698c188d58c2",
     "caption": "Uncalibrated expected calibration error across compared models."
+  },
+  {
+    "figure": "stage8a_13_hierarchical_difficulty",
+    "format": "png",
+    "sha256": "f2d89ea8099b4c188402a73479fe6340bf3d869784859308db383beb989245c3",
+    "caption": "Training-only difficulty decomposition by recorded sentiment class."
+  },
+  {
+    "figure": "stage8a_13_hierarchical_difficulty",
+    "format": "pdf",
+    "sha256": "4bd5572ba2f7eac14c2c90d19dbe1f7c7f4039ae72cb891be7160c75dd690af8",
+    "caption": "Training-only difficulty decomposition by recorded sentiment class."
+  },
+  {
+    "figure": "stage8a_13_hierarchical_difficulty",
+    "format": "svg",
+    "sha256": "d7c285e47469c3a92921d346c7f2be14ada60dcc8b84445321a53d213208e703",
+    "caption": "Training-only difficulty decomposition by recorded sentiment class."
   }
 ]
