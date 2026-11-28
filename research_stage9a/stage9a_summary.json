@@ -1,0 +1,33 @@
+{
+  "stage": "9A",
+  "repository_audit": "PASS",
+  "historical_tracked_files": 806,
+  "historical_private_releases": 11,
+  "historical_private_assets": 294,
+  "readable_experimental_tables": 157,
+  "discovered_experimental_records": 279,
+  "prototype_archive_recovered": true,
+  "candidate_checkpoint_assets": 32,
+  "historical_figure_names": {
+    "pdf": 115,
+    "png": 117,
+    "svg": 115
+  },
+  "historical_figure_hashes": {
+    "pdf": 115,
+    "png": 117,
+    "svg": 115
+  },
+  "figure_version_conflicts": 0,
+  "new_publication_figures": 4,
+  "best_validation_system": "Historical prototype family",
+  "best_validation_macro_f1": 0.8287035909704495,
+  "final_architecture_locked": false,
+  "novelty_verified": false,
+  "test_loaded": false,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "manual_saving_required": false,
+  "google_drive_used": false,
+  "decision": "RECOVER EXACT PROTOTYPE SYSTEM AND FINALIZE COMPARATIVE EVALUATION PROTOCOL"
+}
