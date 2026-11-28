@@ -1,11 +1,2 @@
 figure,caption
 stage8c_01_overall_comparison,"Validation performance of RAP-Net, ablations and historical controls."
-stage8c_02_multiseed_stability,Performance stability across three fusion-head seeds.
-stage8c_03_classwise,Class-specific performance with emphasis on neutral sentiment.
-stage8c_04_subgroups,Linguistic subgroup performance across architecture variants.
-stage8c_05_paired_effects,Paired group-bootstrap intervals for RAP-Net comparisons.
-stage8c_06_expert_weights,"Class-conditional semantic, prototype and retrieval weights."
-stage8c_07_complementarity,Complementary errors among historical prototype and retrieval models.
-stage8c_08_learning_curves,Validation learning curves for RAP-Net screening.
-stage8c_09_confusion_matrix,Confusion matrix for historical_prototype_family.
-stage8c_10_rapnet_architecture,Provisional retrieval-augmented prototype architecture.
