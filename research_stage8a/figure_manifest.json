@@ -196,5 +196,23 @@
     "format": "svg",
     "sha256": "7afb490af3ab54e1901af0d3f8ca9b85fdad01804fc7704c69cd70f8d4fd2455",
     "caption": "HDS-Net validation confusion matrix."
+  },
+  {
+    "figure": "stage8a_12_calibration",
+    "format": "png",
+    "sha256": "bb12376d5b3321e9330ea3a22f92ce39bcda36905894f1e7cf945d771542b989",
+    "caption": "Uncalibrated expected calibration error across compared models."
+  },
+  {
+    "figure": "stage8a_12_calibration",
+    "format": "pdf",
+    "sha256": "820ad6b0ceef7470193c7e8c4522f4a60cfe6e73e5c381a7a1184066a2729ceb",
+    "caption": "Uncalibrated expected calibration error across compared models."
+  },
+  {
+    "figure": "stage8a_12_calibration",
+    "format": "svg",
+    "sha256": "40908d8a66e456081d51d81d436b23fdda1e81d0748a3517b09c698c188d58c2",
+    "caption": "Uncalibrated expected calibration error across compared models."
   }
 ]
