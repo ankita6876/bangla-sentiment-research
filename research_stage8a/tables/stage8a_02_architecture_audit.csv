@@ -1,0 +1,7 @@
+mode,parameters,extra_parameters,forward_backward
+standard,110619651,0,PASS
+matched_flat,111086227,466576,PASS
+hierarchy_only,110972747,353096,PASS
+dual_space,111083915,464264,PASS
+dual_space_prototype,111086221,466570,PASS
+hds_full,111086221,466570,PASS

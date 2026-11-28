@@ -1,0 +1,247 @@
+{
+  "release": "stage8a-hds-screening-v1",
+  "assets": [
+    {
+      "name": "dual_space_prototype_seed42_completed.json",
+      "asset_id": 804749149,
+      "size": 3698,
+      "digest": "sha256:83a0d595868c8a8f28bc49ccc2457dd90828913402eff6e267148558be9d6a3b"
+    },
+    {
+      "name": "dual_space_prototype_seed42_model.pt",
+      "asset_id": 804747837,
+      "size": 444425043,
+      "digest": "sha256:b6ce9da7590c3764cc8281ab8e584bea746a806bc2bfdf92a8c389fbcf6b6224"
+    },
+    {
+      "name": "dual_space_prototype_seed42_val.npz",
+      "asset_id": 804749111,
+      "size": 2812974,
+      "digest": "sha256:d1f324e35e03cadb51ce8cb65dd671f2aee8e37eb366d3d235dc579be6c04e6c"
+    },
+    {
+      "name": "dual_space_seed42_completed.json",
+      "asset_id": 804737993,
+      "size": 3556,
+      "digest": "sha256:18df9216c79607138047b0f00f8e59c73ec09d2a06827e6dcf9a3c984df15153"
+    },
+    {
+      "name": "dual_space_seed42_model.pt",
+      "asset_id": 804737040,
+      "size": 444412205,
+      "digest": "sha256:55797cb2a078ef8ac1e06a3bc7bed4ce8ab8ef035b7c4a3e822c42357746bdd0"
+    },
+    {
+      "name": "dual_space_seed42_val.npz",
+      "asset_id": 804737955,
+      "size": 2799391,
+      "digest": "sha256:801a0166343f5d7c486cbcf5168fc39ebc6f24b85d3e5e23c427194655be7fd9"
+    },
+    {
+      "name": "hds_full_seed42_completed.json",
+      "asset_id": 804759132,
+      "size": 3698,
+      "digest": "sha256:1999a4c931f03f2abdb1b30e4f72b5c9404a78a5f683f51ed01d9b0c07024ab9"
+    },
+    {
+      "name": "hds_full_seed42_model.pt",
+      "asset_id": 804758064,
+      "size": 444422159,
+      "digest": "sha256:a417d4d0b4cb7d519a205aff767b712f498c08bedb98f1b5be2b79f8a4a8d794"
+    },
+    {
+      "name": "hds_full_seed42_val.npz",
+      "asset_id": 804759102,
+      "size": 2806353,
+      "digest": "sha256:fcee2082283d1a7d056a6c590b9db1660c04f26affa01a02f9a075d8227e9833"
+    },
+    {
+      "name": "hierarchy_only_seed42_completed.json",
+      "asset_id": 804726678,
+      "size": 3582,
+      "digest": "sha256:125c7e1d4c848f056cc4a8a9793ea6b76d89df3b95af5689a0910d12dc5d74c5"
+    },
+    {
+      "name": "hierarchy_only_seed42_model.pt",
+      "asset_id": 804725679,
+      "size": 443967233,
+      "digest": "sha256:8db444fe9def43587f1e5d059dce8f51d9972a9582f1b997783ea9604279e5bb"
+    },
+    {
+      "name": "hierarchy_only_seed42_val.npz",
+      "asset_id": 804726654,
+      "size": 2794676,
+      "digest": "sha256:7b30869ee885c51289a4fef82873adefa2fc8022560b2ecb513bbf29d0a34131"
+    },
+    {
+      "name": "matched_flat_seed42_completed.json",
+      "asset_id": 804715139,
+      "size": 3417,
+      "digest": "sha256:1f2d5a91874a8719f910a3a447585cb3e9cf792c4f793a1d7c9f089d79db7507"
+    },
+    {
+      "name": "matched_flat_seed42_model.pt",
+      "asset_id": 804714141,
+      "size": 444419387,
+      "digest": "sha256:71cdb3c6a224a55019684940ba5590de2ecc32ed2d46412aaaa8c4cded663e56"
+    },
+    {
+      "name": "matched_flat_seed42_val.npz",
+      "asset_id": 804715097,
+      "size": 163517,
+      "digest": "sha256:738d56d9f681b17ca3ec8ce70d00486bb7385115101c8b4100a296bde23c7258"
+    },
+    {
+      "name": "sentiment_stage8a_compact_be288226426a.zip",
+      "asset_id": 804762661,
+      "size": 19491579,
+      "digest": "sha256:be288226426ae1ba673a22fcd96cdb82b076a9f74ad91ee77eb8b08f4c074d0e"
+    },
+    {
+      "name": "sentiment_stage8a_publication_a9e69fa848b1.zip",
+      "asset_id": 804762750,
+      "size": 34167936,
+      "digest": "sha256:a9e69fa848b1513114e4b1407314772ee58c676235ce075a39dfcd79855da9e8"
+    },
+    {
+      "name": "standard_seed42_completed.json",
+      "asset_id": 804704106,
+      "size": 3388,
+      "digest": "sha256:45ee184e5de57ca917916ac6e96e625b52448b61ebd7d7baf233265923f6efc8"
+    },
+    {
+      "name": "standard_seed42_model.pt",
+      "asset_id": 804703102,
+      "size": 442547327,
+      "digest": "sha256:01c8daaae4a48d260135d09a807d370f4ae0a3dcfc7ed083908cdc7b5e34d631"
+    },
+    {
+      "name": "standard_seed42_val.npz",
+      "asset_id": 804704075,
+      "size": 160300,
+      "digest": "sha256:f6a5d37aa24e99423c558d963d5a58197002d51fa2e0bbd4ba90e8277a6a354f"
+    }
+  ],
+  "verified_this_session": [
+    {
+      "name": "standard_seed42_model.pt",
+      "asset_id": 804703102,
+      "size": 442547327,
+      "sha256": "01c8daaae4a48d260135d09a807d370f4ae0a3dcfc7ed083908cdc7b5e34d631"
+    },
+    {
+      "name": "standard_seed42_val.npz",
+      "asset_id": 804704075,
+      "size": 160300,
+      "sha256": "f6a5d37aa24e99423c558d963d5a58197002d51fa2e0bbd4ba90e8277a6a354f"
+    },
+    {
+      "name": "standard_seed42_completed.json",
+      "asset_id": 804704106,
+      "size": 3388,
+      "sha256": "45ee184e5de57ca917916ac6e96e625b52448b61ebd7d7baf233265923f6efc8"
+    },
+    {
+      "name": "matched_flat_seed42_model.pt",
+      "asset_id": 804714141,
+      "size": 444419387,
+      "sha256": "71cdb3c6a224a55019684940ba5590de2ecc32ed2d46412aaaa8c4cded663e56"
+    },
+    {
+      "name": "matched_flat_seed42_val.npz",
+      "asset_id": 804715097,
+      "size": 163517,
+      "sha256": "738d56d9f681b17ca3ec8ce70d00486bb7385115101c8b4100a296bde23c7258"
+    },
+    {
+      "name": "matched_flat_seed42_completed.json",
+      "asset_id": 804715139,
+      "size": 3417,
+      "sha256": "1f2d5a91874a8719f910a3a447585cb3e9cf792c4f793a1d7c9f089d79db7507"
+    },
+    {
+      "name": "hierarchy_only_seed42_model.pt",
+      "asset_id": 804725679,
+      "size": 443967233,
+      "sha256": "8db444fe9def43587f1e5d059dce8f51d9972a9582f1b997783ea9604279e5bb"
+    },
+    {
+      "name": "hierarchy_only_seed42_val.npz",
+      "asset_id": 804726654,
+      "size": 2794676,
+      "sha256": "7b30869ee885c51289a4fef82873adefa2fc8022560b2ecb513bbf29d0a34131"
+    },
+    {
+      "name": "hierarchy_only_seed42_completed.json",
+      "asset_id": 804726678,
+      "size": 3582,
+      "sha256": "125c7e1d4c848f056cc4a8a9793ea6b76d89df3b95af5689a0910d12dc5d74c5"
+    },
+    {
+      "name": "dual_space_seed42_model.pt",
+      "asset_id": 804737040,
+      "size": 444412205,
+      "sha256": "55797cb2a078ef8ac1e06a3bc7bed4ce8ab8ef035b7c4a3e822c42357746bdd0"
+    },
+    {
+      "name": "dual_space_seed42_val.npz",
+      "asset_id": 804737955,
+      "size": 2799391,
+      "sha256": "801a0166343f5d7c486cbcf5168fc39ebc6f24b85d3e5e23c427194655be7fd9"
+    },
+    {
+      "name": "dual_space_seed42_completed.json",
+      "asset_id": 804737993,
+      "size": 3556,
+      "sha256": "18df9216c79607138047b0f00f8e59c73ec09d2a06827e6dcf9a3c984df15153"
+    },
+    {
+      "name": "dual_space_prototype_seed42_model.pt",
+      "asset_id": 804747837,
+      "size": 444425043,
+      "sha256": "b6ce9da7590c3764cc8281ab8e584bea746a806bc2bfdf92a8c389fbcf6b6224"
+    },
+    {
+      "name": "dual_space_prototype_seed42_val.npz",
+      "asset_id": 804749111,
+      "size": 2812974,
+      "sha256": "d1f324e35e03cadb51ce8cb65dd671f2aee8e37eb366d3d235dc579be6c04e6c"
+    },
+    {
+      "name": "dual_space_prototype_seed42_completed.json",
+      "asset_id": 804749149,
+      "size": 3698,
+      "sha256": "83a0d595868c8a8f28bc49ccc2457dd90828913402eff6e267148558be9d6a3b"
+    },
+    {
+      "name": "hds_full_seed42_model.pt",
+      "asset_id": 804758064,
+      "size": 444422159,
+      "sha256": "a417d4d0b4cb7d519a205aff767b712f498c08bedb98f1b5be2b79f8a4a8d794"
+    },
+    {
+      "name": "hds_full_seed42_val.npz",
+      "asset_id": 804759102,
+      "size": 2806353,
+      "sha256": "fcee2082283d1a7d056a6c590b9db1660c04f26affa01a02f9a075d8227e9833"
+    },
+    {
+      "name": "hds_full_seed42_completed.json",
+      "asset_id": 804759132,
+      "size": 3698,
+      "sha256": "1999a4c931f03f2abdb1b30e4f72b5c9404a78a5f683f51ed01d9b0c07024ab9"
+    },
+    {
+      "name": "sentiment_stage8a_compact_be288226426a.zip",
+      "asset_id": 804762661,
+      "size": 19491579,
+      "sha256": "be288226426ae1ba673a22fcd96cdb82b076a9f74ad91ee77eb8b08f4c074d0e"
+    },
+    {
+      "name": "sentiment_stage8a_publication_a9e69fa848b1.zip",
+      "asset_id": 804762750,
+      "size": 34167936,
+      "sha256": "a9e69fa848b1513114e4b1407314772ee58c676235ce075a39dfcd79855da9e8"
+    }
+  ]
+}

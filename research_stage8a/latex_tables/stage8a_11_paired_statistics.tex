@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+candidate & reference & delta\_macro\_f1 & ci95\_low & ci95\_high & gained\_correct & lost\_correct & mcnemar\_p & holm\_p \\
+\midrule
+hds\_full & standard & 0.0006 & -0.0105 & 0.0111 & 60 & 57 & 0.8534 & 1.0000 \\
+hds\_full & matched\_flat & 0.0003 & -0.0110 & 0.0112 & 59 & 58 & 1.0000 & 1.0000 \\
+hds\_full & hierarchy\_only & 0.0024 & -0.0102 & 0.0159 & 80 & 72 & 0.5703 & 1.0000 \\
+hds\_full & dual\_space & -0.0047 & -0.0193 & 0.0100 & 82 & 88 & 0.7015 & 1.0000 \\
+hds\_full & dual\_space\_prototype & -0.0029 & -0.0172 & 0.0123 & 86 & 89 & 0.8799 & 1.0000 \\
+hds\_full & prototype\_family & -0.0174 & -0.0325 & -0.0030 & 72 & 101 & 0.0330 & 0.3627 \\
+dual\_space & hierarchy\_only & 0.0071 & -0.0049 & 0.0192 & 69 & 55 & 0.2429 & 1.0000 \\
+dual\_space\_prototype & dual\_space & -0.0019 & -0.0089 & 0.0054 & 23 & 26 & 0.7754 & 1.0000 \\
+hds\_family\_ensemble & prototype\_family & -0.0112 & -0.0233 & 0.0009 & 53 & 73 & 0.0901 & 0.9012 \\
+prototype\_plus\_hds & prototype\_family & -0.0055 & -0.0141 & 0.0037 & 29 & 39 & 0.2750 & 1.0000 \\
+prototype\_plus\_hds\_family & prototype\_family & -0.0041 & -0.0127 & 0.0037 & 26 & 34 & 0.3663 & 1.0000 \\
+\bottomrule
+\end{tabular}

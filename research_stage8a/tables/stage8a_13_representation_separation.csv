@@ -1,0 +1,5 @@
+model,neutrality_silhouette,polarity_silhouette,three_class_neutral_space_silhouette,three_class_polar_space_silhouette
+hierarchy_only,0.2442502,0.6989046,0.42236122,0.42236122
+dual_space,0.3345647,0.7483627,0.4220321,0.3854526
+dual_space_prototype,0.35387042,0.72877806,0.40207615,0.3911543
+hds_full,0.43859667,0.7521888,0.26939785,0.37480417
