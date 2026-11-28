@@ -1,2 +1,3 @@
 figure,caption
 final_01_internal_test_performance,Comparison of all prespecified models on the reconstructed internal test partition.
+final_02_accuracy_macro_f1,Accuracy and macro-F1 of selected standard and prototype-based systems.
