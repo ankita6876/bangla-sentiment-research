@@ -637,17 +637,17 @@
     "remote_verified": true
   },
   {
-    "name": "stage8c_compact.zip",
-    "sha256": "effa7b27c534663b52487838359dbeae64e5e4b18cdbaaee24b2dbd2dfa05d3b",
-    "size": 39462796,
-    "asset_id": 804869445,
+    "name": "stage8c_compact_b36b71170236.zip",
+    "sha256": "b36b7117023644e2d8fbc5e58e155eb0d85811b3e27d98366980053bdd135cc3",
+    "size": 39473733,
+    "asset_id": 804879244,
     "remote_verified": true
   },
   {
-    "name": "stage8c_publication.zip",
-    "sha256": "efd5371cf14f856d2aebe1a50e961fc5449afbfd1361a008be8bd0362662cdc5",
-    "size": 41093589,
-    "asset_id": 804869636,
+    "name": "stage8c_publication_b58dd42e81c9.zip",
+    "sha256": "b58dd42e81c96164812e4b0e06e2fa2605e028803b302eb2d83dee816a735a01",
+    "size": 41093603,
+    "asset_id": 804879417,
     "remote_verified": true
   }
 ]
