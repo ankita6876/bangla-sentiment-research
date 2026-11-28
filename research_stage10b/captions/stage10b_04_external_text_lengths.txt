@@ -1,0 +1,1 @@
+Empirical cumulative distribution of text lengths; display restricted to 100 words.
