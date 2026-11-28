@@ -2,3 +2,4 @@ figure,caption
 stage8c_01_overall_comparison,"Validation performance of RAP-Net, ablations and historical controls."
 stage8c_02_multiseed_stability,Performance stability across three fusion-head seeds.
 stage8c_03_classwise,Class-specific performance with emphasis on neutral sentiment.
+stage8c_04_subgroups,Linguistic subgroup performance across architecture variants.
