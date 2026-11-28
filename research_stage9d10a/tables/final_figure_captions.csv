@@ -8,3 +8,4 @@ final_06_confusion_prototype_family,Test confusion matrix with counts and row-no
 final_07_paired_effects,"Paired group-bootstrap confidence intervals from 5,000 test resamples."
 final_08_reliability,Uncalibrated test reliability diagrams. No test-set temperature fitting was performed.
 final_09_linguistic_subgroups,Descriptive linguistic subgroup results. Subgroups smaller than 50 samples are omitted from this figure but retained in the tables.
+final_10_gate_distribution,Distribution of learned prototype fusion coefficients on the internal test partition.
