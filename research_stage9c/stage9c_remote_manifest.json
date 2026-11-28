@@ -1,0 +1,16 @@
+[
+  {
+    "name": "stage9c_locked_predictions_8c8e5d6c9257.npz",
+    "asset_id": 805273642,
+    "sha256": "8c8e5d6c9257a66490cd3e702bbb2e06365214e13ec1ebfe2805919cc7e9f1b4",
+    "size": 178133,
+    "remote_verified": true
+  },
+  {
+    "name": "stage9c_recovery_package_51826522a588.zip",
+    "asset_id": 805273659,
+    "sha256": "51826522a588d9a467b3597ddf99f38524506cb3581a4a060b26c7c7df07c4b9",
+    "size": 459182,
+    "remote_verified": true
+  }
+]

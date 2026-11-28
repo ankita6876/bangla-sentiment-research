@@ -1,0 +1,30 @@
+{
+  "stage": "9C",
+  "candidate_membership_locked": true,
+  "candidate_members": [
+    "base_prototype",
+    "base_pasnet",
+    "large_pasnet"
+  ],
+  "control_members": [
+    "locked_banglabert",
+    "base_standard",
+    "large_standard"
+  ],
+  "candidate_validation_macro_f1": 0.8287035909704495,
+  "control_validation_macro_f1": 0.8270719072506142,
+  "validation_delta_macro_f1": 0.0016316837198353529,
+  "actual_checkpoints_verified": 9,
+  "strict_model_reload_verified": false,
+  "validation_inference_reproduced": false,
+  "architecture_source_recovered": true,
+  "new_figures": 2,
+  "new_training": false,
+  "test_loaded": false,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "novelty_verified": false,
+  "manual_saving_required": false,
+  "google_drive_used": false,
+  "decision": "REPRODUCE EXACT VALIDATION INFERENCE THEN EVALUATE LOCKED TEST AND EXTERNAL DATA"
+}
