@@ -196,5 +196,23 @@
     "format": "svg",
     "sha256": "4e45f648ec2cd7022d9c486313082a4f346d068d219a6d24474803135d37a8e7",
     "caption": "Ability of competence heads to predict expert correctness."
+  },
+  {
+    "figure": "stage7de_12_confusion_matrix",
+    "format": "png",
+    "sha256": "f8cdeee07e257dd39998417807ee718ba33da5634bae4e59642d9a2ca17d760b",
+    "caption": "DGSL-Net validation confusion matrix."
+  },
+  {
+    "figure": "stage7de_12_confusion_matrix",
+    "format": "pdf",
+    "sha256": "e33c839b6d803a601d00b26017d97897519a644e1cfacca4f7946a569a691dc0",
+    "caption": "DGSL-Net validation confusion matrix."
+  },
+  {
+    "figure": "stage7de_12_confusion_matrix",
+    "format": "svg",
+    "sha256": "fa051a04d5816af605e2575fcb8db8d8d11e340e9cb9c28c45c438a9c38fc322",
+    "caption": "DGSL-Net validation confusion matrix."
   }
 ]
