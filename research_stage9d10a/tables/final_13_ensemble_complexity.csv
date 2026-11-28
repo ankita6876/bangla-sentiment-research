@@ -1,0 +1,5 @@
+model,member_count,total_parameters,summed_validation_inference_seconds,estimated_sequential_samples_per_second,device,batch_size,timing_scope
+prototype_family,3,556443852,11.287802321999607,163.00781565016356,Tesla T4,32,Forward evaluation loop; excludes checkpoint loading and tokenization
+three_member_standard_control,3,556797067,13.224553657000342,139.13513058537188,Tesla T4,32,Forward evaluation loop; excludes checkpoint loading and tokenization
+base_large_standard_ensemble,2,446177416,11.610868304000178,158.47221343179675,Tesla T4,32,Forward evaluation loop; excludes checkpoint loading and tokenization
+base_large_pasnet_ensemble,2,446177416,9.005430965999722,204.3211487542324,Tesla T4,32,Forward evaluation loop; excludes checkpoint loading and tokenization

@@ -1,0 +1,10 @@
+\begin{tabular}{lrrrrlrl}
+\toprule
+model & member\_count & total\_parameters & summed\_validation\_inference\_seconds & estimated\_sequential\_samples\_per\_second & device & batch\_size & timing\_scope \\
+\midrule
+prototype\_family & 3 & 556443852 & 11.28780 & 163.00782 & Tesla T4 & 32 & Forward evaluation loop; excludes checkpoint loading and tokenization \\
+three\_member\_standard\_control & 3 & 556797067 & 13.22455 & 139.13513 & Tesla T4 & 32 & Forward evaluation loop; excludes checkpoint loading and tokenization \\
+base\_large\_standard\_ensemble & 2 & 446177416 & 11.61087 & 158.47221 & Tesla T4 & 32 & Forward evaluation loop; excludes checkpoint loading and tokenization \\
+base\_large\_pasnet\_ensemble & 2 & 446177416 & 9.00543 & 204.32115 & Tesla T4 & 32 & Forward evaluation loop; excludes checkpoint loading and tokenization \\
+\bottomrule
+\end{tabular}
