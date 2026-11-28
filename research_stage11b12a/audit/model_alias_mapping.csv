@@ -1,0 +1,10 @@
+display_name,original_name
+BanglaBERT,locked_banglabert
+XLM-RoBERTa,xlm_roberta
+mBERT,mbert
+base_standard,base_standard
+base_supcon,base_supcon
+base_prototype,base_prototype
+base_pasnet,base_pasnet
+large_standard,large_standard
+large_pasnet,large_pasnet

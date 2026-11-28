@@ -1,0 +1,19 @@
+{
+  "previous_failure": "KeyError: BanglaBERT",
+  "root_cause": "Original model inventory alias mismatch",
+  "model_aliases": {
+    "BanglaBERT": "locked_banglabert",
+    "XLM-RoBERTa": "xlm_roberta",
+    "mBERT": "mbert",
+    "base_standard": "base_standard",
+    "base_supcon": "base_supcon",
+    "base_prototype": "base_prototype",
+    "base_pasnet": "base_pasnet",
+    "large_standard": "large_standard",
+    "large_pasnet": "large_pasnet"
+  },
+  "original_architecture_preserved": true,
+  "original_inference_preserved": true,
+  "new_training": false,
+  "resume_step": 233
+}
