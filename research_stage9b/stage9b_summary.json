@@ -1,0 +1,41 @@
+{
+  "stage": "9B",
+  "validation_membership_verified": true,
+  "validation_samples": 1840,
+  "exact_ensemble_matches": [
+    {
+      "indices": [
+        11,
+        12,
+        14
+      ],
+      "members": [
+        "base_prototype",
+        "base_pasnet",
+        "large_pasnet"
+      ],
+      "member_count": 3,
+      "maximum_probability_error": 0.0
+    }
+  ],
+  "prototype_members": [
+    "base_prototype",
+    "base_pasnet",
+    "large_pasnet"
+  ],
+  "membership_status": "UNIQUE_NUMERICAL_MATCH",
+  "prototype_macro_f1": 0.8287035909704495,
+  "checkpoint_metadata_verified": true,
+  "checkpoint_inventory_rows": 6,
+  "comparative_systems": 21,
+  "new_figures": 5,
+  "bootstrap_replicates": 5000,
+  "final_architecture_locked": false,
+  "novelty_verified": false,
+  "test_loaded": false,
+  "test_evaluated": false,
+  "external_evaluated": false,
+  "manual_saving_required": false,
+  "google_drive_used": false,
+  "decision": "REVIEW EXACT MEMBERSHIP AND LOCK INFERENCE PROTOCOL"
+}
