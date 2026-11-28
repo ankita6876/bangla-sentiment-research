@@ -1,0 +1,9 @@
+mode,allocated_parameters,active_parameters,finite_gradients
+semantic_only,320180,197379,True
+prototype_only,320180,231169,True
+retrieval_only,320180,6147,True
+fixed_fusion,320180,237703,True
+global_router,320180,319664,True
+class_router,320180,319664,True
+generic_control,320180,319027,True
+rap_full,320180,319793,True
