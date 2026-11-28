@@ -1,0 +1,13 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+candidate & reference & delta_macro_f1 & ci95_low & ci95_high & gained_correct & lost_correct & mcnemar_p & holm_p \\
+\midrule
+cer_full & frozen_banglabert & 0.00407 & -0.00407 & 0.01208 & 31 & 24 & 0.41875 & 1.00000 \\
+cer_full & semantic_only & 0.00304 & -0.00195 & 0.00840 & 14 & 9 & 0.40487 & 1.00000 \\
+cer_full & matched_control & -0.00165 & -0.00519 & 0.00191 & 4 & 7 & 0.54883 & 1.00000 \\
+cer_full & adaptive_fusion & 0.00403 & -0.00074 & 0.00920 & 14 & 7 & 0.18925 & 1.00000 \\
+cer_full & fixed_fusion & 0.00051 & -0.00395 & 0.00527 & 10 & 9 & 1.00000 & 1.00000 \\
+adaptive_fusion & semantic_only & -0.00100 & -0.00253 & 0.00000 & 0 & 2 & 0.50000 & 1.00000 \\
+fixed_fusion & semantic_only & 0.00252 & -0.00330 & 0.00845 & 18 & 14 & 0.59661 & 1.00000 \\
+\bottomrule
+\end{tabular}
