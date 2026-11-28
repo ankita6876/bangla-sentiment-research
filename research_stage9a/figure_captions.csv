@@ -1,3 +1,4 @@
 figure,caption
 stage9a_01_selected_model_comparison,Selected validation results. Inference budgets differ across systems.
 stage9a_02_proposed_architecture_comparison,Exploratory comparison of selected proposed architectures against baseline systems.
+stage9a_03_publication_asset_inventory,Distinct figure names preserved in GitHub before Stage 9A figure generation.
