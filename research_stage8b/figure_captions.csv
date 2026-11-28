@@ -4,3 +4,4 @@ stage8b_02_multiseed,Mean and standard deviation across three fusion-head seeds.
 stage8b_03_classwise,"Class-specific performance, including neutral sentiment."
 stage8b_04_subgroup_heatmap,Performance across linguistic difficulty subgroups.
 stage8b_05_paired_effects,Group-bootstrap confidence intervals for paired model differences.
+stage8b_06_training_curves,Validation learning curves for fusion-head screening.
