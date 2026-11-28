@@ -1,0 +1,2 @@
+mode,seed,best_epoch,accuracy,macro_f1,nll
+semantic_only,42,10,0.8184782608695652,0.8206634706102115,0.5679140483373291
