@@ -34,5 +34,23 @@
     "format": "svg",
     "sha256": "5a1cf332802a0961c3ff5ec0cb79ab931cc953ab6710fcbcf95130404adde46e",
     "caption": "Learning curves under the shared five-epoch training protocol."
+  },
+  {
+    "figure": "stage8a_03_classwise_performance",
+    "format": "png",
+    "sha256": "8bb82b38f304f2b36ecf2139653e4690a583122e1d9a62b2e887a857fdcb6ba9",
+    "caption": "Negative, neutral and positive sentiment classification performance."
+  },
+  {
+    "figure": "stage8a_03_classwise_performance",
+    "format": "pdf",
+    "sha256": "c44284bfddd3c035932987d95d768d3a1758ef25573caa67f057919590fc343a",
+    "caption": "Negative, neutral and positive sentiment classification performance."
+  },
+  {
+    "figure": "stage8a_03_classwise_performance",
+    "format": "svg",
+    "sha256": "c0d8aad9d9ffd50e18758b0eba28622645dbd66f976af9f3268d972b06dd4d8a",
+    "caption": "Negative, neutral and positive sentiment classification performance."
   }
 ]
