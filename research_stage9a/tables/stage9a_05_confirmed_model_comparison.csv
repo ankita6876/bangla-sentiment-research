@@ -1,0 +1,10 @@
+stage,model,macro_f1,type,evidence_scope,source_status,matching_sources
+7C,Prototype family,0.8287035909704495,heterogeneous_ensemble,Exploratory reconstructed validation cohort,Numerical repository match,research_stage7c/tables/stage7c_02_all_model_results.csv
+8B,Retrieval-only,0.8248455705705845,three_head_seed_ensemble,Exploratory reconstructed validation cohort,Numerical repository match,research_stage8b/tables/stage8b_04_ensemble_comparison.csv
+8B,CER-Net,0.8200126717683632,three_head_seed_ensemble,Exploratory reconstructed validation cohort,Numerical repository match,research_stage8b/tables/stage8b_04_ensemble_comparison.csv
+8C,RAP-Net,0.819573449382636,three_head_seed_ensemble,Exploratory reconstructed validation cohort,Numerical repository match,research_stage8c/tables/stage8c_06_ensemble_comparison.csv
+6E,AMSC-Net fixed fusion,0.8187778484929229,three_seed_ensemble,Exploratory reconstructed validation cohort,Numerical repository match,research_stage6e/tables/stage6e_04_ensemble_results.csv
+6B,BanglaBERT,0.8159419852657895,single_model_baseline,Exploratory reconstructed validation cohort,Numerical repository match,research_stage6b/tables/stage6b_01_model_results.csv | research_stage6b/tables/stage6b_07_all_baselines.csv
+7DE,DGSL-Net,0.8112616737232622,single_model_proposed,Exploratory reconstructed validation cohort,Numerical repository match,research_stage7de/tables/stage7de_06_model_results.csv | research_stage7de/tables/stage7de_08_all_comparisons.csv
+6B,XLM-RoBERTa,0.783859,single_model_baseline,Exploratory reconstructed validation cohort,Numerical repository match,research_stage6b/tables/stage6b_01_model_results.csv | research_stage6b/tables/stage6b_07_all_baselines.csv
+6B,mBERT,0.775318,single_model_baseline,Exploratory reconstructed validation cohort,Numerical repository match,research_stage6b/tables/stage6b_01_model_results.csv | research_stage6b/tables/stage6b_07_all_baselines.csv

@@ -1,0 +1,435 @@
+[
+  {
+    "stage": "6B",
+    "path": "research_stage6b/stage6b_summary.json",
+    "summary": {
+      "stage": "6b",
+      "strongest_transformer": "BanglaBERT",
+      "strongest_validation_macro_f1": 0.8159419852657895,
+      "models_completed": 3,
+      "training_seeds_per_model": 1,
+      "locked_split_hashes": {
+        "train": "11522b6affd5543c26108cf723dfd292ac1ed3f0338495fcb1a9da42849cee9e",
+        "val": "bbe5fec295302db94471626848dcf7ac4d16f53988373f93af13165cb2f5c7bc",
+        "test": "dd7276d5078de6fa21d1ce56fee825c5dae74358c9e42d89d57a97e48a6be680"
+      },
+      "results": [
+        {
+          "model": "BanglaBERT",
+          "hf_id": "csebuetnlp/banglabert",
+          "seed": 42,
+          "best_epoch": 2,
+          "parameters": 110619651,
+          "n_validation": 1840,
+          "accuracy": 0.8141304347826087,
+          "macro_f1": 0.8159419852657895,
+          "macro_precision": 0.819406330415859,
+          "macro_recall": 0.8131789875787429,
+          "runtime_minutes": 3.468699256579081
+        },
+        {
+          "model": "XLM-RoBERTa",
+          "hf_id": "FacebookAI/xlm-roberta-base",
+          "seed": 42,
+          "best_epoch": 4,
+          "parameters": 278045955,
+          "n_validation": 1840,
+          "accuracy": 0.7831521739130435,
+          "macro_f1": 0.7838594822528812,
+          "macro_precision": 0.7820903995905196,
+          "macro_recall": 0.787125295840397,
+          "runtime_minutes": 6.550715454419454
+        },
+        {
+          "model": "mBERT",
+          "hf_id": "google-bert/bert-base-multilingual-cased",
+          "seed": 42,
+          "best_epoch": 4,
+          "parameters": 177855747,
+          "n_validation": 1840,
+          "accuracy": 0.775,
+          "macro_f1": 0.7753182304380299,
+          "macro_precision": 0.7728831414205857,
+          "macro_recall": 0.7816271847268771,
+          "runtime_minutes": 4.836594974994659
+        }
+      ],
+      "test_evaluated": false,
+      "external_evaluation": false,
+      "proposed_architecture_trained": false,
+      "novelty_verified": false,
+      "publication_figures_added": 6,
+      "checkpoint_weights_uploaded_to_github": false
+    }
+  },
+  {
+    "stage": "6C",
+    "path": "research_stage6c/stage6c_summary.json",
+    "summary": {
+      "stage": "6c",
+      "baseline_macro_f1": 0.8159419852657895,
+      "full_amsc_macro_f1": 0.8160101476168671,
+      "matched_control_macro_f1": 0.8105999952955787,
+      "best_configuration": "fixed_fusion",
+      "best_validation_macro_f1": 0.8214890860265811,
+      "full_delta_vs_baseline": 6.816235107753865e-05,
+      "full_delta_vs_control": 0.005410152321288386,
+      "full_vs_baseline_ci95": [
+        -0.010528374959543318,
+        0.010215324546356078
+      ],
+      "full_vs_control_ci95": [
+        -0.001752700375911953,
+        0.01290598907795434
+      ],
+      "decision": "PROMISING: advance full AMSC-Net to multi-seed confirmation",
+      "single_seed_screening": true,
+      "validation_used_for_selection": true,
+      "test_evaluated": false,
+      "external_evaluation": false,
+      "novelty_verified": false,
+      "publication_figures_added": 10
+    }
+  },
+  {
+    "stage": "6D",
+    "path": "research_stage6d/stage6d_summary.json",
+    "summary": {
+      "standard_mean_f1": 0.8092533876237669,
+      "fixed_fusion_mean_f1": 0.8167891881602456,
+      "normalized_fusion_mean_f1": 0.8138269902479751,
+      "best_architectural_candidate": "fixed_fusion",
+      "candidate_mean_f1": 0.8167891881602456,
+      "candidate_delta_vs_standard": 0.007535800536478732,
+      "candidate_wins_both_seeds": true,
+      "decision": "Advance strongest architectural candidate to third-seed and matched-capacity confirmation.",
+      "training_seeds": [
+        42,
+        123
+      ],
+      "test_evaluated": false,
+      "external_evaluation": false,
+      "novelty_verified": false
+    }
+  },
+  {
+    "stage": "6E",
+    "path": "research_stage6e/stage6e_summary.json",
+    "summary": {
+      "candidate": "AMSC-Net V2 fixed fusion",
+      "proposed_mean_macro_f1": 0.814689460638946,
+      "standard_mean_macro_f1": 0.8121383478139652,
+      "matched_control_mean_macro_f1": 0.8155239700168874,
+      "delta_vs_standard": 0.0025511128249807724,
+      "delta_vs_matched_control": -0.0008345093779413837,
+      "wins_vs_standard": 2,
+      "wins_vs_control": 1,
+      "training_seeds": [
+        42,
+        123,
+        2026
+      ],
+      "new_training_runs": 5,
+      "recovered_training_runs": 4,
+      "total_comparison_runs": 9,
+      "decision": "Architecture superiority remains unconfirmed. Review evidence before unlocking the test cohort.",
+      "test_evaluated": false,
+      "external_evaluation": false,
+      "novelty_verified": false
+    }
+  },
+  {
+    "stage": "7A",
+    "path": "research_stage7a/stage7a_summary.json",
+    "summary": {
+      "stage": "7A",
+      "validation_samples": 1840,
+      "training_samples": 9204,
+      "confirmed_runs_recovered": 9,
+      "best_family": "fixed_fusion",
+      "best_family_macro_f1": 0.8187778484929229,
+      "best_exploratory_fusion": "uniform_raw",
+      "best_exploratory_fusion_macro_f1": 0.8215240777580629,
+      "all_nine_oracle_accuracy": 0.9021739130434783,
+      "oracle_correct_when_available_macro_f1": 0.9032441819878189,
+      "unanimously_wrong": 180,
+      "unanimously_correct": 1302,
+      "training_annotation_candidates": 324,
+      "human_verified_label_errors": 0,
+      "new_figures": 10,
+      "new_tables": 14,
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "new_model_trained": false,
+      "novelty_verified": false,
+      "limitations": [
+        "Validation previously used for checkpoint selection.",
+        "Fusion cross-validation is exploratory, not independent testing.",
+        "Oracle requires true labels.",
+        "Linguistic cues are heuristic.",
+        "Annotation candidates are not verified label errors.",
+        "Bootstrap intervals are conditional on existing trained models."
+      ]
+    }
+  },
+  {
+    "stage": "7B",
+    "path": "research_stage7b/stage7b_summary.json",
+    "summary": {
+      "stage": "7B",
+      "completed_runs": 6,
+      "failed_runs": [],
+      "best_new_model": "large_pasnet",
+      "best_new_macro_f1": 0.8173482726319703,
+      "previous_nine_ensemble_macro_f1": 0.8215240777580629,
+      "improvement_percentage_points": -0.4175805126092613,
+      "target_84_percent_reached": false,
+      "new_unique_figures": 9,
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "novelty_verified": false,
+      "publication_superiority_established": false,
+      "limitations": [
+        "Single-seed development screening.",
+        "Validation reused for model selection.",
+        "Prototype and PAS-Net objectives differ.",
+        "No separate capacity-matched control yet.",
+        "Contrastive microbatch size differs by backbone.",
+        "Architecture novelty requires literature verification."
+      ]
+    }
+  },
+  {
+    "stage": "7C",
+    "path": "research_stage7c/stage7c_summary.json",
+    "summary": {
+      "stage": "7C",
+      "models_recovered": 15,
+      "validation_samples": 1840,
+      "best_overall_model": "prototype_family",
+      "best_overall_macro_f1": 0.8287035909704495,
+      "best_individual_model": "matched_control_seed42",
+      "best_individual_macro_f1": 0.8199040025588517,
+      "best_ensemble": "prototype_family",
+      "best_ensemble_macro_f1": 0.8287035909704495,
+      "previous_ensemble_macro_f1": 0.8215240777580629,
+      "all15_ensemble_macro_f1": 0.8190990069246057,
+      "oracle_accuracy": 0.9347826086956522,
+      "oracle_macro_f1_diagnostic": 0.935564070378961,
+      "previous_ensemble_errors": 332,
+      "recoverable_previous_errors": 212,
+      "all_models_wrong": 120,
+      "new_unique_figures": 12,
+      "new_tables": 13,
+      "human_annotations_completed": 0,
+      "new_model_training": false,
+      "router_training": false,
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "novelty_verified": false,
+      "limitations": [
+        "Validation set reused for exploratory analysis.",
+        "Oracle uses recorded ground-truth labels.",
+        "Oracle accuracy is not deployable performance.",
+        "Subgroup selection is descriptive and post hoc.",
+        "Shared model errors do not prove label noise.",
+        "Out-of-fold training predictions remain necessary.",
+        "No learned specialist router has been evaluated."
+      ]
+    }
+  },
+  {
+    "stage": "7DE",
+    "path": "research_stage7de/stage7de_summary.json",
+    "summary": {
+      "stage": "7DE",
+      "architecture": "DGSL-Net",
+      "training_samples": 9204,
+      "validation_samples": 1840,
+      "oof_folds": 3,
+      "oof_complete": true,
+      "oof_metrics": {
+        "accuracy": 0.7982398956975228,
+        "macro_f1": 0.7995833593156781,
+        "nll": 0.5376126304066774
+      },
+      "standard_macro_f1": 0.8108135212916993,
+      "matched_control_macro_f1": 0.8111130597423791,
+      "dgsl_fixed_macro_f1": 0.8077317585106671,
+      "dgsl_full_macro_f1": 0.8112616737232622,
+      "previous_best_macro_f1": 0.8287035909704495,
+      "delta_vs_standard": 0.0004481524315629315,
+      "delta_vs_matched": 0.0001486139808830611,
+      "delta_vs_fixed": 0.0035299152125950473,
+      "delta_vs_previous_best": -0.017441917247187355,
+      "best_overall_model": "prototype_family",
+      "best_overall_macro_f1": 0.8287035909704495,
+      "matched_parameter_difference": 0.00048366068048954873,
+      "new_unique_figures": 14,
+      "new_tables": 16,
+      "decision": "PROMISING — CONFIRM ACROSS SEEDS BEFORE FINALIZATION",
+      "training_seeds": [
+        42
+      ],
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "novelty_verified": false,
+      "limitations": [
+        "Single-seed architecture screening.",
+        "OOF difficulty comes from a single model family.",
+        "Online competence targets are not cross-fitted expert predictions.",
+        "Validation labels used for final checkpoint selection.",
+        "Validation repeatedly reused during development.",
+        "Historical ensemble has a different inference budget.",
+        "Prototype and hard-example components require separate ablations.",
+        "No independent external evaluation.",
+        "No architectural novelty claim established."
+      ]
+    }
+  },
+  {
+    "stage": "8A",
+    "path": "research_stage8a/stage8a_summary.json",
+    "summary": {
+      "stage": "8A",
+      "architecture": "HDS-Net",
+      "training_samples": 9204,
+      "validation_samples": 1840,
+      "training_seeds": [
+        42
+      ],
+      "completed_models": 6,
+      "scores": {
+        "standard": 0.81074831761909,
+        "matched_flat": 0.8110026819963201,
+        "hierarchy_only": 0.8089590989039968,
+        "dual_space": 0.8160278648191488,
+        "dual_space_prototype": 0.8141674923609994,
+        "hds_full": 0.8113167495418493,
+        "previous_nine": 0.8215240777580629,
+        "prototype_family": 0.8287035909704495,
+        "all_fifteen": 0.8190990069246057,
+        "previous_dgsl": 0.8112616737232622,
+        "hds_family_ensemble": 0.8175154549020248,
+        "prototype_plus_hds": 0.8232520063073837,
+        "prototype_plus_hds_family": 0.8246205749355361
+      },
+      "hds_full_macro_f1": 0.8113167495418493,
+      "delta_vs_standard": 0.0005684319227592383,
+      "delta_vs_matched": 0.00031406754552920635,
+      "delta_vs_previous_best": -0.017386841428600253,
+      "neutral_f1_full": 0.7914783731439639,
+      "neutral_f1_standard": 0.7817460317460317,
+      "neutral_f1_improvement": 0.00973234139793211,
+      "best_individual_stage8a_model": "dual_space",
+      "best_overall_model": "prototype_family",
+      "best_overall_macro_f1": 0.8287035909704495,
+      "matched_parameter_difference": 1.2859806674239664e-05,
+      "new_figures": 14,
+      "new_tables": 14,
+      "decision": "INSUFFICIENT IMPROVEMENT — DO NOT FINALIZE ARCHITECTURE",
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "novelty_verified": false,
+      "limitations": [
+        "Single-seed exploratory screening.",
+        "Repeated use of the same validation set.",
+        "Hierarchy models use additional auxiliary losses.",
+        "Full model combines contrastive learning and difficulty weighting.",
+        "Separate ablations are needed to isolate these two mechanisms.",
+        "Fixed fusion coefficient was chosen before screening.",
+        "Neutral sentiment is not necessarily equivalent to objective language.",
+        "Historical ensembles have a different inference budget.",
+        "No independent external evaluation.",
+        "Architectural novelty remains unverified."
+      ]
+    }
+  },
+  {
+    "stage": "8B",
+    "path": "research_stage8b/stage8b_summary.json",
+    "summary": {
+      "stage": "8B",
+      "architecture": "CER-Net",
+      "training_samples": 9204,
+      "validation_samples": 1840,
+      "completed_runs": 18,
+      "head_seeds": [
+        42,
+        123,
+        2026
+      ],
+      "frozen_backbone_seeds": [
+        42
+      ],
+      "best_stage8b_model": "retrieval_only",
+      "best_stage8b_macro_f1": 0.8248455705705845,
+      "cer_full_macro_f1": 0.8200126717683632,
+      "matched_control_macro_f1": 0.8216605683259205,
+      "historical_prototype_family_macro_f1": 0.8287035909704495,
+      "cer_delta_vs_previous_best": -0.008690919202086311,
+      "cer_delta_vs_matched_control": -0.0016478965575572602,
+      "new_figures": 8,
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "novelty_verified": false,
+      "limitations": [
+        "Frozen encoder trained on complete training cohort.",
+        "Training representations are in-sample despite group-disjoint retrieval.",
+        "Training retrieval pools are smaller than validation retrieval pool.",
+        "Three seeds vary fusion heads, not backbone training.",
+        "Repeated exploratory use of the same validation set.",
+        "Matched control uses a semantic feature slice instead of retrieval evidence.",
+        "Historical prototype family comparison has a different inference budget.",
+        "Independent evaluation and novelty verification remain necessary."
+      ],
+      "decision": "DO NOT FINALIZE WITHOUT COMPARATIVE REVIEW"
+    }
+  },
+  {
+    "stage": "8C",
+    "path": "research_stage8c/stage8c_summary.json",
+    "summary": {
+      "stage": "8C",
+      "architecture": "RAP-Net",
+      "completed_runs": 24,
+      "training_samples": 9204,
+      "validation_samples": 1840,
+      "historical_prototype_recovered": true,
+      "historical_best_macro_f1": 0.8287035909704495,
+      "best_current_model": "historical_prototype_family",
+      "best_current_macro_f1": 0.8287035909704495,
+      "rap_full_macro_f1": 0.819573449382636,
+      "rap_full_mean_seed_macro_f1": 0.8206155500602715,
+      "generic_control_macro_f1": 0.8210806495923202,
+      "generic_control_mean_seed_macro_f1": 0.8216777466343627,
+      "rap_delta_vs_historical_best": -0.009130141587813556,
+      "rap_delta_vs_generic_control": -0.0015072002096842008,
+      "rap_control_ci95": [
+        -0.005638237735114146,
+        0.002654151097917817
+      ],
+      "new_figures": 10,
+      "unique_figure_content_by_format": {
+        "pdf": 115,
+        "png": 115,
+        "svg": 115
+      },
+      "test_evaluated": false,
+      "external_evaluated": false,
+      "novelty_verified": false,
+      "backbone_frozen": true,
+      "limitations": [
+        "Repeated use of the same validation partition.",
+        "Frozen encoder trained on the full training cohort.",
+        "Training retrieval is group-disjoint but embeddings are not fully cross-fitted.",
+        "Training and validation retrieval memory sizes differ.",
+        "Three seeds vary fusion heads rather than the encoder.",
+        "Allocated parameter equality does not guarantee active parameter equality.",
+        "Historical ensembles have different inference budgets.",
+        "Independent confirmation and novelty verification are required."
+      ],
+      "decision": "END ARCHITECTURE SEARCH AND REVIEW PUBLICATION CONTRIBUTION"
+    }
+  }
+]

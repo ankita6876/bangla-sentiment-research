@@ -1,0 +1,6 @@
+title,year,topic,url,status
+BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla,2022,Bangla transformer baseline,https://aclanthology.org/2022.findings-naacl.98/,Bibliographic verification required
+SentiGOLD: A Large Bangla Gold Standard Multi-Domain Sentiment Analysis Dataset and its Evaluation,2023,External sentiment evaluation,https://arxiv.org/abs/2306.06147,Identified from prior literature search
+Supervised Contrastive Learning,2020,Contrastive representation learning,https://arxiv.org/abs/2004.11362,Established prior method
+Prototypical Networks for Few-shot Learning,2017,Prototype-based classification,https://arxiv.org/abs/1703.05175,Established prior method
+"Sentiment analysis in Bangla: A three-class dataset and comparative evaluation of machine learning, deep learning, and transformer approaches",2026,Recent Bangla sentiment baseline,https://doi.org/10.1371/journal.pone.0360952,Identified from prior literature search
